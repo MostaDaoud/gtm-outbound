@@ -1,6 +1,6 @@
 {
   "skill_name": "gtm-outbound",
-  "skill_path": "../gtm-outbound",
+  "skill_path": "../skills/gtm-outbound",
   "notes": "Hand-authored. Replaces the auto-generated set, which tested only triggering and used prompts nobody types. Categories: A = activation routing, B = collision with installed skills, C = quality-gate enforcement, D = script determinism. | Extended 2026-08-07 to cover material added after iteration-1: motion-fit gate, per-domain ceiling, bulk-sender compliance, personalization boundary and hypothesis discipline, score_message.py, GCC market, researcher agent, and two new collision cases. | Repaired 2026-08-07: skill_path pointed at ../gtm-outbound-build/gtm-outbound, which no longer exists. eval-25 said 'these 8 named accounts' and named none — it was excluded from iteration-2 grading for that reason; it now names 8 real DTC accounts and a target role, and gained a no-fabrication assertion covering the agent's most expensive failure mode. | Extended with eval-29 after six DR-inversion checks were added to score_message.py (FALSE_SCARCITY, GUILT_CLOSE, DR_FORMULA, TITLE_CASE_SUBJECT, SHOUTY_CAPS, MULTIPLE_ASKS). Fixture dr_patterns.md is synthetic and every message in it is meant to fail.",
   "evals": [
     {

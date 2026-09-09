@@ -7,10 +7,11 @@ A B2B outbound campaign engineering skill set for Claude Code. Nine skills, one 
 
 | | |
 |---|---|
-| **Claude Code** | Any recent version. Skills also work in Cowork. |
-| **Python** | 3.10 or newer, on PATH |
+| **Claude Code** | Any recent version. Also works with Codex, Cursor, OpenCode, and 60+ other agents via the same installer |
+| **Node 18+** | For `npx` — the installer runs through it |
+| **Python** | 3.10 or newer, on PATH — needed by the six scripts inside the skills |
 | **Dependencies** | **None.** Standard library only — no pip install, no virtualenv |
-| **Network** | Not required. Everything runs locally on files you provide |
+| **Network** | Not required after install. Everything runs locally on files you provide |
 | **Disk** | Under 1 MB |
 
 Optional: an MCP connector for your sending platform (Smartlead, Instantly) lets the
@@ -18,6 +19,27 @@ diagnose and reply workflows pull live data instead of a CSV export. Everything 
 without it.
 
 ## Install
+
+One command — no clone needed:
+
+```bash
+npx skills add MostaDaoud/gtm-outbound
+```
+
+This is the [open agent skills](https://agentskills.io) installer. It discovers the nine
+skills and asks where to put them. To install globally (available in every project):
+
+```bash
+npx skills add MostaDaoud/gtm-outbound -g
+```
+
+Useful variants:
+
+```bash
+npx skills add MostaDaoud/gtm-outbound --list          # see the skills without installing
+npx skills add MostaDaoud/gtm-outbound --skill gtm-outbound-math   # install one only
+npx skills add MostaDaoud/gtm-outbound --agent claude-code -g      # skip the prompts
+```
 
 ### 1. Check the machine can run it
 
@@ -29,33 +51,17 @@ Verifies the Python version, confirms every file is present, executes all six sc
 and checks one calculation returns the right answer. It tests rather than assumes — if
 this passes, the skill will work.
 
-### 2. Install
+### 2. The researcher agent
 
-**macOS / Linux**
-
-```bash
-./install.sh --dry-run
-```
+The offer skill can delegate per-account research to a bundled agent. The skills
+installer copies it inside the skill folder; to register it with Claude Code's agent
+runner, copy it in:
 
 ```bash
-./install.sh
+cp ~/.claude/skills/gtm-outbound/agents/gtm-outbound-researcher.md ~/.claude/agents/
 ```
 
-**Windows**
-
-```bash
-pwsh -File install.ps1 -WhatIf
-```
-
-```bash
-pwsh -File install.ps1
-```
-
-Both install to `~/.claude/skills/`. Both back up any existing directory to
-`~/.claude/.skill-backups/<timestamp>/` rather than overwriting, so re-running is safe.
-
-To install elsewhere: `./install.sh --dest /path/to/skills` or
-`install.ps1 -DestinationRoot "D:\skills"`.
+Optional — everything else works without this step.
 
 ### 3. Restart Claude Code
 
@@ -75,7 +81,7 @@ If it responds, you are done. If nothing happens, see Troubleshooting.
 
 ```
 ~/.claude/skills/
-├── gtm-outbound/          orchestrator + references + scripts + templates
+├── gtm-outbound/          orchestrator + references + scripts + templates + agent
 ├── gtm-outbound-offer/    Value Equation, sub-niche, filters, UVP
 ├── gtm-outbound-list/     sourcing channels, provider routing, verification
 ├── gtm-outbound-clay/     Clay table construction, credit class, prompts
@@ -84,12 +90,10 @@ If it responds, you are done. If nothing happens, see Troubleshooting.
 ├── gtm-outbound-score/    100-point pre-launch readiness gate
 ├── gtm-outbound-diagnose/ post-launch failure diagnosis
 └── gtm-outbound-reply/    reply triage, objections, booking
-
-~/.claude/agents/
-└── gtm-outbound-researcher.md   parallel per-account research
 ```
 
-Nothing outside `~/.claude/skills/` and `~/.claude/agents/` is touched. No global config, no PATH changes, no
+The installer backs up any existing install (`npx skills remove` undoes it cleanly).
+Nothing else on your machine is touched — no global config, no PATH changes, no
 services.
 
 ## First Run
@@ -107,11 +111,7 @@ The full chain is `offer → list → copy`, and each stage writes a file the ne
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/skills/gtm-outbound ~/.claude/skills/gtm-outbound-* \n   ~/.claude/agents/gtm-outbound-*.md
-```
-
-```powershell
-Remove-Item -Recurse -Force "$HOME/.claude/skills/gtm-outbound*"
+npx skills remove
 ```
 
 Restart Claude Code afterwards.
@@ -122,7 +122,7 @@ Restart Claude Code afterwards.
 Skills load at session start — restart Claude Code. If it still does not appear, confirm
 the directories landed in `~/.claude/skills/` and that each contains a `SKILL.md`.
 
-**`python: command not found` during install**
+**`python: command not found` during preflight**
 The skill files still install correctly; only the scripts need Python. Install Python 3.10+
 and re-run `preflight.py`. On some systems the command is `python3`.
 
@@ -130,22 +130,12 @@ and re-run `preflight.py`. On some systems the command is `python3`.
 Almost always a Python below 3.10. Check with `python --version`. If you have both, the
 scripts run under whichever `python` resolves first on PATH.
 
-**`install.sh: Permission denied`**
-```bash
-chmod +x install.sh
-```
-
-**Windows blocks the PowerShell script**
-```bash
-pwsh -ExecutionPolicy Bypass -File install.ps1
-```
-
 **A skill collides with something already installed**
 If the recipient already runs skills with overlapping names or descriptions, activation
 becomes ambiguous. `_evals/collision_check.py` measures this:
 
 ```bash
-python _evals/collision_check.py --installed ~/.claude/skills --candidate .
+python _evals/collision_check.py --installed ~/.claude/skills --candidate skills
 ```
 
 Anything scoring above 0.35 against an existing skill will compete for the same prompts.
@@ -157,9 +147,9 @@ provider cost tiers — these are calibrated starting points. Replace them with 
 data as it accumulates. The provider tiers in `clay_taxonomy.py` in particular should be
 edited to match your contracted rates.
 
-**Targeting the Gulf or wider MENA?** Read `gtm-outbound/references/gcc-market.md` before
-anything else. Several defaults in this skill are Western-calibrated and wrong there, and
-they fail quietly rather than loudly.
+**Targeting the Gulf or wider MENA?** Read `skills/gtm-outbound/references/gcc-market.md`
+before anything else. Several defaults in this skill are Western-calibrated and wrong
+there, and they fail quietly rather than loudly.
 
 **The skill never sends.** It produces configurations, sequences, and specifications. A
 human sends them. That boundary is deliberate and should stay.

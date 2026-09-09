@@ -1,16 +1,13 @@
 ---
 name: gtm-outbound
 description: >
-  Engineers B2B outbound email and LinkedIn campaigns end to end, then keeps them
-  running. Narrows a broad offer into a sub-niche via the Value Equation, builds Sales
-  Navigator and Apollo filter sets, specs Clay waterfall enrichment with scraper sourcing
-  (Clutch, Storeleads, PhantomBuster, Claygent), writes sub-80-word "Poke the Bear"
-  sequences with validated spintax, and produces Smartlead deliverability and warmup
-  configs. Post-launch it diagnoses failing campaigns from ESP exports, triages inbound
-  replies and objections, and scores launch readiness. Also models list size, inbox
-  count, CAC, payback and A/B significance. Runs jurisdiction compliance gates before
-  list build, owns cross-domain suppression mechanics, orchestrates email + LinkedIn +
-  phone + video multichannel cadences, and positions manual vs AI-SDR builds.
+  Engineers B2B outbound email and LinkedIn campaigns end to end: narrows the offer to
+  a sub-niche via the Value Equation, builds Sales Navigator and Apollo filter sets,
+  specs Clay waterfall enrichment, writes sub-80-word "Poke the Bear" sequences with
+  validated spintax, and produces Smartlead deliverability, warmup, and
+  compliance-gated configurations. Scores launch readiness, diagnoses failing campaigns
+  from ESP exports, and triages replies and objections. Also models list size, inbox
+  count, CAC, payback, and A/B significance.
   Use when user says "architect an outbound campaign", "GTM campaign blueprint",
   "engineer a Clay outbound workflow", "Poke the Bear sequence", "narrow my ICP",
   "waterfall enrichment", "spintax", "cold email sequence", "how many leads do I need",

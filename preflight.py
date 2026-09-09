@@ -2,7 +2,7 @@
 """
 Purpose: Verify a machine can actually run the gtm-outbound scripts before or after
          installing. Checks the Python version, confirms no third-party packages are
-         needed, and smoke-tests all five scripts by executing them.
+         needed, and smoke-tests all six scripts by executing them.
 
          This tests rather than asserts. The version floor below is what the syntax
          requires, but the real check is whether the scripts import and run here.
@@ -48,7 +48,7 @@ def check_python() -> tuple[bool, str]:
 def check_scripts(root: Path) -> list[tuple[str, bool, str]]:
     """Execute each script's --help. Catches syntax errors and missing imports."""
     results: list[tuple[str, bool, str]] = []
-    scripts_dir = root / "gtm-outbound" / "scripts"
+    scripts_dir = root / "skills" / "gtm-outbound" / "scripts"
 
     for name in SCRIPTS:
         path = scripts_dir / name
@@ -74,7 +74,7 @@ def check_scripts(root: Path) -> list[tuple[str, bool, str]]:
 
 def check_functional(root: Path) -> tuple[bool, str]:
     """One real calculation, to prove more than argparse works."""
-    script = root / "gtm-outbound" / "scripts" / "gtm_math.py"
+    script = root / "skills" / "gtm-outbound" / "scripts" / "gtm_math.py"
     if not script.is_file():
         return False, "gtm_math.py not found"
     try:
@@ -103,12 +103,12 @@ def check_structure(root: Path) -> list[tuple[str, bool, str]]:
     }
     out: list[tuple[str, bool, str]] = []
     for skill in expected:
-        p = root / skill / "SKILL.md"
+        p = root / "skills" / skill / "SKILL.md"
         out.append((skill, p.is_file(), "SKILL.md present" if p.is_file() else "MISSING"))
-    agents = root / "gtm-outbound" / "agents"
+    agents = root / "skills" / "gtm-outbound" / "agents"
     na = len(list(agents.glob("*.md"))) if agents.is_dir() else 0
     out.append(("agents", na >= 1, f"{na} agent definition(s)"))
-    refs = root / "gtm-outbound" / "references"
+    refs = root / "skills" / "gtm-outbound" / "references"
     n = len(list(refs.glob("*.md"))) if refs.is_dir() else 0
     out.append(("references", n >= 15, f"{n} reference files"))
     return out
