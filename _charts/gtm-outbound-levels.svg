@@ -22,7 +22,7 @@ text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 <text class="lbl" x="52" y="58">package — never installed</text>
 <rect class="gr" x="56" y="68" width="130" height="44" rx="4"/><text class="th gt" x="121" y="84" text-anchor="middle" dominant-baseline="central">installers</text><text class="ts gs" x="121" y="99" text-anchor="middle" dominant-baseline="central">ps1 and sh</text>
 <rect class="gr" x="202" y="68" width="130" height="44" rx="4"/><text class="th gt" x="267" y="84" text-anchor="middle" dominant-baseline="central">preflight.py</text><text class="ts gs" x="267" y="99" text-anchor="middle" dominant-baseline="central">runs 6 scripts</text>
-<rect class="gr" x="348" y="68" width="130" height="44" rx="4"/><text class="th gt" x="413" y="84" text-anchor="middle" dominant-baseline="central">_evals/</text><text class="ts gs" x="413" y="99" text-anchor="middle" dominant-baseline="central">29 evals</text>
+<rect class="gr" x="348" y="68" width="130" height="44" rx="4"/><text class="th gt" x="413" y="84" text-anchor="middle" dominant-baseline="central">_evals/</text><text class="ts gs" x="413" y="99" text-anchor="middle" dominant-baseline="central">30 evals</text>
 <rect class="gr" x="494" y="68" width="130" height="44" rx="4"/><text class="th gt" x="559" y="84" text-anchor="middle" dominant-baseline="central">HANDOFF.md</text><text class="ts gs" x="559" y="99" text-anchor="middle" dominant-baseline="central">decisions</text>
 
 <rect class="cont" x="40" y="152" width="600" height="88" rx="8"/>
@@ -46,8 +46,8 @@ text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 
 <rect class="cont" x="40" y="444" width="600" height="88" rx="8"/>
 <text class="lbl" x="52" y="462">loaded only when named</text>
-<rect class="tr" x="56" y="472" width="130" height="48" rx="4"/><text class="th tt" x="121" y="490" text-anchor="middle" dominant-baseline="central">references</text><text class="ts tsx" x="121" y="506" text-anchor="middle" dominant-baseline="central">21 files</text>
+<rect class="tr" x="56" y="472" width="130" height="48" rx="4"/><text class="th tt" x="121" y="490" text-anchor="middle" dominant-baseline="central">references</text><text class="ts tsx" x="121" y="506" text-anchor="middle" dominant-baseline="central">26 files</text>
 <rect class="tr" x="202" y="472" width="130" height="48" rx="4"/><text class="th tt" x="267" y="490" text-anchor="middle" dominant-baseline="central">scripts</text><text class="ts tsx" x="267" y="506" text-anchor="middle" dominant-baseline="central">6 deterministic</text>
-<rect class="tr" x="348" y="472" width="130" height="48" rx="4"/><text class="th tt" x="413" y="490" text-anchor="middle" dominant-baseline="central">templates</text><text class="ts tsx" x="413" y="506" text-anchor="middle" dominant-baseline="central">8 shapes</text>
+<rect class="tr" x="348" y="472" width="130" height="48" rx="4"/><text class="th tt" x="413" y="490" text-anchor="middle" dominant-baseline="central">templates</text><text class="ts tsx" x="413" y="506" text-anchor="middle" dominant-baseline="central">9 shapes</text>
 <rect class="tr" x="494" y="472" width="130" height="48" rx="4"/><text class="th tt" x="559" y="490" text-anchor="middle" dominant-baseline="central">agent</text><text class="ts tsx" x="559" y="506" text-anchor="middle" dominant-baseline="central">1 fan-out</text>
 </svg>
