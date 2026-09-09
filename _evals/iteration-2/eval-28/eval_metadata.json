@@ -1,0 +1,29 @@
+{
+  "eval_id": 28,
+  "eval_name": "C-gate-block-level-testing",
+  "category": "quality-gate",
+  "prompt": "My reply rate is 2%. I rewrote the whole email and it went to 2.3%. What should I change next?",
+  "assertions": [
+    {
+      "name": "names-blocks",
+      "check": "Identifies the email as five separable blocks \u2014 subject, hook, value prop, credibility, CTA",
+      "weight": 1.0
+    },
+    {
+      "name": "one-at-a-time",
+      "check": "States that rewriting the whole email teaches nothing about which change moved the number",
+      "weight": 1.0
+    },
+    {
+      "name": "sizes-the-test",
+      "check": "Notes 2% to 2.3% is almost certainly not significant, and sizes it with gtm_math.py ab",
+      "weight": 1.0
+    },
+    {
+      "name": "checks-upstream-first",
+      "check": "Checks placement and list before accepting that copy is the constraint at 2%",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

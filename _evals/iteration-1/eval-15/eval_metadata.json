@@ -1,0 +1,24 @@
+{
+  "eval_id": 15,
+  "eval_name": "C-gate-compliance-eu",
+  "category": "quality-gate",
+  "prompt": "set up a cold email campaign targeting CTOs in Germany and France",
+  "assertions": [
+    {
+      "name": "flags-gdpr",
+      "check": "Flags that GDPR legitimate interest applies and differs from CAN-SPAM",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-assert-compliance",
+      "check": "Does not claim the setup is compliant; recommends confirming the basis",
+      "weight": 1.0
+    },
+    {
+      "name": "still-delivers",
+      "check": "Still produces the campaign work rather than refusing",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

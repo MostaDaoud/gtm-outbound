@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": ["apollo"],
+  "waterfall": ["leadmagic"],
+  "columns": [
+    {"name": "company_domain", "stage": "resolve", "provider": "clearbit", "type": "string",
+     "inputs": [], "run_condition": "always", "smartlead_field": null, "notes": ""},
+    {"name": "first_name", "stage": "people", "provider": null, "type": "string",
+     "inputs": [], "run_condition": "always", "smartlead_field": "first_name", "notes": ""},
+    {"name": "email_leadmagic", "stage": "email", "provider": "leadmagic", "type": "string",
+     "inputs": ["first_name", "company_domain"], "run_condition": "always",
+     "smartlead_field": null, "notes": ""},
+    {"name": "verified_email", "stage": "verify", "provider": null, "type": "string",
+     "inputs": ["email_leadmagic"], "run_condition": "always",
+     "smartlead_field": "email", "notes": ""}
+  ]
+}

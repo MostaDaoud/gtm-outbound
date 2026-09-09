@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "sources": [
+    "apollo",
+    "builtwith",
+    "job_boards"
+  ],
+  "waterfall": [
+    "leadmagic",
+    "findymail",
+    "dropcontact"
+  ],
+  "columns": [
+    {
+      "name": "company_name",
+      "stage": "source",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "From: apollo, builtwith, job_boards"
+    },
+    {
+      "name": "company_url",
+      "stage": "source",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "Raw URL as scraped"
+    },
+    {
+      "name": "company_domain",
+      "stage": "resolve",
+      "provider": "clearbit",
+      "type": "string",
+      "inputs": [
+        "company_name",
+        "company_url"
+      ],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "Normalized root domain; everything downstream keys off this"
+    },
+    {
+      "name": "headcount",
+      "stage": "enrich",
+      "provider": "clearbit",
+      "type": "number",
+      "inputs": [
+        "company_domain"
+      ],
+      "run_condition": "company_domain is not empty",
+      "smartlead_field": null,
+      "notes": ""
+    },
+    {
+      "name": "industry",
+      "stage": "enrich",
+      "provider": "clearbit",
+      "type": "string",
+      "inputs": [
+        "company_domain"
+      ],
+      "run_condition": "company_domain is not empty",
+      "smartlead_field": null,
+      "notes": ""
+    },
+    {
+      "name": "first_name",
+      "stage": "people",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": "first_name",
+      "notes": ""
+    },
+    {
+      "name": "last_name",
+      "stage": "people",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": "last_name",
+      "notes": ""
+    },
+    {
+      "name": "job_title",
+      "stage": "people",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": "job_title",
+      "notes": ""
+    },
+    {
+      "name": "linkedin_url",
+      "stage": "people",
+      "provider": null,
+      "type": "string",
+      "inputs": [],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "Needed for the LinkedIn track"
+    },
+    {
+      "name": "email_leadmagic",
+      "stage": "email",
+      "provider": "leadmagic",
+      "type": "string",
+      "inputs": [
+        "first_name",
+        "last_name",
+        "company_domain"
+      ],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "Tier 1 -- Broad B2B coverage, low cost per hit"
+    },
+    {
+      "name": "email_findymail",
+      "stage": "email",
+      "provider": "findymail",
+      "type": "string",
+      "inputs": [
+        "first_name",
+        "last_name",
+        "company_domain"
+      ],
+      "run_condition": "email_leadmagic is empty",
+      "smartlead_field": null,
+      "notes": "Tier 1 -- Strong on verified work emails"
+    },
+    {
+      "name": "email_dropcontact",
+      "stage": "email",
+      "provider": "dropcontact",
+      "type": "string",
+      "inputs": [
+        "first_name",
+        "last_name",
+        "company_domain"
+      ],
+      "run_condition": "email_findymail is empty",
+      "smartlead_field": null,
+      "notes": "Tier 2 -- GDPR-friendly, EU-focused"
+    },
+    {
+      "name": "work_email",
+      "stage": "email",
+      "provider": null,
+      "type": "string",
+      "inputs": [
+        "email_leadmagic",
+        "email_findymail",
+        "email_dropcontact"
+      ],
+      "run_condition": "always",
+      "smartlead_field": null,
+      "notes": "Coalesce: first non-empty result from the waterfall"
+    },
+    {
+      "name": "email_status",
+      "stage": "verify",
+      "provider": "millionverifier",
+      "type": "string",
+      "inputs": [
+        "work_email"
+      ],
+      "run_condition": "work_email is not empty",
+      "smartlead_field": null,
+      "notes": "Gate sending on 'valid' only; keeps bounce rate under the 4% line"
+    },
+    {
+      "name": "verified_email",
+      "stage": "verify",
+      "provider": null,
+      "type": "string",
+      "inputs": [
+        "work_email",
+        "email_status"
+      ],
+      "run_condition": "email_status is valid",
+      "smartlead_field": "email",
+      "notes": "The only address that may reach the sender"
+    },
+    {
+      "name": "recent_engineering_signal",
+      "stage": "personalize",
+      "provider": "claygent",
+      "type": "string",
+      "inputs": [
+        "company_domain",
+        "verified_email"
+      ],
+      "run_condition": "verified_email is not empty",
+      "smartlead_field": "recent_engineering_signal",
+      "notes": "LLM web research -- gated so it never runs on undeliverable rows"
+    }
+  ]
+}

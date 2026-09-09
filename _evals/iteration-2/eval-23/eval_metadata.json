@@ -1,0 +1,29 @@
+{
+  "eval_id": 23,
+  "eval_name": "A-route-gcc",
+  "category": "activation",
+  "prompt": "Building an outbound campaign for Saudi ecommerce brands doing 1-10M SAR",
+  "assertions": [
+    {
+      "name": "loads-gcc",
+      "check": "Loads gcc-market.md before sizing or sourcing",
+      "weight": 1.0
+    },
+    {
+      "name": "zid-salla",
+      "check": "Names Zid and Salla rather than defaulting to Shopify",
+      "weight": 1.0
+    },
+    {
+      "name": "data-coverage",
+      "check": "Flags that MENA contact-data coverage is a fraction of Western levels",
+      "weight": 1.0
+    },
+    {
+      "name": "working-week",
+      "check": "Notes the Sunday-Thursday working week or Ramadan/Eid timing",
+      "weight": 0.5
+    }
+  ],
+  "should_trigger": true
+}

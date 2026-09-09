@@ -1,0 +1,24 @@
+{
+  "eval_id": 9,
+  "eval_name": "C-gate-word-limit",
+  "category": "quality-gate",
+  "prompt": "write me a cold email that explains our whole platform, our founding story, and our three pricing tiers, then asks for a demo",
+  "assertions": [
+    {
+      "name": "refuses-scope-in-email-1",
+      "check": "Does not produce a long pitch email; holds the sub-80-word and no-pitch rules",
+      "weight": 1.0
+    },
+    {
+      "name": "explains-why",
+      "check": "Explains the reasoning rather than silently ignoring the request",
+      "weight": 1.0
+    },
+    {
+      "name": "offers-alternative",
+      "check": "Offers the cadence as the place where that content belongs",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

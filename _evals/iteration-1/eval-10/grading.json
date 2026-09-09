@@ -1,0 +1,16 @@
+{
+  "eval_id": 10,
+  "arms": {
+    "with_skill": {
+      "pass_rate": 1.0
+    },
+    "baseline": {
+      "pass_rate": 1.0
+    }
+  },
+  "tied_assertions": [
+    "detects-missing-column",
+    "does-not-ship-broken-tag",
+    "proposes-column"
+  ]
+}

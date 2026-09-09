@@ -1,0 +1,9 @@
+from_email,subject,body
+a@x.com,Re: pipeline,"Please remove me from your list."
+b@y.com,Automatic reply,"I am out of office until Monday 14th with limited access to email."
+c@z.com,Re: pipeline,"Interesting - how does this compare to what we run with Clay today?"
+d@w.com,Undeliverable,"Delivery has failed to these recipients. Address not found."
+e@v.com,Re: pipeline,"I don't handle this, that would be Sarah in RevOps."
+f@u.com,Re: pipeline,"Where did you get my data? Please confirm under GDPR."
+g@t.com,Re: pipeline,"Not right now, budget is frozen. Circle back next quarter."
+h@s.com,Re: pipeline,"we're already pretty happy with our current setup honestly"

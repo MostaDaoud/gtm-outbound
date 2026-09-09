@@ -1,0 +1,24 @@
+{
+  "columns": [
+    {
+      "name": "first_name",
+      "smartlead_field": "first_name"
+    },
+    {
+      "name": "last_name",
+      "smartlead_field": "last_name"
+    },
+    {
+      "name": "job_title",
+      "smartlead_field": "job_title"
+    },
+    {
+      "name": "verified_email",
+      "smartlead_field": "email"
+    },
+    {
+      "name": "recent_engineering_signal",
+      "smartlead_field": "recent_engineering_signal"
+    }
+  ]
+}

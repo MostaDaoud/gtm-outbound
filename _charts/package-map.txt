@@ -1,0 +1,71 @@
+gtm-outbound/                         ★  ORCHESTRATOR — the only file always in context
+│
+├── SKILL.md                          285 ─ routing table · artifact chain · 6 hard gates
+                                            motion-fit and geography intake · NEVER-SENDS
+│
+├── agents/
+│   └── gtm-outbound-researcher.md    135 ─ the one parallel step · can return SUPPRESS
+│
+├── references/                     3,714 ─ 21 files, loaded on demand only
+│   │
+│   │  ╭─ STRATEGY ────────────────   582 ─╮
+│   ├── value-equation.md             151 ─ 4-lever rubric · weakest-lever diagnosis · UVP form
+│   ├── icp-filters.md                133 ─ filter taxonomy · exclusions · 3 hard rules
+│   ├── signals-and-triggers.md       190 ─ signal to source map · decay windows
+│   └── buying-committee.md           108 ─ DMU roles · staggered threading above ~30 staff
+│   │
+│   │  ╭─ SOURCING AND ENRICHMENT ─   351 ─╮
+│   ├── sourcing-channels.md          138 ─ channel table · trigger sources beat directories
+│   └── waterfall-enrichment.md       213 ─ cheap-first order · gating · verification
+│   │
+│   │  ╭─ CLAY TABLE CONSTRUCTION ─   837 ─╮
+│   ├── clay-frameworks.md            180 ─ FETE · Jigsaw · SPICE prompt structure
+│   ├── clay-credits.md               176 ─ free vs paid columns · cost-class ordering
+│   ├── clay-sources.md               171 ─ Clay-native sources before reaching for a scraper
+│   ├── clay-recovery.md              148 ─ corner piece won't resolve · empty enrichment
+│   └── clay-tables.md                162 ─ write-to-table · lookup · HTTP API · export
+│   │
+│   │  ╭─ EXECUTION ─────────────── 1,407 ─╮
+│   ├── copy-frameworks.md            466 ─ 5 blocks · 5 structures · spintax rules
+│   ├── personalization-depth.md      177 ─ fact/inference/hypothesis · appropriateness line
+│   ├── cta-design.md                 165 ─ motivation x ability x prompt
+│   ├── cold-call.md                  106 ─ 4-move opener · phone as a second signal
+│   ├── deliverability.md             386 ─ warmup ladder · SPF/DKIM/DMARC · bulk-sender rules
+│   └── objection-library.md          107 ─ recurring objections · understand before countering
+│   │
+│   │  ╭─ MEASUREMENT AND MARKET ──   537 ─╮
+│   ├── gtm-benchmarks.md             171 ─ email + LinkedIn bands · what not to optimise
+│   ├── gtm-math.md                    84 ─ formulas mirroring the calculator
+│   ├── gcc-market.md                 187 ─ ★ MENA: coverage gap · Sun-Thu · Ramadan · Zid/Salla
+│   └── mcp-integration.md             95 ─ live-data seam · read-only boundary
+│
+├── scripts/                        3,300 ─ run these, never reason about their output
+│   ├── diagnose_campaign.py          719 ─ layer-ordered · email + LinkedIn · do-not-yet list
+│   ├── validate_spintax.py           702 ─ 2 dialects · worst-case word count · tag to schema
+│   ├── gtm_math.py                   539 ─ size (fwd/back) · economics · ab · ab-eval
+│   ├── clay_taxonomy.py              478 ─ generate/validate/vars · ordering + gating rules
+│   ├── score_message.py              640 ─ banned openers · hedging · CTA friction · specificity
+│   └── reply_classify.py             222 ─ deterministic triage · owns the opt-out call
+│
+└── assets/templates/                 868 ─ 8 files, fill rather than invent a shape
+    ├── sequence.md                   184 ─ both CTA arms · spintax inline · validator output
+    ├── campaign-score.md             114 ─ verdict · hard gates first · ranked fix list
+    ├── clay-build.md                 108 ─ ordered columns · cost class · run condition
+    ├── reply-triage.md               104 ─ counts by type · suppression list · patterns
+    ├── list-spec.md                   95 ─ channels · pipeline · credit logic · attrition
+    ├── diagnosis.md                   95 ─ verdict and layer first · evidence · next action
+    ├── campaign-brief.md              86 ─ assembled by a full run
+    └── icp-blueprint.md               82 ─ sub-niche · filters · UVP variants
+
+gtm-outbound-*/                     1,312 ─ SIBLING SKILLS — one loads per route
+├── gtm-outbound-offer/               182 ─ value equation · sub-niche · filters · UVP
+├── gtm-outbound-list/                151 ─ channels · provider routing · verification
+├── gtm-outbound-clay/                123 ─ column order · credit class · prompts
+├── gtm-outbound-copy/                201 ─ poke the bear · spintax · smartlead config
+├── gtm-outbound-math/                117 ─ sizing · unit economics · A/B significance
+├── gtm-outbound-score/               170 ─ 100-point gate — has it NOT sent yet
+├── gtm-outbound-diagnose/            153 ─ layer routing — has it ALREADY sent
+└── gtm-outbound-reply/               215 ─ classification · objections · booking · handoff
+
+────────────────────────────────────────────────────────────────────────────────────────────
+9 skills · 1 agent · 21 references · 6 scripts · 8 templates · 9,614 lines

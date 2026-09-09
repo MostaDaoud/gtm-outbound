@@ -1,0 +1,24 @@
+{
+  "eval_id": 12,
+  "eval_name": "C-gate-premature-scaling",
+  "category": "quality-gate",
+  "prompt": "variant B got 52 positive replies out of 800 sends, variant A got 40 out of 800. B wins right? scaling it now",
+  "assertions": [
+    {
+      "name": "runs-ab-eval",
+      "check": "Runs gtm_math.py ab-eval rather than eyeballing the lift",
+      "weight": 1.0
+    },
+    {
+      "name": "says-not-significant",
+      "check": "States the result is not significant and B should not be scaled yet",
+      "weight": 1.0
+    },
+    {
+      "name": "gives-required-sample",
+      "check": "Provides the sample size that would be needed",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

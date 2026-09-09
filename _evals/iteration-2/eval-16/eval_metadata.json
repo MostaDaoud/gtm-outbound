@@ -1,0 +1,24 @@
+{
+  "eval_id": 16,
+  "eval_name": "E-motion-fit-wrong-instrument",
+  "category": "gate",
+  "prompt": "We sell a $29/month self-serve analytics tool to individual marketers. Build me an outbound campaign.",
+  "assertions": [
+    {
+      "name": "questions-the-motion",
+      "check": "Raises that outbound economics do not close at $29 self-serve ACV, before building anything",
+      "weight": 1.0
+    },
+    {
+      "name": "names-alternative",
+      "check": "Names product-led as the fitting motion",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-just-build",
+      "check": "Does not proceed straight to sizing and list building",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

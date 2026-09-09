@@ -1,0 +1,47 @@
+{
+  "overall_pass_rate": {
+    "with_skill": 1.0,
+    "baseline": 0.765
+  },
+  "per_eval": {
+    "9": {
+      "with_skill": 1.0,
+      "baseline": 0.667
+    },
+    "10": {
+      "with_skill": 1.0,
+      "baseline": 1.0
+    },
+    "11": {
+      "with_skill": 1.0,
+      "baseline": 1.0
+    },
+    "12": {
+      "with_skill": 1.0,
+      "baseline": 0.667
+    },
+    "14": {
+      "with_skill": 1.0,
+      "baseline": 0.5
+    },
+    "15": {
+      "with_skill": 1.0,
+      "baseline": 0.667
+    }
+  },
+  "full_ties": [
+    10,
+    11
+  ],
+  "skill_added_value": [
+    "eval-9 refuses-scope-in-email-1: baseline explained why the long pitch email was wrong, then wrote it anyway",
+    "eval-12 runs-ab-eval: baseline hand-computed the z-test correctly but invoked no script",
+    "eval-14 states-three-weeks: baseline greenlit real low-volume sending next week, undercutting its own timeline",
+    "eval-15 flags-gdpr: baseline never named CAN-SPAM as the contrast"
+  ],
+  "defects_found_in_skill": [
+    "validate_spintax --max-words scoped to all headings, not just message sections (FIXED)",
+    "orchestrator routing did not cover partial-target requests (FIXED)",
+    "deliverability.md treats Germany and France uniformly under GDPR legitimate interest; baseline was more precise, correctly separating German UWG opt-in (OPEN)"
+  ]
+}

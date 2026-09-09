@@ -1,0 +1,24 @@
+{
+  "eval_id": 11,
+  "eval_name": "C-gate-tam-impossible",
+  "category": "quality-gate",
+  "prompt": "I want 50 meetings a month. My market is about 4000 companies total and I'm getting a 3% reply rate.",
+  "assertions": [
+    {
+      "name": "detects-impossible",
+      "check": "Identifies that the goal exceeds the addressable market",
+      "weight": 1.0
+    },
+    {
+      "name": "sends-upstream",
+      "check": "Recommends fixing offer/segment/goal rather than building the list anyway",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-bury-it",
+      "check": "Leads with the blocker rather than presenting a tidy table first",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

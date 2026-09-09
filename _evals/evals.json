@@ -1,0 +1,700 @@
+{
+  "skill_name": "gtm-outbound",
+  "skill_path": "../gtm-outbound",
+  "notes": "Hand-authored. Replaces the auto-generated set, which tested only triggering and used prompts nobody types. Categories: A = activation routing, B = collision with installed skills, C = quality-gate enforcement, D = script determinism. | Extended 2026-08-07 to cover material added after iteration-1: motion-fit gate, per-domain ceiling, bulk-sender compliance, personalization boundary and hypothesis discipline, score_message.py, GCC market, researcher agent, and two new collision cases. | Repaired 2026-08-07: skill_path pointed at ../gtm-outbound-build/gtm-outbound, which no longer exists. eval-25 said 'these 8 named accounts' and named none — it was excluded from iteration-2 grading for that reason; it now names 8 real DTC accounts and a target role, and gained a no-fabrication assertion covering the agent's most expensive failure mode. | Extended with eval-29 after six DR-inversion checks were added to score_message.py (FALSE_SCARCITY, GUILT_CLOSE, DR_FORMULA, TITLE_CASE_SUBJECT, SHOUTY_CAPS, MULTIPLE_ASKS). Fixture dr_patterns.md is synthetic and every message in it is meant to fail.",
+  "evals": [
+    {
+      "eval_id": 0,
+      "eval_name": "A-route-math-natural",
+      "category": "activation",
+      "prompt": "how many inboxes do I need if I want 15 meetings a month",
+      "assertions": [
+        {
+          "name": "routes-to-math",
+          "check": "Routes to gtm-outbound-math, not the orchestrator or copy",
+          "weight": 1.0
+        },
+        {
+          "name": "runs-script",
+          "check": "Invokes gtm_math.py size rather than computing in prose",
+          "weight": 1.0
+        },
+        {
+          "name": "states-assumptions",
+          "check": "Explicitly flags the reply/positive/meeting rates it assumed",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "A-route-list-natural",
+      "category": "activation",
+      "prompt": "engineer a Clay outbound workflow for Shopify brands doing 1-10M",
+      "assertions": [
+        {
+          "name": "routes-to-list",
+          "check": "Routes to gtm-outbound-list",
+          "weight": 1.0
+        },
+        {
+          "name": "picks-storeleads",
+          "check": "Selects Storeleads or BuiltWith for the Shopify segment",
+          "weight": 1.0
+        },
+        {
+          "name": "gated-waterfall",
+          "check": "Waterfall steps after the first are gated on the previous returning empty",
+          "weight": 1.0
+        },
+        {
+          "name": "runs-clay-script",
+          "check": "Generates clay-table.json via clay_taxonomy.py rather than hand-writing JSON",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "A-route-offer-implicit",
+      "category": "activation",
+      "prompt": "my reply rate is 2% and I'm not sure my targeting is right",
+      "assertions": [
+        {
+          "name": "diagnoses-upstream",
+          "check": "Treats this as an ICP/offer problem rather than jumping to copy edits",
+          "weight": 1.0
+        },
+        {
+          "name": "checks-deliverability-first",
+          "check": "Considers that a sub-1% or collapsed reply rate can be a placement problem, not a copy problem",
+          "weight": 0.5
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "A-route-copy-direct",
+      "category": "activation",
+      "prompt": "draft a Poke the Bear sequence for agency owners",
+      "assertions": [
+        {
+          "name": "routes-to-copy",
+          "check": "Routes to gtm-outbound-copy",
+          "weight": 1.0
+        },
+        {
+          "name": "observation-bridge-question",
+          "check": "Email 1 follows observation then bridge then open question",
+          "weight": 1.0
+        },
+        {
+          "name": "no-pitch-in-email-1",
+          "check": "Email 1 contains no pitch, calendar link, or meeting ask",
+          "weight": 1.0
+        },
+        {
+          "name": "under-80-words",
+          "check": "Email 1 is under 80 words in its longest spintax variant",
+          "weight": 1.0
+        },
+        {
+          "name": "validator-run",
+          "check": "validate_spintax.py is actually run and its output shown",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "A-route-full-chain",
+      "category": "activation",
+      "prompt": "build me a full outbound campaign for a B2B data consultancy targeting mid-market ecommerce",
+      "assertions": [
+        {
+          "name": "runs-three-stages",
+          "check": "Executes offer then list then copy in order",
+          "weight": 1.0
+        },
+        {
+          "name": "artifacts-chained",
+          "check": "Later stages read the artifacts earlier stages wrote",
+          "weight": 1.0
+        },
+        {
+          "name": "emits-brief",
+          "check": "Produces campaign-brief.md",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "B-collision-blog-repurpose",
+      "category": "collision",
+      "prompt": "turn this blog post into a LinkedIn post",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate; blog-repurpose is the correct target",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 6,
+      "eval_name": "B-collision-blog-write-topic",
+      "category": "collision",
+      "prompt": "write a blog post about cold email deliverability best practices",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate; this is blog-write with an outbound topic",
+          "weight": 1.0
+        },
+        {
+          "name": "topic-vs-task",
+          "check": "Correctly distinguishes writing ABOUT outbound from DOING outbound",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 7,
+      "eval_name": "B-collision-seo-linkedin",
+      "category": "collision",
+      "prompt": "audit my site and tell me how to rank for cold email software",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate; seo-audit is correct",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 8,
+      "eval_name": "B-collision-linkedin-organic",
+      "category": "collision",
+      "prompt": "write me a LinkedIn post about our new product launch",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate; organic social is not outbound sequencing",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 9,
+      "eval_name": "C-gate-word-limit",
+      "category": "quality-gate",
+      "prompt": "write me a cold email that explains our whole platform, our founding story, and our three pricing tiers, then asks for a demo",
+      "assertions": [
+        {
+          "name": "refuses-scope-in-email-1",
+          "check": "Does not produce a long pitch email; holds the sub-80-word and no-pitch rules",
+          "weight": 1.0
+        },
+        {
+          "name": "explains-why",
+          "check": "Explains the reasoning rather than silently ignoring the request",
+          "weight": 1.0
+        },
+        {
+          "name": "offers-alternative",
+          "check": "Offers the cadence as the place where that content belongs",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 10,
+      "eval_name": "C-gate-unknown-merge-tag",
+      "category": "quality-gate",
+      "prompt": "here is my clay-table.json with columns first_name and verified_email. Write a sequence that personalizes on their recent funding round.",
+      "input_files": [
+        "clay-table-minimal.json"
+      ],
+      "assertions": [
+        {
+          "name": "detects-missing-column",
+          "check": "Notices that no column produces a funding variable",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-ship-broken-tag",
+          "check": "Does not emit an unvalidated merge tag as if it were fine",
+          "weight": 1.0
+        },
+        {
+          "name": "proposes-column",
+          "check": "Proposes adding the producing column to the Clay table",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 11,
+      "eval_name": "C-gate-tam-impossible",
+      "category": "quality-gate",
+      "prompt": "I want 50 meetings a month. My market is about 4000 companies total and I'm getting a 3% reply rate.",
+      "assertions": [
+        {
+          "name": "detects-impossible",
+          "check": "Identifies that the goal exceeds the addressable market",
+          "weight": 1.0
+        },
+        {
+          "name": "sends-upstream",
+          "check": "Recommends fixing offer/segment/goal rather than building the list anyway",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-bury-it",
+          "check": "Leads with the blocker rather than presenting a tidy table first",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 12,
+      "eval_name": "C-gate-premature-scaling",
+      "category": "quality-gate",
+      "prompt": "variant B got 52 positive replies out of 800 sends, variant A got 40 out of 800. B wins right? scaling it now",
+      "assertions": [
+        {
+          "name": "runs-ab-eval",
+          "check": "Runs gtm_math.py ab-eval rather than eyeballing the lift",
+          "weight": 1.0
+        },
+        {
+          "name": "says-not-significant",
+          "check": "States the result is not significant and B should not be scaled yet",
+          "weight": 1.0
+        },
+        {
+          "name": "gives-required-sample",
+          "check": "Provides the sample size that would be needed",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 13,
+      "eval_name": "D-determinism-no-prose-math",
+      "category": "determinism",
+      "prompt": "if I send to 3000 prospects with a 4-step sequence and 25 sends per inbox per day, how many inboxes and how long does it take?",
+      "assertions": [
+        {
+          "name": "uses-script",
+          "check": "Invokes gtm_math.py rather than doing arithmetic in prose",
+          "weight": 1.0
+        },
+        {
+          "name": "arithmetic-correct",
+          "check": "12000 sends, ~546/day over 22 days, 22 inboxes, 8 domains",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 14,
+      "eval_name": "D-determinism-warmup-timeline",
+      "category": "determinism",
+      "prompt": "we need to launch outbound next week, new domains. what's realistic?",
+      "assertions": [
+        {
+          "name": "states-three-weeks",
+          "check": "States that new infrastructure adds roughly three weeks before first send",
+          "weight": 1.0
+        },
+        {
+          "name": "leads-with-constraint",
+          "check": "Leads with the timeline constraint rather than burying it under a plan",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 15,
+      "eval_name": "C-gate-compliance-eu",
+      "category": "quality-gate",
+      "prompt": "set up a cold email campaign targeting CTOs in Germany and France",
+      "assertions": [
+        {
+          "name": "flags-gdpr",
+          "check": "Flags that GDPR legitimate interest applies and differs from CAN-SPAM",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-assert-compliance",
+          "check": "Does not claim the setup is compliant; recommends confirming the basis",
+          "weight": 1.0
+        },
+        {
+          "name": "still-delivers",
+          "check": "Still produces the campaign work rather than refusing",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 16,
+      "eval_name": "E-motion-fit-wrong-instrument",
+      "category": "gate",
+      "prompt": "We sell a $29/month self-serve analytics tool to individual marketers. Build me an outbound campaign.",
+      "assertions": [
+        {
+          "name": "questions-the-motion",
+          "check": "Raises that outbound economics do not close at $29 self-serve ACV, before building anything",
+          "weight": 1.0
+        },
+        {
+          "name": "names-alternative",
+          "check": "Names product-led as the fitting motion",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-just-build",
+          "check": "Does not proceed straight to sizing and list building",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 17,
+      "eval_name": "E-motion-fit-outbound-correct",
+      "category": "gate",
+      "prompt": "We sell a $40k ACV compliance platform to Heads of Risk at mid-market banks. Build me an outbound campaign.",
+      "assertions": [
+        {
+          "name": "clears-quickly",
+          "check": "Confirms outbound fits and moves on without a strategy detour",
+          "weight": 1.0
+        },
+        {
+          "name": "proceeds",
+          "check": "Either produces a draft ICP/offer artifact in-turn, OR names the specific missing inputs it needs first. Merely labelling a section 'next stage' without doing either does not count.",
+          "weight": 1.0
+        },
+        {
+          "name": "no-strategy-detour",
+          "check": "Does not deliver a motion-selection essay when outbound obviously fits",
+          "weight": 0.5
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 18,
+      "eval_name": "D-domain-ceiling",
+      "category": "determinism",
+      "prompt": "I have 4 inboxes on one domain each sending 25 a day. Is that safe?",
+      "assertions": [
+        {
+          "name": "flags-domain-aggregate",
+          "check": "Identifies 100/day on one domain as over the 30-50 ceiling",
+          "weight": 1.0
+        },
+        {
+          "name": "explains-mechanism",
+          "check": "States reputation is scored at domain level, so per-inbox safety is misleading",
+          "weight": 1.0
+        },
+        {
+          "name": "correct-remedy",
+          "check": "Says add domains rather than adding mailboxes, which splits the same budget",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 19,
+      "eval_name": "C-gate-one-click-unsubscribe",
+      "category": "quality-gate",
+      "prompt": "I've got SPF, DKIM and DMARC set up and an unsubscribe link in the footer. Am I compliant?",
+      "assertions": [
+        {
+          "name": "flags-missing-header",
+          "check": "Identifies that a footer link is not one-click unsubscribe; RFC 8058 headers are required",
+          "weight": 1.0
+        },
+        {
+          "name": "mentions-rejection",
+          "check": "Notes non-compliant mail is now rejected rather than spam-foldered",
+          "weight": 0.5
+        },
+        {
+          "name": "complaint-threshold",
+          "check": "States the 0.3% enforcement line and 0.1% working ceiling",
+          "weight": 0.5
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 20,
+      "eval_name": "C-gate-creepy-personalization",
+      "category": "quality-gate",
+      "prompt": "I found on Instagram that the CTO was in Bali last week and his daughter just started school. Use that in the opener to build rapport.",
+      "assertions": [
+        {
+          "name": "refuses-detail",
+          "check": "Declines to use family and private location detail",
+          "weight": 1.0
+        },
+        {
+          "name": "states-rule",
+          "check": "States public availability is not permission, or the two-part relevance test",
+          "weight": 1.0
+        },
+        {
+          "name": "offers-alternative",
+          "check": "Offers a professionally relevant signal instead",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 21,
+      "eval_name": "C-gate-hypothesis-not-fact",
+      "category": "quality-gate",
+      "prompt": "They posted 3 sales jobs. Write an opener saying they have a pipeline problem.",
+      "assertions": [
+        {
+          "name": "refuses-assertion",
+          "check": "Does not state the pipeline problem as established fact",
+          "weight": 1.0
+        },
+        {
+          "name": "names-alternative",
+          "check": "Names the innocent explanation, e.g. they are simply growing",
+          "weight": 1.0
+        },
+        {
+          "name": "hedges-once",
+          "check": "Uses one qualifier, not none and not several",
+          "weight": 1.0
+        },
+        {
+          "name": "scorer-agrees",
+          "check": "If score_message.py is run, its hedge count agrees with the response's own claim about how many hedges it used",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 22,
+      "eval_name": "C-gate-banned-opener",
+      "category": "quality-gate",
+      "prompt": "Here's my draft: 'Hi {{first_name}}, I hope this email finds you well. I came across your profile and was really impressed. Would you be open to a quick 15-minute call?' Make it better.",
+      "assertions": [
+        {
+          "name": "runs-scorer",
+          "check": "Runs score_message.py rather than only rewriting by eye",
+          "weight": 1.0
+        },
+        {
+          "name": "identifies-all-three",
+          "check": "Flags ceremonial opener, generic admiration, and the calendar ask",
+          "weight": 1.0
+        },
+        {
+          "name": "cta-friction",
+          "check": "Replaces the meeting ask with a lower-friction offer",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 23,
+      "eval_name": "A-route-gcc",
+      "category": "activation",
+      "prompt": "Building an outbound campaign for Saudi ecommerce brands doing 1-10M SAR",
+      "assertions": [
+        {
+          "name": "loads-gcc",
+          "check": "Loads gcc-market.md before sizing or sourcing",
+          "weight": 1.0
+        },
+        {
+          "name": "zid-salla",
+          "check": "Names Zid and Salla rather than defaulting to Shopify",
+          "weight": 1.0
+        },
+        {
+          "name": "data-coverage",
+          "check": "Flags that MENA contact-data coverage is a fraction of Western levels",
+          "weight": 1.0
+        },
+        {
+          "name": "working-week",
+          "check": "Notes the Sunday-Thursday working week or Ramadan/Eid timing",
+          "weight": 0.5
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 24,
+      "eval_name": "C-gate-ramadan-not-deliverability",
+      "category": "quality-gate",
+      "prompt": "My Saudi campaign reply rate fell off a cliff last week. Should I pause the domains and re-verify the list?",
+      "assertions": [
+        {
+          "name": "checks-calendar",
+          "check": "Checks seasonality (Ramadan/Eid) before concluding deliverability",
+          "weight": 1.0
+        },
+        {
+          "name": "explains-confound",
+          "check": "Explains a calendar collapse is indistinguishable from a placement event in the data",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-pause-blindly",
+          "check": "Does not immediately recommend pausing domains",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 25,
+      "eval_name": "D-research-agent-discipline",
+      "category": "determinism",
+      "prompt": "Research these 8 accounts so I can personalise the opener for each. Target role is Head of Growth. Allbirds, Gymshark, Ridge, Brooklinen, Away, Glossier, Bombas, Olipop.",
+      "assertions": [
+        {
+          "name": "delegates-parallel",
+          "check": "Delegates to gtm-outbound-researcher, several in parallel",
+          "weight": 1.0
+        },
+        {
+          "name": "structured-output",
+          "check": "Returns the evidence block with observation, source, date, confidence",
+          "weight": 1.0
+        },
+        {
+          "name": "alternative-present",
+          "check": "Every block includes the innocent alternative explanation",
+          "weight": 1.0
+        },
+        {
+          "name": "no-fabrication",
+          "check": "Any account with no usable signal comes back as 'OBSERVATION: none found' with SUPPRESS: yes, rather than an invented or generic observation. A block whose observation could apply to any DTC brand counts as fabricated.",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 26,
+      "eval_name": "B-collision-pricing-strategy",
+      "category": "collision",
+      "prompt": "help me decide between usage-based and seat-based pricing",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate; pricing strategy is out of scope",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 27,
+      "eval_name": "B-collision-board-deck",
+      "category": "collision",
+      "prompt": "I need to prepare my board deck for next quarter",
+      "assertions": [
+        {
+          "name": "does-not-trigger",
+          "check": "gtm-outbound does NOT activate",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": false
+    },
+    {
+      "eval_id": 28,
+      "eval_name": "C-gate-block-level-testing",
+      "category": "quality-gate",
+      "prompt": "My reply rate is 2%. I rewrote the whole email and it went to 2.3%. What should I change next?",
+      "assertions": [
+        {
+          "name": "names-blocks",
+          "check": "Identifies the email as five separable blocks — subject, hook, value prop, credibility, CTA",
+          "weight": 1.0
+        },
+        {
+          "name": "one-at-a-time",
+          "check": "States that rewriting the whole email teaches nothing about which change moved the number",
+          "weight": 1.0
+        },
+        {
+          "name": "sizes-the-test",
+          "check": "Notes 2% to 2.3% is almost certainly not significant, and sizes it with gtm_math.py ab",
+          "weight": 1.0
+        },
+        {
+          "name": "checks-upstream-first",
+          "check": "Checks placement and list before accepting that copy is the constraint at 2%",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 29,
+      "eval_name": "C-direct-response-genre-rejection",
+      "category": "quality-gate",
+      "prompt": "Review _evals/fixtures/dr_patterns.md before I send it cold to 2,000 B2B prospects.",
+      "assertions": [
+        {
+          "name": "invokes-scorer",
+          "check": "Runs score_message.py on the file rather than reviewing it by eye",
+          "weight": 1.0
+        },
+        {
+          "name": "catches-scarcity",
+          "check": "Treats the invented deadline in the final email ('12 more hours', 'last chance') as a failure, not a stylistic preference",
+          "weight": 1.0
+        },
+        {
+          "name": "catches-guilt",
+          "check": "Flags the breakup and guilt framing ('this will be my last email', 'I'd hate to see you') against the rule that the final message closes cleanly and stops",
+          "weight": 1.0
+        },
+        {
+          "name": "names-the-genre",
+          "check": "States that this is direct-response structure built for a warm opted-in list, and that the techniques invert in cold B2B — rather than only listing line-level fixes",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    }
+  ]
+}

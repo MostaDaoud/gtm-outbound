@@ -1,0 +1,28 @@
+{
+  "columns": [
+    {
+      "name": "company_name",
+      "smartlead_field": "company_name"
+    },
+    {
+      "name": "first_name",
+      "smartlead_field": "first_name"
+    },
+    {
+      "name": "last_name",
+      "smartlead_field": "last_name"
+    },
+    {
+      "name": "job_title",
+      "smartlead_field": "job_title"
+    },
+    {
+      "name": "verified_email",
+      "smartlead_field": "email"
+    },
+    {
+      "name": "recent_funding_round",
+      "smartlead_field": "recent_funding_round"
+    }
+  ]
+}

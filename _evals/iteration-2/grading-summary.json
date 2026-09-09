@@ -1,0 +1,56 @@
+{
+  "iteration": 2,
+  "date": "2026-08-07",
+  "scope": {
+    "total_evals": 29,
+    "blocked_on_installation": 11,
+    "graded": 12,
+    "excluded_broken": [
+      25
+    ]
+  },
+  "overall": {
+    "with_skill": "36/37 = 0.973",
+    "baseline": "33/37 = 0.892"
+  },
+  "ties": {
+    "count": 32,
+    "of": 37,
+    "pct": 0.865
+  },
+  "skill_differentiated_on": [
+    {
+      "eval": 28,
+      "mechanism": "correctness",
+      "detail": "baseline eyeballed ~1,000 sends/arm; real answer 36,693 \u2014 wrong by >36x"
+    },
+    {
+      "eval": 12,
+      "mechanism": "auditability",
+      "detail": "ran ab-eval; baseline hand-math was correct but unverifiable"
+    },
+    {
+      "eval": 22,
+      "mechanism": "auditability",
+      "detail": "ran score_message 43->100; baseline rewrote by eye"
+    },
+    {
+      "eval": 23,
+      "mechanism": "traceability",
+      "detail": "cited gcc-market.md; baseline's GCC knowledge was substantively equivalent"
+    }
+  ],
+  "baseline_won": [
+    {
+      "eval": 21,
+      "detail": "skill delivered 3 hedges while claiming 1; baseline used exactly 1"
+    }
+  ],
+  "defects_found_and_fixed": [
+    "score_message.py OVER_HEDGED threshold >3 let 3 qualifiers pass; tightened to >2",
+    "HEDGES list missing I'd guess / I suspect / probably / may be; added",
+    "eval-17 'proceeds' assertion could not distinguish announcing from delivering; rewritten",
+    "eval-25 prompt references 8 named accounts but names none; excluded pending rewrite"
+  ],
+  "conclusion": "Value is concentrated in enforcement and auditability of quantitative operations, not domain knowledge. 87% of assertions tied. The gate/guardrail prose is largely duplicated by a strong baseline; the scripts are not."
+}

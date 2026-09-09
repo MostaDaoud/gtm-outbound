@@ -1,0 +1,24 @@
+{
+  "eval_id": 22,
+  "eval_name": "C-gate-banned-opener",
+  "category": "quality-gate",
+  "prompt": "Here's my draft: 'Hi {{first_name}}, I hope this email finds you well. I came across your profile and was really impressed. Would you be open to a quick 15-minute call?' Make it better.",
+  "assertions": [
+    {
+      "name": "runs-scorer",
+      "check": "Runs score_message.py rather than only rewriting by eye",
+      "weight": 1.0
+    },
+    {
+      "name": "identifies-all-three",
+      "check": "Flags ceremonial opener, generic admiration, and the calendar ask",
+      "weight": 1.0
+    },
+    {
+      "name": "cta-friction",
+      "check": "Replaces the meeting ask with a lower-friction offer",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

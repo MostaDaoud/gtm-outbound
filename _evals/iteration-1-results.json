@@ -1,0 +1,55 @@
+{
+  "skill_name": "gtm-outbound",
+  "iteration": 1,
+  "date": "2026-08-04",
+  "status": "partial",
+  "executed": {
+    "collision_analysis": {
+      "method": "TF-IDF cosine over description text plus exact-match on quoted trigger phrases",
+      "corpus": 67,
+      "candidates": 5,
+      "max_similarity": 0.0645,
+      "max_similarity_pair": ["gtm-outbound-copy", "blog-repurpose"],
+      "shared_trigger_phrases": 0,
+      "risk_band": "below low (0.12)",
+      "verdict": "pass",
+      "covers_evals": [5, 6, 7, 8],
+      "caveat": "TF-IDF over descriptions is a proxy for activation, not the mechanism itself. Strong evidence against collision, not proof."
+    },
+    "eval_13_determinism": {
+      "eval_name": "D-determinism-no-prose-math",
+      "result": "FAIL then FIXED",
+      "defect": "size subcommand had no forward mode. A user with a known list size could not be answered through the script, forcing prose arithmetic and violating quality gate 6 (all arithmetic goes through gtm_math.py).",
+      "fix": "Added --prospects as a mutually exclusive alternative to --meetings-goal. Backward mode regression-tested.",
+      "assertion_arithmetic": {
+        "expected": "12000 sends, 546/day, 22 inboxes, 8 domains",
+        "actual": "12000 sends, 546/day, 22 inboxes, 8 domains",
+        "passed": true
+      }
+    },
+    "script_determinism_suite": {
+      "validate_spintax": "pass (both dialects, structural-cascade suppression, unknown-var detection)",
+      "gtm_math": "pass (size both modes, economics, ab, ab-eval; ab and ab-eval mutually consistent)",
+      "clay_taxonomy": "pass (generate, ordering validation, vars export)",
+      "chain_integration": "pass (clay vars -> spintax --vars catches unmapped column)"
+    },
+    "structural_validation": {
+      "all_five_skills": "pass 100/100",
+      "revalidated_after_fix": true
+    }
+  },
+  "not_executed": {
+    "activation_routing": {
+      "evals": [0, 1, 2, 3, 4],
+      "blocker": "Activation is resolved by the harness at session start from installed skill descriptions. Cannot be tested until gtm-outbound is installed and a new session starts.",
+      "proxy_available": "collision_analysis covers the negative case; positive routing needs a live session"
+    },
+    "output_quality_grading": {
+      "evals": [9, 10, 11, 12, 14, 15],
+      "blocker": "Requires skill-forge-executor and skill-forge-grader subagent runs (with_skill vs baseline). Not spawned -- awaiting user decision.",
+      "note": "These do NOT require installation; an executor agent can read the SKILL.md files directly."
+    }
+  },
+  "defects_found": 1,
+  "defects_fixed": 1
+}

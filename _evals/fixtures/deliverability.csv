@@ -1,0 +1,4 @@
+inbox,sent,bounced,replied,positive,unsubscribed,complaints
+alex@getacme.com,500,32,4,1,2,1
+sam@getacme.com,500,28,3,1,1,2
+jo@tryacme.com,500,35,5,2,3,1

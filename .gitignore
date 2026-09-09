@@ -1,0 +1,16 @@
+# Internal-only material — never ship
+_sources/
+_backups/
+ra-software/
+.claude/
+HANDOFF.md
+AGENTS.md
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

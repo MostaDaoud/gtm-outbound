@@ -1,0 +1,24 @@
+{
+  "eval_id": 24,
+  "eval_name": "C-gate-ramadan-not-deliverability",
+  "category": "quality-gate",
+  "prompt": "My Saudi campaign reply rate fell off a cliff last week. Should I pause the domains and re-verify the list?",
+  "assertions": [
+    {
+      "name": "checks-calendar",
+      "check": "Checks seasonality (Ramadan/Eid) before concluding deliverability",
+      "weight": 1.0
+    },
+    {
+      "name": "explains-confound",
+      "check": "Explains a calendar collapse is indistinguishable from a placement event in the data",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-pause-blindly",
+      "check": "Does not immediately recommend pausing domains",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

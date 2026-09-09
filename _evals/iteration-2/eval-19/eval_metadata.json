@@ -1,0 +1,24 @@
+{
+  "eval_id": 19,
+  "eval_name": "C-gate-one-click-unsubscribe",
+  "category": "quality-gate",
+  "prompt": "I've got SPF, DKIM and DMARC set up and an unsubscribe link in the footer. Am I compliant?",
+  "assertions": [
+    {
+      "name": "flags-missing-header",
+      "check": "Identifies that a footer link is not one-click unsubscribe; RFC 8058 headers are required",
+      "weight": 1.0
+    },
+    {
+      "name": "mentions-rejection",
+      "check": "Notes non-compliant mail is now rejected rather than spam-foldered",
+      "weight": 0.5
+    },
+    {
+      "name": "complaint-threshold",
+      "check": "States the 0.3% enforcement line and 0.1% working ceiling",
+      "weight": 0.5
+    }
+  ],
+  "should_trigger": true
+}

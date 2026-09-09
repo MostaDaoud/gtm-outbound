@@ -1,0 +1,19 @@
+{
+  "eval_id": 17,
+  "eval_name": "E-motion-fit-outbound-correct",
+  "category": "gate",
+  "prompt": "We sell a $40k ACV compliance platform to Heads of Risk at mid-market banks. Build me an outbound campaign.",
+  "assertions": [
+    {
+      "name": "clears-quickly",
+      "check": "Confirms outbound fits and moves on without a strategy detour",
+      "weight": 1.0
+    },
+    {
+      "name": "proceeds",
+      "check": "Proceeds to the offer/ICP stage",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

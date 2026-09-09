@@ -1,0 +1,24 @@
+{
+  "eval_id": 10,
+  "eval_name": "C-gate-unknown-merge-tag",
+  "category": "quality-gate",
+  "prompt": "here is my clay-table.json with columns first_name and verified_email. Write a sequence that personalizes on their recent funding round.",
+  "assertions": [
+    {
+      "name": "detects-missing-column",
+      "check": "Notices that no column produces a funding variable",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-ship-broken-tag",
+      "check": "Does not emit an unvalidated merge tag as if it were fine",
+      "weight": 1.0
+    },
+    {
+      "name": "proposes-column",
+      "check": "Proposes adding the producing column to the Clay table",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

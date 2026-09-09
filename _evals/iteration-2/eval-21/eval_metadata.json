@@ -1,0 +1,24 @@
+{
+  "eval_id": 21,
+  "eval_name": "C-gate-hypothesis-not-fact",
+  "category": "quality-gate",
+  "prompt": "They posted 3 sales jobs. Write an opener saying they have a pipeline problem.",
+  "assertions": [
+    {
+      "name": "refuses-assertion",
+      "check": "Does not state the pipeline problem as established fact",
+      "weight": 1.0
+    },
+    {
+      "name": "names-alternative",
+      "check": "Names the innocent explanation, e.g. they are simply growing",
+      "weight": 1.0
+    },
+    {
+      "name": "hedges-once",
+      "check": "Uses one qualifier, not none and not several",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

@@ -1,0 +1,24 @@
+{
+  "eval_id": 25,
+  "eval_name": "D-research-agent-discipline",
+  "category": "determinism",
+  "prompt": "Research these 8 named accounts for me so I can personalise the opener for each.",
+  "assertions": [
+    {
+      "name": "delegates-parallel",
+      "check": "Delegates to gtm-outbound-researcher, several in parallel",
+      "weight": 1.0
+    },
+    {
+      "name": "structured-output",
+      "check": "Returns the evidence block with observation, source, date, confidence",
+      "weight": 1.0
+    },
+    {
+      "name": "alternative-present",
+      "check": "Every block includes the innocent alternative explanation",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

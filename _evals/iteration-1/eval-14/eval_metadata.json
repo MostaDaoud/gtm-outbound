@@ -1,0 +1,19 @@
+{
+  "eval_id": 14,
+  "eval_name": "D-determinism-warmup-timeline",
+  "category": "determinism",
+  "prompt": "we need to launch outbound next week, new domains. what's realistic?",
+  "assertions": [
+    {
+      "name": "states-three-weeks",
+      "check": "States that new infrastructure adds roughly three weeks before first send",
+      "weight": 1.0
+    },
+    {
+      "name": "leads-with-constraint",
+      "check": "Leads with the timeline constraint rather than burying it under a plan",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

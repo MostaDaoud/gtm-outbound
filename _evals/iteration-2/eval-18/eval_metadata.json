@@ -1,0 +1,24 @@
+{
+  "eval_id": 18,
+  "eval_name": "D-domain-ceiling",
+  "category": "determinism",
+  "prompt": "I have 4 inboxes on one domain each sending 25 a day. Is that safe?",
+  "assertions": [
+    {
+      "name": "flags-domain-aggregate",
+      "check": "Identifies 100/day on one domain as over the 30-50 ceiling",
+      "weight": 1.0
+    },
+    {
+      "name": "explains-mechanism",
+      "check": "States reputation is scored at domain level, so per-inbox safety is misleading",
+      "weight": 1.0
+    },
+    {
+      "name": "correct-remedy",
+      "check": "Says add domains rather than adding mailboxes, which splits the same budget",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

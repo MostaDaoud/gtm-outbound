@@ -1,0 +1,16 @@
+{
+  "eval_id": 11,
+  "arms": {
+    "with_skill": {
+      "pass_rate": 1.0
+    },
+    "baseline": {
+      "pass_rate": 1.0
+    }
+  },
+  "tied_assertions": [
+    "detects-impossible",
+    "sends-upstream",
+    "does-not-bury-it"
+  ]
+}
