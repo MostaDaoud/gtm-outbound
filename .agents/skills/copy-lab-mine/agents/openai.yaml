@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy Lab Mine"
+  short_description: "OCR, ingest, and refresh copywriting sources"
+  default_prompt: "Use $copy-lab-mine to OCR or ingest sources, then refresh and validate the copy-lab library."
+
+policy:
+  allow_implicit_invocation: true

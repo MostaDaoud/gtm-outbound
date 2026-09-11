@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy Lab Critique"
+  short_description: "Score and fix existing sales copy"
+  default_prompt: "Use $copy-lab-critique to score this copy and provide prioritized fixes."
+
+policy:
+  allow_implicit_invocation: true

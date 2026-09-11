@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy Lab Write"
+  short_description: "Write grounded direct-response copy"
+  default_prompt: "Use $copy-lab-write to draft grounded direct-response copy for this brief."
+
+policy:
+  allow_implicit_invocation: true

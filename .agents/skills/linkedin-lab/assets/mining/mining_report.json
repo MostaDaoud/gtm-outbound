@@ -1,0 +1,85 @@
+{
+  "generated_utc": "2026-08-15T21:48:59+00:00",
+  "corpus_root": "E:\\Copywriting\\_transcripts",
+  "files_read": 1116,
+  "files_without_transcript": 0,
+  "passages_windowed": 48451,
+  "passages_kept": 4410,
+  "passages_unique": 4210,
+  "deduplication": {
+    "near_threshold": 0.85,
+    "exact_repeat_groups": 131,
+    "near_repeat_groups": 26,
+    "copies_removed": 200
+  },
+  "min_score": 7,
+  "per_theme": 90,
+  "courses": {
+    "Bart Schutz – Master of Online Persuasion": 156686,
+    "Branding & Brand Strategy": 38124,
+    "Digital Psychology & Persuasion": 66710,
+    "Drop Dead Copy – AI Copywriting Secrets (Volume 1)": 63420,
+    "Jason C Fox - Magnetic Content": 95659,
+    "Kathryn Morrison – Words Are Wands": 90574,
+    "Kevin Meng - Next-Level AI Content": 7084,
+    "Maria Wendt – Words Into Money": 3729,
+    "Martin Lindstrom - Buyology": 28147,
+    "Neville Medhora – Copywriting Course": 3189353,
+    "Product Marketing": 341556,
+    "Rohan - Copy Launchpad": 15718
+  },
+  "themes": {
+    "frameworks": {
+      "pool": 725,
+      "selected": 90
+    },
+    "psychology": {
+      "pool": 621,
+      "selected": 90
+    },
+    "headlines": {
+      "pool": 423,
+      "selected": 90
+    },
+    "sales_pages": {
+      "pool": 771,
+      "selected": 90
+    },
+    "emails": {
+      "pool": 1294,
+      "selected": 90
+    },
+    "offers": {
+      "pool": 728,
+      "selected": 90
+    },
+    "voice": {
+      "pool": 736,
+      "selected": 90
+    },
+    "ai_workflow": {
+      "pool": 317,
+      "selected": 90
+    },
+    "examples": {
+      "pool": 1713,
+      "selected": 90
+    },
+    "client_work": {
+      "pool": 1310,
+      "selected": 90
+    },
+    "positioning": {
+      "pool": 496,
+      "selected": 90
+    },
+    "research": {
+      "pool": 436,
+      "selected": 90
+    }
+  },
+  "outputs": {
+    "digests": "E:\\Copywriting\\.linkedin-lab-data\\mining\\digests",
+    "jsonl": "E:\\Copywriting\\.linkedin-lab-data\\mining\\mined.jsonl"
+  }
+}

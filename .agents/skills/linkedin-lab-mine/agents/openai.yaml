@@ -1,0 +1,7 @@
+interface:
+  display_name: "LinkedIn Lab Mine"
+  short_description: "OCR, ingest, and refresh copywriting sources"
+  default_prompt: "Use $linkedin-lab-mine to OCR or ingest sources, then refresh and validate the linkedin-lab library."
+
+policy:
+  allow_implicit_invocation: true

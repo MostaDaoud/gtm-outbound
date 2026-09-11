@@ -1,0 +1,7 @@
+interface:
+  display_name: "LinkedIn Lab"
+  short_description: "Route multi-step copywriting work"
+  default_prompt: "Use $linkedin-lab to route this multi-step copywriting request."
+
+policy:
+  allow_implicit_invocation: false

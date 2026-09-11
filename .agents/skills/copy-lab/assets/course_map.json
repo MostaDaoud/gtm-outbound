@@ -1,0 +1,26 @@
+{
+  "_comment": "Maps top-level source folders to logical course names for manifest.csv. Applied at manifest-build time only — no video or transcript files are moved. Folders not listed here keep their own name as the course. The original folder is preserved in the 'module' column.",
+
+  "03-Digital Psychology  Persuasion Minidegree": "Digital Psychology & Persuasion",
+  "16-Attention Basics": "Digital Psychology & Persuasion",
+  "17-Building Habits and Loyalty": "Digital Psychology & Persuasion",
+  "18-Cognitive Biases": "Digital Psychology & Persuasion",
+  "19-Decision Making": "Digital Psychology & Persuasion",
+  "20-Building Trust": "Digital Psychology & Persuasion",
+  "21-Nonconscious Motivation": "Digital Psychology & Persuasion",
+  "23-Psychological Backfiring": "Digital Psychology & Persuasion",
+
+  "11-Brand Strategy": "Branding & Brand Strategy",
+  "14-Branding": "Branding & Brand Strategy",
+
+  "01-Content Marketing Research": "Product Marketing",
+  "04-Positioning  Company Storytelling": "Product Marketing",
+  "06-Messaging": "Product Marketing",
+  "07-Segmentation and Persona Research": "Product Marketing",
+  "08-Storytelling": "Product Marketing",
+  "10-Sales and Customer Success Enablement": "Product Marketing",
+  "11-Competitive Intel  Market Research": "Product Marketing",
+  "12-Positioning": "Product Marketing",
+  "13-Radical Differentiation": "Product Marketing",
+  "15-Analyst Relations": "Product Marketing"
+}

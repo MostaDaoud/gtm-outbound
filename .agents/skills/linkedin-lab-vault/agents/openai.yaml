@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Lab Vault"
+  short_description: "Build and refresh LinkedIn Lab's Obsidian workspace"
+  default_prompt: "Use $linkedin-lab-vault to build or refresh the LinkedIn Lab Obsidian vault and validate it."

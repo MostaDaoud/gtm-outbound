@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copy Lab Vault"
+  short_description: "Build and refresh Copy Lab's Obsidian workspace"
+  default_prompt: "Use $copy-lab-vault to build or refresh the Copy Lab Obsidian vault and validate it."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy Lab"
+  short_description: "Route multi-step copywriting work"
+  default_prompt: "Use $copy-lab to route this multi-step copywriting request."
+
+policy:
+  allow_implicit_invocation: false

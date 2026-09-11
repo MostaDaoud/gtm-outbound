@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformational Landing Page Template (CDCA Architecture)</title>
+  <style>
+    :root {
+      --bg-primary: #0a0c10;
+      --bg-surface: #141720;
+      --bg-surface-alt: #1c212d;
+      --text-main: #f0f3f8;
+      --text-muted: #94a3b8;
+      --accent-pop: #ff385c;
+      --accent-pop-hover: #e02447;
+      --accent-gold: #f59e0b;
+      --accent-blue: #3b82f6;
+      --border-subtle: #2d3748;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .divider {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--border-subtle);
+      position: relative;
+    }
+
+    /* TYPOGRAPHY */
+    .primer {
+      font-size: 1.15rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    h1.hero-headline {
+      font-size: 3.6rem;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .hero-subhead {
+      font-size: 1.45rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      font-weight: 400;
+      max-width: 680px;
+    }
+
+    .hero-body {
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      margin-bottom: 36px;
+      max-width: 640px;
+    }
+
+    /* BUTTONS */
+    .cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .btn-pop {
+      display: inline-block;
+      background-color: var(--accent-pop);
+      color: #ffffff;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 18px 36px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 10px 25px rgba(255, 56, 92, 0.4);
+      transition: transform 0.15s ease, background-color 0.15s ease;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+    }
+    .btn-pop:hover {
+      background-color: var(--accent-pop-hover);
+      transform: translateY(-2px);
+    }
+
+    .cta-urgency {
+      font-size: 0.95rem;
+      color: #f87171;
+      font-weight: 600;
+    }
+
+    .downsell-link {
+      color: var(--text-muted);
+      font-size: 1rem;
+      text-decoration: underline;
+      transition: color 0.15s ease;
+      margin-top: 4px;
+    }
+    .downsell-link:hover { color: #ffffff; }
+
+    /* HERO GRID */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-art-box {
+      background: linear-gradient(145deg, var(--bg-surface), var(--bg-surface-alt));
+      border: 2px dashed var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .badge-flash {
+      position: absolute;
+      top: -16px;
+      right: -16px;
+      background: #ef4444;
+      color: white;
+      font-weight: 800;
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(239, 68, 68, 0.6);
+      text-transform: uppercase;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+
+    /* STATS & LOGOS */
+    .stat-hero {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .logo-row {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin: 32px 0;
+      opacity: 0.7;
+    }
+    .logo-item {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+    }
+
+    .guarantee-card {
+      background: var(--bg-surface);
+      border-left: 4px solid var(--accent-gold);
+      padding: 24px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+    }
+
+    /* FORMS */
+    .form-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 36px;
+      max-width: 480px;
+    }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 0.9rem; margin-bottom: 6px; color: var(--text-muted); }
+    .form-group input {
+      width: 100%;
+      padding: 14px;
+      background: var(--bg-surface-alt);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      color: #ffffff;
+      font-size: 1rem;
+    }
+
+    /* TESTIMONIALS */
+    .whale-card {
+      background: var(--bg-surface);
+      border: 1px solid #334155;
+      border-radius: var(--radius-md);
+      padding: 36px;
+      margin: 32px 0;
+      font-style: italic;
+    }
+    .whale-quote { font-size: 1.4rem; color: #f1f5f9; margin-bottom: 16px; }
+    .whale-author { font-style: normal; font-weight: 700; color: var(--accent-gold); font-size: 1.1rem; }
+
+    .school-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 32px 0;
+    }
+    .school-card {
+      background: var(--bg-surface-alt);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 20px;
+      font-size: 0.95rem;
+    }
+
+    /* FASCINATION CHECKERBOARD */
+    .fascination-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin: 40px 0;
+    }
+    .fascination-item {
+      padding: 24px;
+      border-radius: var(--radius-sm);
+      font-size: 1.05rem;
+      border: 1px solid var(--border-subtle);
+    }
+    .fascination-item:nth-child(even) {
+      background: var(--bg-surface-alt);
+    }
+    .fascination-item:nth-child(odd) {
+      background: var(--bg-surface);
+    }
+    .fascination-bullet {
+      color: var(--accent-gold);
+      font-weight: 700;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 840px) {
+      h1.hero-headline { font-size: 2.5rem; }
+      .hero-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- DIVIDER 1: THE HERO (Clarity & Action) -->
+  <section class="divider" id="divider-1">
+    <div class="container">
+      <div style="font-weight: 800; letter-spacing: 2px; margin-bottom: 32px; color: #64748b;">[YOUR LOGO]</div>
+      <div class="hero-grid">
+        <div>
+          <div class="primer">[Clarity] Primer Copy Ends In Colon:</div>
+          <h1 class="hero-headline">[Clarity] Eugene Schwartz Clean Window Headline</h1>
+          <p class="hero-subhead">[Clarity] Future Pacing: Stop feeling like an imposter. Start thinking, writing, and selling like an expert.</p>
+          <p class="hero-body">[Clarity] This concise, proven resource will teach you how to fulfill this exact promise without unnecessary effort or frustration.</p>
+          
+          <div class="cta-group">
+            <a href="#divider-3" class="btn-pop">BUY NOW → SAVE 50%</a>
+            <span class="cta-urgency">Don't delay. Flash sale ends tomorrow.</span>
+            <a href="#downsell" class="downsell-link">Read Chapter 1 → Free (Instant Download)</a>
+          </div>
+        </div>
+
+        <div class="hero-art-box">
+          <div class="badge-flash">50% OFF FLASH SALE</div>
+          <div style="font-size: 4rem; margin-bottom: 12px;">📘</div>
+          <h3 style="color: #ffffff; margin-bottom: 8px;">[Product / Book Visual]</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Concrete proof of format and deliverable</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER 2: PROOF & RISK-REVERSAL (Credibility & Action) -->
+  <section class="divider" id="divider-2" style="background: #0d1017;">
+    <div class="container">
+      <div class="stat-hero">[Credibility] Over 8 Million Copies Sold</div>
+      <p style="color: var(--text-muted); max-width: 720px; font-size: 1.15rem;">
+        Gary Bencivenga's rule: Show proof first. 100 years after publication, this material remains required reading across thousands of industry-leading companies, including:
+      </p>
+      
+      <div class="logo-row">
+        <div class="logo-item">COMPANY A</div>
+        <div class="logo-item">COMPANY B</div>
+        <div class="logo-item">COMPANY C</div>
+        <div class="logo-item">COMPANY D</div>
+      </div>
+
+      <div class="guarantee-card">
+        <h4 style="color: #ffffff; margin-bottom: 6px;">[Credibility] 100% Unconditional Money-Back Guarantee</h4>
+        <p style="color: var(--text-muted);">
+          "You don't have to believe me because I believe in myself. If you don't love this resource for any reason, simply return it for a full, prompt, and courteous refund."
+        </p>
+      </div>
+
+      <a href="#divider-3" class="btn-pop">CLAIM 50% OFF TODAY →</a>
+    </div>
+  </section>
+
+  <!-- DIVIDER 3: FAST-ACTION CONVERSION (Action & Credibility) -->
+  <section class="divider" id="divider-3">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 48px; align-items: start;">
+        <div class="form-card">
+          <h3 style="color: #ffffff; margin-bottom: 8px;">[Action] Frictionless 3-Field Checkout</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px;">Instant digital delivery + 30-Day Guarantee</p>
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label>Payment Information</label>
+            <input type="text" placeholder="Card number •••• 4242">
+          </div>
+          <button class="btn-pop" style="width: 100%; margin-top: 12px;">COMPLETE ORDER ($49) →</button>
+          <div style="text-align: center; margin-top: 12px; font-size: 0.85rem; color: var(--text-muted);">🔒 Secure 256-Bit Encrypted Checkout</div>
+        </div>
+
+        <div>
+          <div class="whale-card">
+            <div class="whale-quote">"[Credibility] Whale Testimonial #1: Nobody should be allowed to have anything to do with advertising until he has read this book seven times."</div>
+            <div class="whale-author">— David Ogilvy, Founder of Ogilvy & Mather</div>
+          </div>
+
+          <div class="school-card">
+            <p>"[Credibility] School Testimonial #1: Transformed my copywriting within 48 hours. The fascination framework alone paid for my entire investment."</p>
+            <div style="color: var(--accent-gold); margin-top: 8px; font-size: 0.85rem;">★★★★★ — Sarah K., SaaS Copywriter</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER 4: THE FASCINATION WALL (Desire & Action) -->
+  <section class="divider" id="divider-4" style="background: #0d1017;">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin: 0 auto;">
+        <h2 style="font-size: 2.6rem; color: #ffffff; margin-bottom: 12px;">[Desire] The Fascination Wall</h2>
+        <p style="color: var(--text-muted); font-size: 1.2rem;">
+          1 resource. 53 pages. Hundreds of profound takeaways. Here is a small sample of what you'll discover inside:
+        </p>
+      </div>
+
+      <div class="fascination-grid">
+        <div class="fascination-item">
+          <span class="fascination-bullet">#1 Mechanism:</span> The simple "pinch test" that instantly reveals your real conversion bottlenecks with pinpoint accuracy.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#2 Statement+Benefit:</span> Most landing pages fail on Divider 1. But did you know adding a single punctuation mark increases read-through by 34%?
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#3 What:</span> What you must do immediately before launching traffic to guarantee transitional congruence.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#4 What Never:</span> What never to say on a CTA button—and why this one word kills impulse conversions.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#5 Right? Wrong:</span> Clever headlines win awards, right? Wrong! Direct-response copy must be like clean windows.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#6 Why:</span> Why "transactional" words trigger purchase anxiety—and the 3 painless replacements that keep desire soaring.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#7 When:</span> When a "school" of testimonials outperforms a celebrity endorsement by 3 to 1.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#8 Question:</span> Crisis of confidence when quoting fees? The 3-word mindset shift that commands authority.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#9 If, Then:</span> If you are currently feeling like an imposter, discover the single interview method that unlocks genuine emotional resonance.
+        </div>
+        <div class="fascination-item">
+          <span class="fascination-bullet">#10 Easiest:</span> The quickest, easiest way to double your conversion rate by testing big differences rather than button colors.
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="#divider-3" class="btn-pop">DISCOVER ALL SECRETS NOW →</a>
+        <div class="cta-urgency" style="margin-top: 8px;">Flash discount ends tomorrow. Don't wait.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER 5: MID-FUNNEL PROOF (Credibility & Action) -->
+  <section class="divider" id="divider-5">
+    <div class="container">
+      <div class="whale-card">
+        <div class="whale-quote">"[Credibility] Whale Testimonial #2: Claude Hopkins' principles took my career from zero to hundreds of millions in sales. Eddie's breakdown is the cleanest translation on Earth."</div>
+        <div class="whale-author">— Jay Abraham, Master Direct Marketer</div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="#divider-3" class="btn-pop">GET THE TRANSFORMATIONAL BLUEPRINT →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER 6: MASSIVE SOCIAL PROOF WALL (Credibility & Action) -->
+  <section class="divider" id="divider-6" style="background: #0d1017;">
+    <div class="container">
+      <h2 style="font-size: 2.2rem; color: #ffffff; text-align: center; margin-bottom: 12px;">
+        [Credibility] What Practitioners Are Saying
+      </h2>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 32px;">
+        Length Implies Strength Heuristic: All of these people can't be wrong.
+      </p>
+
+      <div class="school-grid">
+        <div class="school-card">"I beat our SaaS control by 142% on our very first test."<br><b style="color: #ffffff;">— Alex M.</b></div>
+        <div class="school-card">"The 18 fascination filters alone are worth 10x the price."<br><b style="color: #ffffff;">— Dave R.</b></div>
+        <div class="school-card">"The Clean Window headline concept solved our messaging disputes instantly."<br><b style="color: #ffffff;">— Linda T.</b></div>
+        <div class="school-card">"Finally, a landing page framework backed by direct response psychology."<br><b style="color: #ffffff;">— Marcus P.</b></div>
+        <div class="school-card">"Doubled our webinar registrations with Divider 1 adjustments."<br><b style="color: #ffffff;">— Elena B.</b></div>
+        <div class="school-card">"The Person sans 'a' interview method gave us quotes that wrote our entire page."<br><b style="color: #ffffff;">— Tom H.</b></div>
+      </div>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="#divider-3" class="btn-pop">JOIN 14,000+ MARKETERS TODAY →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER 7: FINAL CONVERSION & RE-ASSURANCE (Action & Credibility) -->
+  <section class="divider" id="divider-7">
+    <div class="container" style="text-align: center;">
+      <h2 style="font-size: 2.8rem; color: #ffffff; margin-bottom: 16px;">
+        [Action] Claim Your Copy Before The Flash Sale Ends
+      </h2>
+      <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto 36px auto;">
+        You have nothing to lose. Every purchase is backed by our full, prompt, and courteous 30-day money-back guarantee.
+      </p>
+
+      <div style="margin: 0 auto; max-width: 480px; text-align: left;">
+        <div class="form-card">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="john@example.com">
+          </div>
+          <button class="btn-pop" style="width: 100%; margin-top: 8px;">GET INSTANT ACCESS ($49) →</button>
+          <div class="cta-urgency" style="text-align: center; margin-top: 8px;">Offer strictly expires at midnight.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

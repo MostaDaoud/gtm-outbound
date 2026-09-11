@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy Lab Swipe"
+  short_description: "Find cited passages in the course corpus"
+  default_prompt: "Use $copy-lab-swipe to find and explain cited passages about this topic."
+
+policy:
+  allow_implicit_invocation: true

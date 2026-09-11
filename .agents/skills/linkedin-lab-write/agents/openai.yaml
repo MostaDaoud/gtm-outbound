@@ -1,0 +1,7 @@
+interface:
+  display_name: "LinkedIn Lab Write"
+  short_description: "Write grounded direct-response copy"
+  default_prompt: "Use $linkedin-lab-write to draft grounded direct-response copy for this brief."
+
+policy:
+  allow_implicit_invocation: true
