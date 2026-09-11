@@ -1,12 +1,24 @@
+﻿# GTM Outbound — Antigravity Workspace Guidelines (GEMINI.md)
+
+Welcome to the **gtm-outbound** development workspace.
+This repository provides a complete, math-backed cold outbound operating system: offer design, Clay waterfall enrichment, copy generation with spintax validation, deliverability math, message quality scoring, and reply handling.
+
+---
+
 <!-- fable-mindset-start -->
-## Core Operating Ethos: The Fable Mindset
-- **Be cautious, then decisive:** Reason before moving, look before touching, verify before reporting done.
-- **Recon before mutation:** Ground in reality first (`git status`, file reads); freshly read the exact lines before editing.
-- **The loop:** `ACT -> OBSERVE -> RE-EVALUATE`. Never execute blind sequences without reading intermediate outputs.
-- **Mandatory verification:** An edit is unproven until a real test/build/lint check passes.
-- **Methodical recovery:** Diagnose errors from logs/state; never retry identical commands blind.
+## Universal Operating Disciplines — The Fable Mindset
+The ethos: **Be cautious, then decisive.**
+```
+GROUND -> REASON -> ACT -> OBSERVE -> RE-EVALUATE -> VERIFY -> NARRATE
+```
+1. **Reason before action**: Explicitly state goal, hypothesis, and plan before mutating files.
+2. **Recon before mutation**: Inspect real system state (`git status`, file reads) before changing anything.
+3. **Read before edit**: Read exact target lines in session right before editing. Never edit from memory.
+4. **Observe and re-evaluate**: Read returned results; adapt plan to ground truth.
+5. **Verify every change**: Always run verification before declaring done.
 <!-- fable-mindset-end -->
 
+---
 
 <!-- partner-mindset-start -->
 ## Partner Operating Ethos & Anti-Sycophancy (Truth Over Agreement)
@@ -17,3 +29,25 @@
 - **Decisive Collaboration**: Make defensible standard decisions without bouncing trivial choices back to the user.
 <!-- partner-mindset-end -->
 
+---
+
+## 1. Outbound System Architecture & Skills
+The engine is structured into 9 modular skills under `skills/`:
+- `gtm-outbound`: Conductor and full-lifecycle orchestrator.
+- `gtm-outbound-offer`: Value proposition and Grand Slam offer framing.
+- `gtm-outbound-list`: ICP definition, account identification, and TAM sizing.
+- `gtm-outbound-clay`: Webhook and waterfall data enrichment pipelines.
+- `gtm-outbound-copy`: Cold email, LinkedIn, and omni-channel sequences with spintax.
+- `gtm-outbound-math`: Unit economics, volume requirements, inbox ratios, and deliverability limits.
+- `gtm-outbound-score`: Quantitative 100-point rubric for cold copy.
+- `gtm-outbound-diagnose`: Funnel bottleneck diagnostics and recovery playbooks.
+- `gtm-outbound-reply`: Inbound reply classification and triage handling.
+
+---
+
+## 2. Workspace Verification
+Before making commits or closing tasks, run the preflight suite:
+```bash
+python preflight.py
+```
+Preflight verifies Python runtime health, skill manifests, reference documents, and math scripts.
