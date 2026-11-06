@@ -5,7 +5,7 @@
 hard rule that the skill never sends anything itself.
 
 <p align="center">
-  <img src="_charts/gtm-outbound-logic.svg" alt="Campaign logic: intake → offer → list and clay → copy → score → hand over → diagnose and reply, with artifacts passed between stages" width="640">
+  <img src="_charts/gtm-outbound-logic.svg" alt="Campaign logic: intake → offer → list and clay → copy → score → infra → hand over → diagnose, reply and ops, with signals feeding the list stage and artifacts passed between stages" width="640">
 </p>
 
 Every box writes a file the next box validates against: `offer` writes `icp.json`,
@@ -35,7 +35,7 @@ Talk to it like a colleague. Three entry points cover everything:
 | Just want a number (list size, CAC, sample size) | `/gtm-outbound math` |
 
 <p align="center">
-  <img src="_charts/gtm-outbound-levels.svg" alt="Package levels: evals at the top, one always-loaded orchestrator, eight sub-skills loaded on route, and on-demand references, scripts, templates, and one agent" width="640">
+  <img src="_charts/gtm-outbound-levels.svg" alt="Package levels: evals at the top, one always-loaded orchestrator, eleven sub-skills loaded on route, and on-demand references, scripts, templates, and one agent" width="640">
 </p>
 
 The full chain — `/gtm-outbound full` — runs `offer → list → copy` in order and scores

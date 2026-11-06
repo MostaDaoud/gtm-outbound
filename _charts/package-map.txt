@@ -1,22 +1,36 @@
 gtm-outbound/                         ★  ORCHESTRATOR — the only file always in context
 │
-├── SKILL.md                          285 ─ routing table · artifact chain · 6 hard gates
+├── SKILL.md                          320 ─ routing table · artifact chain · hard gates
                                             motion-fit and geography intake · NEVER-SENDS
 │
 ├── agents/
 │   └── gtm-outbound-researcher.md    135 ─ the one parallel step · can return SUPPRESS
 │
-├── references/                     3,714 ─ 21 files, loaded on demand only
+├── references/                     24,358 ─ 115 files, loaded on demand only
 │   │
-│   │  ╭─ STRATEGY ────────────────   582 ─╮
+│   │  ╭─ STRATEGY ──────────────── 1,402 ─╮
 │   ├── value-equation.md             151 ─ 4-lever rubric · weakest-lever diagnosis · UVP form
 │   ├── icp-filters.md                133 ─ filter taxonomy · exclusions · 3 hard rules
 │   ├── signals-and-triggers.md       190 ─ signal to source map · decay windows
-│   └── buying-committee.md           108 ─ DMU roles · staggered threading above ~30 staff
+│   ├── buying-committee.md           108 ─ DMU roles · staggered threading above ~30 staff
+│   ├── compliance-gates.md            70 ─ jurisdiction to consent model to required artifacts
+│   ├── icp-intake.md                 164 ─ long-form interview · when the ICP has no words yet
+│   ├── campaign-ideas.md             422 ─ 15-25 angles · raw material, not a substitute for narrowing
+│   └── lead-magnets.md               164 ─ free hook selection · what to give away
 │   │
-│   │  ╭─ SOURCING AND ENRICHMENT ─   351 ─╮
+│   │  ╭─ SOURCING AND ENRICHMENT ─ 3,158 ─╮
 │   ├── sourcing-channels.md          138 ─ channel table · trigger sources beat directories
-│   └── waterfall-enrichment.md       213 ─ cheap-first order · gating · verification
+│   ├── waterfall-enrichment.md       275 ─ cheap-first order · gating · verification
+│   ├── list-lanes.md                 281 ─ one-command lanes · snowball until the market is dry
+│   ├── list-expansion.md             170 ─ ~10 seeds to a qualified TAM · fingerprint to verify
+│   ├── list-sculpt.md                157 ─ SCULPT · learn the customer's own labels
+│   ├── list-ai-qualification.md      208 ─ AI qualification prompt · tune before contact pull
+│   ├── list-qa.md                    178 ─ 8 dimensions · grade before upload
+│   ├── sourcing-blitz.md             173 ─ domain to contacts
+│   ├── sourcing-google-maps.md       770 ─ local SMB lists · category x place
+│   ├── sourcing-discolike.md         155 ─ lookalikes from seed domains
+│   ├── sourcing-competitor-engagers.md  105 ─ who engages with competitor posts
+│   └── sourcing-prospeo-export.md    548 ─ paginated people export
 │   │
 │   │  ╭─ CLAY TABLE CONSTRUCTION ─   837 ─╮
 │   ├── clay-frameworks.md            180 ─ FETE · Jigsaw · SPICE prompt structure
@@ -25,47 +39,109 @@ gtm-outbound/                         ★  ORCHESTRATOR — the only file always
 │   ├── clay-recovery.md              148 ─ corner piece won't resolve · empty enrichment
 │   └── clay-tables.md                162 ─ write-to-table · lookup · HTTP API · export
 │   │
-│   │  ╭─ EXECUTION ─────────────── 1,407 ─╮
-│   ├── copy-frameworks.md            466 ─ 5 blocks · 5 structures · spintax rules
+│   │  ╭─ EXECUTION ─────────────── 3,685 ─╮
+│   ├── copy-frameworks.md            533 ─ 5 blocks · 5 structures · spintax rules
+│   ├── copy-stepwise.md              914 ─ direction to subject to body to YAML · confirm each step
+│   ├── copy-spintax.md               171 ─ Smartlead spintax · variation budgets
+│   ├── spam-rules.md                 162 ─ phrases that trip filters · scan before send
 │   ├── personalization-depth.md      177 ─ fact/inference/hypothesis · appropriateness line
+│   ├── personalization-subagent.md   278 ─ per-lead fan-out · approval loop
 │   ├── cta-design.md                 165 ─ motivation x ability x prompt
-│   ├── cold-call.md                  106 ─ 4-move opener · phone as a second signal
-│   ├── deliverability.md             386 ─ warmup ladder · SPF/DKIM/DMARC · bulk-sender rules
-│   └── objection-library.md          107 ─ recurring objections · understand before countering
+│   ├── cold-call.md                  145 ─ 4-move opener · phone as a second signal
+│   ├── linkedin-playbook.md          121 ─ connection notes · sequencing · reply handling
+│   ├── multichannel-orchestration.md  182 ─ video · WhatsApp · phone · conditional branches
+│   ├── deliverability.md             481 ─ warmup ladder · SPF/DKIM/DMARC · bulk-sender rules
+│   ├── suppression-mechanics.md       78 ─ global suppression · cross-domain removal
+│   ├── upload-smartlead.md           115 ─ DRAFT upload · human presses start
+│   └── objection-library.md          163 ─ recurring objections · understand before countering
 │   │
-│   │  ╭─ MEASUREMENT AND MARKET ──   537 ─╮
-│   ├── gtm-benchmarks.md             171 ─ email + LinkedIn bands · what not to optimise
+│   │  ╭─ MEASUREMENT AND MARKET ── 1,034 ─╮
+│   ├── gtm-benchmarks.md             257 ─ email + LinkedIn bands · what not to optimise
 │   ├── gtm-math.md                    84 ─ formulas mirroring the calculator
-│   ├── gcc-market.md                 187 ─ ★ MENA: coverage gap · Sun-Thu · Ramadan · Zid/Salla
+│   ├── experiments.md                245 ─ single-variable design · avoid confounded arms
+│   ├── ai-sdr-positioning.md         120 ─ what to automate · where AI SDR stops paying
+│   ├── gcc-market.md                 233 ─ ★ MENA: coverage gap · Sun-Thu · Ramadan · Zid/Salla
 │   └── mcp-integration.md             95 ─ live-data seam · read-only boundary
+│   │
+│   │  ╭─ INFRASTRUCTURE ────────── 1,669 ─╮
+│   ├── infra/domains.md              464 ─ domain generation · purchase · nameservers
+│   ├── infra/inbox-warmup.md         266 ─ warmup ramps · signatures · tagging
+│   ├── infra/deliverability-audit.md  281 ─ SPF/DKIM/DMARC · placement · bounce mix
+│   ├── infra/deliverability-incident.md  283 ─ failure-mode triage tree
+│   └── infra/inbox-lifecycle.md      375 ─ keep/cancel/promote/buy · replacement lead time
+│   │
+│   │  ╭─ OPERATIONS ──────────────   502 ─╮
+│   ├── ops/weekly-rhythm.md          213 ─ Mon/Wed/Fri · fixed order so drift is visible
+│   ├── ops/reply-scoring.md          199 ─ positive replies / sends · the one metric
+│   └── ops/deliverability-testing.md   90 ─ compare reply and bounce by inbox type
+│   │
+│   │  ╭─ APIS ────────────────────   542 ─╮
+│   ├── api/smartlead.md              209 ─ campaigns · leads · inboxes · analytics endpoints
+│   └── api/prospeo.md                333 ─ Search Person filters · pagination
+│   │
+│   │  ╭─ SIGNAL PLAYBOOKS ──────── 5,367 ─╮
+│   ├── signals/index.md              148 ─ playbook index · the two build harnesses
+│   ├── signals/new-in-role.md        352 ─ start date · title change · rebuild window
+│   ├── signals/linkedin-engagement.md  111 ─ likers and commenters on a source account
+│   ├── signals/social-posts.md       137 ─ hook from their own most recent post
+│   ├── signals/warm-intros.md        173 ─ one hop from the client · say so
+│   ├── signals/fundraising.md        271 ─ round, date, investor · buying window
+│   ├── signals/hiring-surge.md       359 ─ department headcount growth in 6 months
+│   ├── signals/job-posting-language.md  326 ─ a clause from a live role
+│   ├── signals/ad-library.md         349 ─ what they run on Meta right now
+│   ├── signals/pricing-page.md       314 ─ public tiers · price points · feature edges
+│   ├── signals/case-study-page.md    309 ─ one named customer off their own page
+│   ├── signals/tech-on-website.md    249 ─ named tech verified on the live site
+│   ├── signals/google-site-search.md  365 ─ does their site mention this keyword
+│   ├── signals/company-name-cleaning.md  364 ─ the short form a person says aloud
+│   ├── signals/first-name-cleaning.md  404 ─ the greeting form, not the raw field
+│   ├── signals/social-link-finding.md  210 ─ verified official profile URLs
+│   ├── signals/lookalikes.md         263 ─ case study to companies that see themselves
+│   ├── signals/name-to-other-prospects.md  199 ─ right-fit colleague · no wrong-name risk
+│   ├── signals/ai-specificity.md     298 ─ the sentence that makes a generic offer specific
+│   └── signals/creative-ideas.md     166 ─ three per-company bullets for a slot
+│   │
+│   │  ╭─ SIGNAL BUILDS (AGGREGATED)  6,162 ─╮
+│   ├── signals/clay-table-harness.md  197 ─ shared harness for every clay table build
+│   ├── signals/clay-cli-harness.md   230 ─ shared harness for every CLI workflow build
+│   ├── signals/19.clay-table.md    2,275 ─ Clay table build · columns · credit gates
+│   └── signals/19.clay-workflow.md 3,460 ─ Clay CLI workflow build
 │
-├── scripts/                        3,300 ─ run these, never reason about their output
-│   ├── diagnose_campaign.py          719 ─ layer-ordered · email + LinkedIn · do-not-yet list
+├── scripts/                        3,315 ─ run these, never reason about their output
+│   ├── diagnose_campaign.py          729 ─ layer-ordered · email + LinkedIn · do-not-yet list
 │   ├── validate_spintax.py           702 ─ 2 dialects · worst-case word count · tag to schema
-│   ├── gtm_math.py                   539 ─ size (fwd/back) · economics · ab · ab-eval
-│   ├── clay_taxonomy.py              478 ─ generate/validate/vars · ordering + gating rules
+│   ├── gtm_math.py                   540 ─ size (fwd/back) · economics · ab · ab-eval
+│   ├── clay_taxonomy.py              482 ─ generate/validate/vars · ordering + gating rules
 │   ├── score_message.py              640 ─ banned openers · hedging · CTA friction · specificity
 │   └── reply_classify.py             222 ─ deterministic triage · owns the opt-out call
 │
-└── assets/templates/                 868 ─ 8 files, fill rather than invent a shape
+├── optional/                       9,731 ─ 62 TypeScript files — OUTSIDE the zero-dependency core
+│   ├── README.md                      62 ─ what breaks if you move this into the core
+│   └── scripts/<skill>/*.ts        9,731 ─ need Node 18+, tsx and API keys · not covered by preflight
+│
+└── assets/templates/               1,059 ─ 9 files, fill rather than invent a shape
     ├── sequence.md                   184 ─ both CTA arms · spintax inline · validator output
     ├── campaign-score.md             114 ─ verdict · hard gates first · ranked fix list
     ├── clay-build.md                 108 ─ ordered columns · cost class · run condition
     ├── reply-triage.md               104 ─ counts by type · suppression list · patterns
+    ├── reply-drafts.md               191 ─ draft per reply class · never sends
     ├── list-spec.md                   95 ─ channels · pipeline · credit logic · attrition
     ├── diagnosis.md                   95 ─ verdict and layer first · evidence · next action
     ├── campaign-brief.md              86 ─ assembled by a full run
     └── icp-blueprint.md               82 ─ sub-niche · filters · UVP variants
 
-gtm-outbound-*/                     1,312 ─ SIBLING SKILLS — one loads per route
-├── gtm-outbound-offer/               182 ─ value equation · sub-niche · filters · UVP
-├── gtm-outbound-list/                151 ─ channels · provider routing · verification
-├── gtm-outbound-clay/                123 ─ column order · credit class · prompts
-├── gtm-outbound-copy/                201 ─ poke the bear · spintax · smartlead config
-├── gtm-outbound-math/                117 ─ sizing · unit economics · A/B significance
-├── gtm-outbound-score/               170 ─ 100-point gate — has it NOT sent yet
-├── gtm-outbound-diagnose/            153 ─ layer routing — has it ALREADY sent
-└── gtm-outbound-reply/               215 ─ classification · objections · booking · handoff
+gtm-outbound-*/                     1,962 ─ SIBLING SKILLS — one loads per route
+├── gtm-outbound-offer/               220 ─ value equation · sub-niche · filters · UVP
+├── gtm-outbound-list/                214 ─ channels · provider routing · verification
+├── gtm-outbound-clay/                137 ─ column order · credit class · prompts
+├── gtm-outbound-copy/                258 ─ poke the bear · spintax · smartlead config
+├── gtm-outbound-math/                144 ─ sizing · unit economics · A/B significance
+├── gtm-outbound-score/               186 ─ 100-point gate — has it NOT sent yet
+├── gtm-outbound-diagnose/            186 ─ layer routing — has it ALREADY sent
+├── gtm-outbound-reply/               238 ─ classification · objections · booking · handoff
+├── gtm-outbound-infra/               126 ─ domains · warmup · auth · incidents · fleet lifecycle
+├── gtm-outbound-signals/             140 ─ 19 signal playbooks · one line each
+└── gtm-outbound-ops/                 113 ─ weekly rhythm · reply scoring · inbox-type tests
 
 ────────────────────────────────────────────────────────────────────────────────────────────
-9 skills · 1 agent · 21 references · 6 scripts · 8 templates · 9,614 lines
+12 skills · 1 agent · 115 references · 6 scripts · 9 templates · 31,149 lines

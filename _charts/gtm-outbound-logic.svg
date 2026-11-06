@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="684" viewBox="0 0 680 684" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="780" viewBox="0 0 680 780" role="img">
 <title>gtm-outbound campaign logic</title>
-<desc>A vertical flow from intake through the offer, list and copy build stages, each writing an artifact the next reads, into the score gate, then hand over, then the post-launch diagnose and reply stages which feed back into offer.</desc>
+<desc>A vertical flow from intake through the offer, list and clay, and copy build stages, each writing an artifact the next reads, with signals supplying the personalization fields the list produces, into the score gate, then infrastructure provisioning, then hand over, then the post-launch diagnose, reply and ops stages which feed back into offer.</desc>
 <style>
 text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 .th{font-size:14px;font-weight:600}
@@ -17,7 +17,7 @@ text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 .ct{fill:#4A1B0C}.cs{fill:#993C1D}
 </style>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-<rect x="0" y="0" width="680" height="684" fill="#FFFFFF"/>
+<rect x="0" y="0" width="680" height="780" fill="#FFFFFF"/>
 
 <rect class="tr" x="84" y="48" width="270" height="48" rx="4"/><text class="th tt" x="219" y="65" text-anchor="middle" dominant-baseline="central">intake</text><text class="ts tsx" x="219" y="81" text-anchor="middle" dominant-baseline="central">motion fit, then geography</text>
 <rect class="gr" x="420" y="48" width="200" height="48" rx="4"/><text class="th gt" x="520" y="65" text-anchor="middle" dominant-baseline="central">wrong motion</text><text class="ts gs" x="520" y="81" text-anchor="middle" dominant-baseline="central">say so before the list</text>
@@ -29,6 +29,8 @@ text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 <line class="arr" x1="219" y1="196" x2="219" y2="228" marker-end="url(#arrow)"/>
 
 <rect class="pr" x="84" y="232" width="270" height="56" rx="4"/><text class="th pt" x="219" y="252" text-anchor="middle" dominant-baseline="central">list and clay</text><text class="ts ps" x="219" y="270" text-anchor="middle" dominant-baseline="central">writes clay-table.json</text>
+<rect class="pr" x="420" y="232" width="200" height="56" rx="4"/><text class="th pt" x="520" y="252" text-anchor="middle" dominant-baseline="central">signals</text><text class="ts ps" x="520" y="270" text-anchor="middle" dominant-baseline="central">19 playbooks to one line each</text>
+<line class="arrd" x1="420" y1="260" x2="366" y2="260" marker-end="url(#arrow)"/>
 <line class="arr" x1="219" y1="292" x2="219" y2="324" marker-end="url(#arrow)"/>
 
 <rect class="pr" x="84" y="328" width="270" height="56" rx="4"/><text class="th pt" x="219" y="348" text-anchor="middle" dominant-baseline="central">copy</text><text class="ts ps" x="219" y="366" text-anchor="middle" dominant-baseline="central">tags checked against schema</text>
@@ -37,16 +39,21 @@ text{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
 <rect class="tr" x="84" y="424" width="270" height="56" rx="4"/><text class="th tt" x="219" y="444" text-anchor="middle" dominant-baseline="central">score</text><text class="ts tsx" x="219" y="462" text-anchor="middle" dominant-baseline="central">100 points plus hard gates</text>
 <rect class="gr" x="420" y="428" width="200" height="48" rx="4"/><text class="th gt" x="520" y="445" text-anchor="middle" dominant-baseline="central">hold</text><text class="ts gs" x="520" y="461" text-anchor="middle" dominant-baseline="central">fix at owning stage</text>
 <line class="arrd" x1="358" y1="452" x2="412" y2="452" marker-end="url(#arrow)"/>
-<path class="arrd" d="M 520 480 L 520 500 L 386 500 L 386 164 L 362 164" marker-end="url(#arrow)"/>
+<path class="arrd" d="M 520 476 L 520 500 L 386 500 L 386 164 L 362 164" marker-end="url(#arrow)"/>
 
 <line class="arr" x1="219" y1="484" x2="219" y2="516" marker-end="url(#arrow)"/>
 
-<rect class="gr" x="84" y="520" width="270" height="48" rx="4"/><text class="th gt" x="219" y="537" text-anchor="middle" dominant-baseline="central">hand over</text><text class="ts gs" x="219" y="553" text-anchor="middle" dominant-baseline="central">the skill never sends</text>
+<rect class="pr" x="84" y="520" width="270" height="56" rx="4"/><text class="th pt" x="219" y="540" text-anchor="middle" dominant-baseline="central">infra</text><text class="ts ps" x="219" y="558" text-anchor="middle" dominant-baseline="central">domains warmed before any send</text>
+<line class="arr" x1="219" y1="580" x2="219" y2="612" marker-end="url(#arrow)"/>
 
-<path class="arr" d="M 219 572 L 219 588 L 146 588 L 146 600" marker-end="url(#arrow)"/>
-<path class="arr" d="M 219 588 L 291 588 L 291 600" marker-end="url(#arrow)"/>
+<rect class="gr" x="84" y="616" width="270" height="48" rx="4"/><text class="th gt" x="219" y="633" text-anchor="middle" dominant-baseline="central">hand over</text><text class="ts gs" x="219" y="649" text-anchor="middle" dominant-baseline="central">the skill never sends</text>
 
-<rect class="cr" x="84" y="608" width="125" height="56" rx="4"/><text class="th ct" x="146" y="628" text-anchor="middle" dominant-baseline="central">diagnose</text><text class="ts cs" x="146" y="646" text-anchor="middle" dominant-baseline="central">layer routing</text>
-<rect class="cr" x="229" y="608" width="125" height="56" rx="4"/><text class="th ct" x="291" y="628" text-anchor="middle" dominant-baseline="central">reply</text><text class="ts cs" x="291" y="646" text-anchor="middle" dominant-baseline="central">triage</text>
-<path class="arrd" d="M 84 636 L 52 636 L 52 164 L 76 164" marker-end="url(#arrow)"/>
+<path class="arr" d="M 219 664 L 219 680 L 146 680 L 146 700" marker-end="url(#arrow)"/>
+<path class="arr" d="M 219 680 L 291 680 L 291 700" marker-end="url(#arrow)"/>
+<path class="arr" d="M 219 680 L 436 680 L 436 700" marker-end="url(#arrow)"/>
+
+<rect class="cr" x="84" y="704" width="125" height="56" rx="4"/><text class="th ct" x="146" y="724" text-anchor="middle" dominant-baseline="central">diagnose</text><text class="ts cs" x="146" y="742" text-anchor="middle" dominant-baseline="central">layer routing</text>
+<rect class="cr" x="229" y="704" width="125" height="56" rx="4"/><text class="th ct" x="291" y="724" text-anchor="middle" dominant-baseline="central">reply</text><text class="ts cs" x="291" y="742" text-anchor="middle" dominant-baseline="central">triage</text>
+<rect class="cr" x="374" y="704" width="125" height="56" rx="4"/><text class="th ct" x="436" y="724" text-anchor="middle" dominant-baseline="central">ops</text><text class="ts cs" x="436" y="742" text-anchor="middle" dominant-baseline="central">weekly rhythm</text>
+<path class="arrd" d="M 84 732 L 52 732 L 52 164 L 76 164" marker-end="url(#arrow)"/>
 </svg>
