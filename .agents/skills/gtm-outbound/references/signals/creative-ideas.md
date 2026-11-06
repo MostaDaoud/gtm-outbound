@@ -4,6 +4,7 @@
   Author: GrowthEngineX. License: MIT. See NOTICE at the repo root.
   Adapted to gtm-outbound reference format; upstream frontmatter removed.
 -->
+
 # Playbook: 3-Bullet Creative Ideas
 
 > Best practice, not law. Override when the campaign calls for it; note the practice once and proceed.

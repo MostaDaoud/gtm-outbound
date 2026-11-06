@@ -4,6 +4,7 @@
   Author: GrowthEngineX. License: MIT. See NOTICE at the repo root.
   Adapted to gtm-outbound reference format; upstream frontmatter removed.
 -->
+
 # Playbook: Company Social Link Finding
 
 > All rules here are best practice, not law. Override any of them when the campaign calls for it; note the best practice once and move on.

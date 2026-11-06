@@ -1,29 +1,18 @@
 ---
 name: gtm-outbound
 description: >
-  Engineers B2B outbound email and LinkedIn campaigns end to end: narrows the offer to
-  a sub-niche via the Value Equation, builds Sales Navigator and Apollo filter sets,
-  specs Clay waterfall enrichment, writes sub-80-word "Poke the Bear" sequences with
-  validated spintax, and produces Smartlead deliverability, warmup, and
-  compliance-gated configurations. Scores launch readiness, diagnoses failing campaigns
-  from ESP exports, and triages replies and objections. Also models list size, inbox
-  count, CAC, payback, and A/B significance. Also builds and maintains the sending
-  infrastructure the program runs on — domain purchase, inbox provisioning, warmup ramps,
-  SPF/DKIM/DMARC, spam placement, incident triage and fleet lifecycle — turns 19 buying
-  signals into copy-ready sentences, and runs the steady-state weekly operating rhythm
-  with positive-reply scoring.
-  Use when user says "architect an outbound campaign", "GTM campaign blueprint",
-  "engineer a Clay outbound workflow", "Poke the Bear sequence", "narrow my ICP",
-  "waterfall enrichment", "spintax", "cold email sequence", "how many leads do I need",
-  "my campaign is not working", "reply rate dropped", "someone replied", "handle
-  objections", "is this campaign ready to launch", "is cold email legal", "compliance
-  for cold outreach", "suppression list", "multichannel sequence", "AI SDR",
-  "LinkedIn outreach sequence", "video prospecting", "set up domains for cold email",
-  "buy domains", "warmup settings", "is my domain burned", "I landed in spam", "bounce
-  rate is too high", "blacklisted", "spam test", "how many inboxes do I need",
-  "personalization at scale", "what do I say in email one", "new in role", "they just
-  raised", "hiring signal", "clean my company names", "lookalike list", "weekly outbound
-  routine", "positive reply rate", "should I change this yet", or "when do I scale".
+  Engineers B2B outbound campaigns end to end: narrows the offer via the Value Equation,
+  builds Sales Navigator and Apollo filters, specs Clay waterfall enrichment, writes
+  sub-80-word "Poke the Bear" sequences with validated spintax, and produces
+  compliance-gated Smartlead configs. Scores launch readiness, diagnoses failing campaigns
+  from ESP exports, triages replies, models list size, CAC, payback and A/B significance,
+  and builds sending infrastructure (domains, warmup, SPF/DKIM/DMARC, spam placement,
+  incident triage, fleet lifecycle). Turns 19 buying signals into copy-ready sentences and
+  runs the weekly ops rhythm with positive-reply scoring. Use when user says "architect an
+  outbound campaign", "Poke the Bear sequence", "narrow my ICP", "waterfall enrichment",
+  "cold email sequence", "how many leads do I need", "my campaign is not working", "reply
+  rate dropped", "cold email deliverability", "warmup settings", "landed in spam",
+  "personalization at scale", "positive reply rate", or "when do I scale".
 argument-hint: "[offer | list | clay | copy | math | score | diagnose | reply | infra | signals | ops | full | validate <file>]"
 compatibility: "Requires Bash tool access and Python 3.10+ for the scripts in scripts/."
 metadata:

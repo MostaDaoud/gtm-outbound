@@ -98,6 +98,16 @@ healthy and can take more volume, which are burned and must be cancelled, which 
 replacements, and how far ahead to buy them. Replacements need roughly a month of lead
 time, so the buy decision is always made before the need is urgent.
 
+## Boundaries
+
+This skill will not help evade spam filters, disguise a sending domain that has been
+blacklisted, rotate identities to dodge reputation systems, or keep sending through a
+known-broken domain. Those are not deliverability fixes; they are the actions that got the
+domain listed, performed with more determination.
+
+If a domain is burned, the answer is to pause it, replace it, and find out why it burned.
+Repeating the same send pattern on a fresh domain reproduces the same outcome on a delay.
+
 ## Optional tooling
 
 `optional/scripts/` contains Node/TypeScript helpers for the API-driven parts of this
