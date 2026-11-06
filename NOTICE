@@ -1,0 +1,35 @@
+# NOTICE
+
+gtm-outbound is released under the MIT License (see `LICENSE`).
+
+## Third-party content
+
+This repository incorporates material adapted from **coldoutboundskills**:
+
+- Source: https://github.com/growthenginenowoslawski/coldoutboundskills
+- Author: GrowthEngineX (https://growthengine-x.com)
+- License: MIT
+
+That material was adapted rather than copied verbatim: upstream YAML frontmatter was
+removed, content was reorganised into this repository's reference layout, and cross
+references were remapped to local paths. Each adapted file carries a provenance comment
+at the top naming its upstream skill. The original MIT terms continue to apply to that
+content.
+
+### What was adapted
+
+| Upstream | Landed as |
+|---|---|
+| `email-deliverability-audit`, `zapmail-domain-setup-public`, `smartlead-inbox-manager`, `deliverability-incident-response`, `inbox-lifecycle-manager` | `skills/gtm-outbound/references/infra/` |
+| `playbooks/clay-playbooks` + 19 signal playbooks | `skills/gtm-outbound/references/signals/` |
+| `cold-email-weekly-rhythm`, `positive-reply-scoring`, `deliverability-test-public` | `skills/gtm-outbound/references/ops/` |
+| `smartlead-api`, `prospeo-search-api` | `skills/gtm-outbound/references/api/` |
+| List, offer, copy, experiment and personalization skills | `skills/gtm-outbound/references/` (folded into existing stages) |
+| TypeScript scripts | `skills/gtm-outbound/optional/scripts/` (optional, not part of the zero-dependency core) |
+
+### What was deliberately not taken
+
+- `auto-research-public` — it launches campaigns autonomously, which contradicts this
+  repository's rule that the skills never send anything themselves.
+- The bundled lead CSVs (~525 MB). See `docs/cold-merge/LIST-SOURCES.md` for where those
+  live upstream.

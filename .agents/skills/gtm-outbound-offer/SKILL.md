@@ -194,6 +194,25 @@ it is cheap — the consent models and their required artifacts live in
 `references/compliance-gates.md`. A consent regime like Saudi PDPL or German double
 opt-in changes the list build itself, so it cannot be discovered at send time.
 
+## Deeper references
+
+Load these only when the question goes past the default path:
+
+| Question | Reference |
+|---|---|
+| The user has never articulated an ICP and needs the interview | `references/icp-intake.md` |
+| They want a spread of campaign ideas rather than one narrowed sub-niche | `references/campaign-ideas.md` |
+| The offer needs a free hook or lead magnet attached | `references/lead-magnets.md` |
+
+`icp-intake.md` is the long-form conversational intake. Prefer the inline intake in this
+file first; reach for the full interview only when the user genuinely lacks the words for
+their own ICP, because a 20-question interview is a poor trade for a founder who already
+knows their market.
+
+`campaign-ideas.md` generates 15-25 candidate angles. Treat its output as raw material for
+this stage's narrowing step, never as a substitute for it — an unnarrowed list of angles is
+exactly the broad targeting this skill exists to prevent.
+
 ## Next
 
 Hand off to `gtm-outbound-list` to design the sourcing and enrichment pipeline. The

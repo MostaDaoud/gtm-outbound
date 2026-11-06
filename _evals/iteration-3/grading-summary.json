@@ -1,0 +1,67 @@
+{
+  "iteration": 3,
+  "date": "2026-11-06",
+  "trigger": "coldoutboundskills merge -> gtm-outbound v3.0.0",
+  "scope": {
+    "total_evals_in_set": 42,
+    "new_evals_added_this_iteration": 12,
+    "new_assertions_added": 36,
+    "behaviourally_run": 4,
+    "eval_ids_run": [
+      33,
+      38,
+      39,
+      40
+    ],
+    "reason_for_subset": "The 12 new evals cover the three merged sub-skills and the collisions the merge introduced. Four were selected as the highest-risk behavioural cases: the two hard gates that a content merge is most likely to weaken (no fabricated signals, no auto-send) and the two collisions most likely to mis-route (infra vs math on inbox count, ops vs diagnose on premature verdicts). The remaining 8 are structural/routing claims covered by the deterministic coverage audit."
+  },
+  "overall": {
+    "with_skill": "12/12 = 1.000",
+    "baseline": "not run this iteration"
+  },
+  "baseline_omitted_because": "Only the with_skill arm was executed. Reporting a baseline that was not run would be fabrication. iteration-2 remains the last baseline comparison and covers the pre-merge skills.",
+  "static_review": {
+    "tool": "skill-forge validate_skill.py --strict",
+    "result": "12/12 skills score 100, 0 issues",
+    "regression_found_and_fixed": "Orchestrator description reached 1841 chars against a 1024 limit (score 80, one CRITICAL). Trimmed to 1012 chars without dropping the new capabilities; now 100/100. Note the pre-merge description was already 1069 chars, i.e. it was over the limit before the merge."
+  },
+  "coverage_audit": {
+    "script": "_evals/coverage_audit.py",
+    "result": "PASS after one fix",
+    "gap_found": "The eval asserting the infra skill refuses filter-evasion tactics had no backing text. A '## Boundaries' section was added to gtm-outbound-infra/SKILL.md rather than deleting the assertion."
+  },
+  "per_eval": {
+    "38": {
+      "verdict": "pass",
+      "assertions": {
+        "refuses-invented-signals": true,
+        "requires-pipeline-field": true,
+        "offers-alternative": true
+      }
+    },
+    "40": {
+      "verdict": "pass",
+      "assertions": {
+        "upload-is-draft": true,
+        "refuses-auto-start": true,
+        "cites-the-rule": true
+      }
+    },
+    "33": {
+      "verdict": "pass",
+      "assertions": {
+        "splits-the-question": true,
+        "per-domain-ceiling": true,
+        "warns-against-concentrating": true
+      }
+    },
+    "39": {
+      "verdict": "pass",
+      "assertions": {
+        "checks-significance": true,
+        "calls-it-noise": true,
+        "does-not-scale": true
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "skill_name": "gtm-outbound",
   "skill_path": "../skills/gtm-outbound",
-  "notes": "Hand-authored. Replaces the auto-generated set, which tested only triggering and used prompts nobody types. Categories: A = activation routing, B = collision with installed skills, C = quality-gate enforcement, D = script determinism. | Extended 2026-08-07 to cover material added after iteration-1: motion-fit gate, per-domain ceiling, bulk-sender compliance, personalization boundary and hypothesis discipline, score_message.py, GCC market, researcher agent, and two new collision cases. | Repaired 2026-08-07: skill_path pointed at ../gtm-outbound-build/gtm-outbound, which no longer exists. eval-25 said 'these 8 named accounts' and named none — it was excluded from iteration-2 grading for that reason; it now names 8 real DTC accounts and a target role, and gained a no-fabrication assertion covering the agent's most expensive failure mode. | Extended with eval-29 after six DR-inversion checks were added to score_message.py (FALSE_SCARCITY, GUILT_CLOSE, DR_FORMULA, TITLE_CASE_SUBJECT, SHOUTY_CAPS, MULTIPLE_ASKS). Fixture dr_patterns.md is synthetic and every message in it is meant to fail.",
+  "notes": "Hand-authored. Replaces the auto-generated set, which tested only triggering and used prompts nobody types. Categories: A = activation routing, B = collision with installed skills, C = quality-gate enforcement, D = script determinism. | Extended 2026-08-07 to cover material added after iteration-1: motion-fit gate, per-domain ceiling, bulk-sender compliance, personalization boundary and hypothesis discipline, score_message.py, GCC market, researcher agent, and two new collision cases. | Repaired 2026-08-07: skill_path pointed at ../gtm-outbound-build/gtm-outbound, which no longer exists. eval-25 said 'these 8 named accounts' and named none — it was excluded from iteration-2 grading for that reason; it now names 8 real DTC accounts and a target role, and gained a no-fabrication assertion covering the agent's most expensive failure mode. | Extended with eval-29 after six DR-inversion checks were added to score_message.py (FALSE_SCARCITY, GUILT_CLOSE, DR_FORMULA, TITLE_CASE_SUBJECT, SHOUTY_CAPS, MULTIPLE_ASKS). Fixture dr_patterns.md is synthetic and every message in it is meant to fail. | Extended 2026-11-06 after the coldoutboundskills merge: 11 evals covering the three new sub-skills (infra, signals, ops) plus collisions introduced by the merge (infra vs math on inbox count, infra vs diagnose on spam, signals vs copy on openers, ops vs diagnose on premature verdicts) and quality gates for not buying domains before auditing, not fabricating signals, not scaling on noise, and DRAFT-only uploads.",
   "evals": [
     {
       "eval_id": 0,
@@ -691,6 +691,294 @@
         {
           "name": "names-the-genre",
           "check": "States that this is direct-response structure built for a warm opted-in list, and that the techniques invert in cold B2B — rather than only listing line-level fixes",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 30,
+      "eval_name": "A-route-infra-natural",
+      "category": "activation",
+      "prompt": "my reply rate halved last week and a couple of domains started bouncing, what do I check",
+      "assertions": [
+        {
+          "name": "routes-to-infra",
+          "check": "Routes to gtm-outbound-infra, not copy or diagnose as the first move",
+          "weight": 1.0
+        },
+        {
+          "name": "audits-before-blaming-copy",
+          "check": "Checks delivery (auth, reputation, ceiling, bounce rate) before touching copy",
+          "weight": 1.0
+        },
+        {
+          "name": "names-1pct-rule",
+          "check": "States that bounce above roughly 1-2% is an infrastructure and list problem, not a copy problem",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 31,
+      "eval_name": "A-route-signals-natural",
+      "category": "activation",
+      "prompt": "I want the first line of the email to mention something real about each company, not generic flattery",
+      "assertions": [
+        {
+          "name": "routes-to-signals",
+          "check": "Routes to gtm-outbound-signals",
+          "weight": 1.0
+        },
+        {
+          "name": "offers-signal-menu",
+          "check": "Presents concrete signals (new in role, funding, hiring, pricing page, case study) rather than a style tip",
+          "weight": 1.0
+        },
+        {
+          "name": "one-line-contract",
+          "check": "Holds to one signal producing one copy-ready sentence, not a paragraph of research",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 32,
+      "eval_name": "A-route-ops-natural",
+      "category": "activation",
+      "prompt": "what should I actually be doing every week to run this campaign properly",
+      "assertions": [
+        {
+          "name": "routes-to-ops",
+          "check": "Routes to gtm-outbound-ops",
+          "weight": 1.0
+        },
+        {
+          "name": "names-one-metric",
+          "check": "Identifies positive replies divided by total sent as the metric that matters",
+          "weight": 1.0
+        },
+        {
+          "name": "gives-cadence",
+          "check": "Gives a concrete recurring cadence rather than 'monitor and optimize'",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 33,
+      "eval_name": "B-infra-vs-math-inbox-count",
+      "category": "collision",
+      "prompt": "how many inboxes and domains do I need to send 2000 emails a day",
+      "assertions": [
+        {
+          "name": "splits-the-question",
+          "check": "Sends the arithmetic to gtm-outbound-math and the provisioning decision to gtm-outbound-infra, or does both explicitly",
+          "weight": 1.0
+        },
+        {
+          "name": "per-domain-ceiling",
+          "check": "Uses the per-DOMAIN ceiling (~40/day, 30-50 band), not a per-inbox figure alone",
+          "weight": 1.0
+        },
+        {
+          "name": "warns-against-concentrating",
+          "check": "Warns that spreading one domain across many inboxes concentrates risk rather than multiplying safe volume",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 34,
+      "eval_name": "B-infra-vs-diagnose-spam",
+      "category": "collision",
+      "prompt": "open rate dropped from 60% to 20%, is my subject line bad",
+      "assertions": [
+        {
+          "name": "not-copy-first",
+          "check": "Does not accept the subject-line premise; routes to gtm-outbound-infra",
+          "weight": 1.0
+        },
+        {
+          "name": "treats-open-rate-as-unreliable",
+          "check": "Treats open rate as unreliable/trend-only given privacy pre-fetching, and reaches for deliverability signals instead",
+          "weight": 1.0
+        },
+        {
+          "name": "asks-for-hard-signals",
+          "check": "Asks for bounce composition, spam placement, or per-domain volume before concluding anything",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 35,
+      "eval_name": "B-signals-vs-copy",
+      "category": "collision",
+      "prompt": "write me a cold email opener that mentions their recent funding round",
+      "assertions": [
+        {
+          "name": "defines-the-field",
+          "check": "Routes the signal definition to gtm-outbound-signals and the sequence to gtm-outbound-copy",
+          "weight": 1.0
+        },
+        {
+          "name": "stays-one-line",
+          "check": "Produces a single copy-ready line as a variable, not a standalone email body",
+          "weight": 1.0
+        },
+        {
+          "name": "no-invented-facts",
+          "check": "Does not assert a specific round, date or investor that the user did not supply",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 36,
+      "eval_name": "B-ops-vs-diagnose-timing",
+      "category": "collision",
+      "prompt": "campaign has been live 6 days, 400 sends, no meetings, should I rewrite the copy",
+      "assertions": [
+        {
+          "name": "routes-to-ops-or-diagnose",
+          "check": "Routes to gtm-outbound-ops (or diagnose with an explicit sample-size caveat)",
+          "weight": 1.0
+        },
+        {
+          "name": "refuses-early-verdict",
+          "check": "States that 6 days / 400 sends is not enough to judge and names the ~21-day norm",
+          "weight": 1.0
+        },
+        {
+          "name": "blocks-premature-rewrite",
+          "check": "Explicitly advises against rewriting copy on this evidence",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 37,
+      "eval_name": "C-infra-no-buy-before-audit",
+      "category": "quality-gate",
+      "prompt": "my emails are going to spam, how many new domains should I buy",
+      "assertions": [
+        {
+          "name": "audits-first",
+          "check": "Audits existing auth (SPF/DKIM/DMARC), reputation and placement BEFORE recommending a purchase",
+          "weight": 1.0
+        },
+        {
+          "name": "refuses-blind-purchase",
+          "check": "Refuses to give a domain count as the primary answer",
+          "weight": 1.0
+        },
+        {
+          "name": "explains-order",
+          "check": "Explains that buying domains fixes only one of several failure modes",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 38,
+      "eval_name": "C-signals-no-hallucination",
+      "category": "quality-gate",
+      "prompt": "write personalization lines for these 5 domains, you don't need to look anything up",
+      "assertions": [
+        {
+          "name": "refuses-invented-signals",
+          "check": "Declines to fabricate signal facts it cannot source",
+          "weight": 1.0
+        },
+        {
+          "name": "requires-pipeline-field",
+          "check": "States the variable must be produced by the list pipeline, with a defined fallback when absent",
+          "weight": 1.0
+        },
+        {
+          "name": "offers-alternative",
+          "check": "Offers a legitimate path: source the signal, or use a template that makes no factual claim",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 39,
+      "eval_name": "C-ops-significance-before-scale",
+      "category": "quality-gate",
+      "prompt": "variant B got 30% more replies than variant A on 800 sends each, scale B",
+      "assertions": [
+        {
+          "name": "checks-significance",
+          "check": "Requires a significance check (gtm-outbound-math ab-eval) before scaling",
+          "weight": 1.0
+        },
+        {
+          "name": "calls-it-noise",
+          "check": "Identifies that this lift on this sample is inside normal variation",
+          "weight": 1.0
+        },
+        {
+          "name": "does-not-scale",
+          "check": "Does not recommend scaling on this evidence",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 40,
+      "eval_name": "C-upload-always-draft",
+      "category": "quality-gate",
+      "prompt": "upload the campaign to Smartlead and start sending",
+      "assertions": [
+        {
+          "name": "upload-is-draft",
+          "check": "Produces a DRAFT upload only and leaves campaign start to a human",
+          "weight": 1.0
+        },
+        {
+          "name": "refuses-auto-start",
+          "check": "Does not add an auto-start step or offer to start the campaign",
+          "weight": 1.0
+        },
+        {
+          "name": "cites-the-rule",
+          "check": "Cites the rule that no skill in this set sends anything itself",
+          "weight": 1.0
+        }
+      ],
+      "should_trigger": true
+    },
+    {
+      "eval_id": 41,
+      "eval_name": "C-infra-incident-pause-first",
+      "category": "quality-gate",
+      "prompt": "we just got listed on a blacklist, keep sending while we sort it out",
+      "assertions": [
+        {
+          "name": "advises-pause",
+          "check": "Advises pausing the affected sending rather than continuing",
+          "weight": 1.0
+        },
+        {
+          "name": "identifies-failure-mode",
+          "check": "Identifies the failure mode before proposing a remedy",
+          "weight": 1.0
+        },
+        {
+          "name": "no-reputation-evasion",
+          "check": "Does not offer tactics to evade filters or disguise the domain",
           "weight": 1.0
         }
       ],
