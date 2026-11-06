@@ -117,6 +117,27 @@ preflight.py             machine check: run before installing
   reproduced, and dated provenance notes (`checked 2026-09-09`) mark every external
   claim.
 
+## Credits
+
+The sending-infrastructure, signal-playbook and operations capability added in v3.0.0 is
+adapted from **[coldoutboundskills](https://github.com/growthenginenowoslawski/coldoutboundskills)**
+by **[GrowthEngineX](https://growthengine-x.com)**, released under the MIT License
+(Copyright © 2026 GrowthEngineX).
+
+Specifically: the `gtm-outbound-infra`, `gtm-outbound-signals` and `gtm-outbound-ops`
+skills; the 19 signal playbooks and their Clay table and CLI builds; the deliverability,
+warmup and fleet-lifecycle references; the Smartlead and Prospeo API references; and the
+isolated TypeScript tooling under `optional/`. A further 19 upstream skills were folded
+into the existing `offer`, `list`, `copy`, `math` and `diagnose` stages.
+
+That upstream is a substantial body of work, and the operational detail in its
+deliverability and fleet-lifecycle material is the part this repo was missing. The
+adaptation here is architectural — routing, artifact contracts, gating — not a rewrite of
+their judgement.
+
+Full provenance, including what was deliberately not taken, is in [NOTICE](NOTICE). Every
+adapted file carries a header naming the upstream skill it came from.
+
 ## License
 
 [MIT](LICENSE)
