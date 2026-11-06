@@ -1,0 +1,24 @@
+{
+  "eval_id": 39,
+  "eval_name": "C-ops-significance-before-scale",
+  "category": "quality-gate",
+  "prompt": "variant B got 30% more replies than variant A on 800 sends each, scale B",
+  "assertions": [
+    {
+      "name": "checks-significance",
+      "check": "Requires a significance check (gtm-outbound-math ab-eval) before scaling",
+      "weight": 1.0
+    },
+    {
+      "name": "calls-it-noise",
+      "check": "Identifies that this lift on this sample is inside normal variation",
+      "weight": 1.0
+    },
+    {
+      "name": "does-not-scale",
+      "check": "Does not recommend scaling on this evidence",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

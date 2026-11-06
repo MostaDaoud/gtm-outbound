@@ -1,0 +1,24 @@
+{
+  "eval_id": 37,
+  "eval_name": "C-infra-no-buy-before-audit",
+  "category": "quality-gate",
+  "prompt": "my emails are going to spam, how many new domains should I buy",
+  "assertions": [
+    {
+      "name": "audits-first",
+      "check": "Audits existing auth (SPF/DKIM/DMARC), reputation and placement BEFORE recommending a purchase",
+      "weight": 1.0
+    },
+    {
+      "name": "refuses-blind-purchase",
+      "check": "Refuses to give a domain count as the primary answer",
+      "weight": 1.0
+    },
+    {
+      "name": "explains-order",
+      "check": "Explains that buying domains fixes only one of several failure modes",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

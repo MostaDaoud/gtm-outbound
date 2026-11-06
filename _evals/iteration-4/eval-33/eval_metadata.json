@@ -1,0 +1,24 @@
+{
+  "eval_id": 33,
+  "eval_name": "B-infra-vs-math-inbox-count",
+  "category": "collision",
+  "prompt": "how many inboxes and domains do I need to send 2000 emails a day",
+  "assertions": [
+    {
+      "name": "splits-the-question",
+      "check": "Sends the arithmetic to gtm-outbound-math and the provisioning decision to gtm-outbound-infra, or does both explicitly",
+      "weight": 1.0
+    },
+    {
+      "name": "per-domain-ceiling",
+      "check": "Uses the per-DOMAIN ceiling (~40/day, 30-50 band), not a per-inbox figure alone",
+      "weight": 1.0
+    },
+    {
+      "name": "warns-against-concentrating",
+      "check": "Warns that spreading one domain across many inboxes concentrates risk rather than multiplying safe volume",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

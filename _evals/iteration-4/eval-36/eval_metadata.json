@@ -1,0 +1,24 @@
+{
+  "eval_id": 36,
+  "eval_name": "B-ops-vs-diagnose-timing",
+  "category": "collision",
+  "prompt": "campaign has been live 6 days, 400 sends, no meetings, should I rewrite the copy",
+  "assertions": [
+    {
+      "name": "routes-to-ops-or-diagnose",
+      "check": "Routes to gtm-outbound-ops (or diagnose with an explicit sample-size caveat)",
+      "weight": 1.0
+    },
+    {
+      "name": "refuses-early-verdict",
+      "check": "States that 6 days / 400 sends is not enough to judge and names the ~21-day norm",
+      "weight": 1.0
+    },
+    {
+      "name": "blocks-premature-rewrite",
+      "check": "Explicitly advises against rewriting copy on this evidence",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

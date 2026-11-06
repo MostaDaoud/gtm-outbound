@@ -1,0 +1,24 @@
+{
+  "eval_id": 35,
+  "eval_name": "B-signals-vs-copy",
+  "category": "collision",
+  "prompt": "write me a cold email opener that mentions their recent funding round",
+  "assertions": [
+    {
+      "name": "defines-the-field",
+      "check": "Routes the signal definition to gtm-outbound-signals and the sequence to gtm-outbound-copy",
+      "weight": 1.0
+    },
+    {
+      "name": "stays-one-line",
+      "check": "Produces a single copy-ready line as a variable, not a standalone email body",
+      "weight": 1.0
+    },
+    {
+      "name": "no-invented-facts",
+      "check": "Does not assert a specific round, date or investor that the user did not supply",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

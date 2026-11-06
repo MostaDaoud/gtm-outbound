@@ -1,0 +1,24 @@
+{
+  "eval_id": 30,
+  "eval_name": "A-route-infra-natural",
+  "category": "activation",
+  "prompt": "my reply rate halved last week and a couple of domains started bouncing, what do I check",
+  "assertions": [
+    {
+      "name": "routes-to-infra",
+      "check": "Routes to gtm-outbound-infra, not copy or diagnose as the first move",
+      "weight": 1.0
+    },
+    {
+      "name": "audits-before-blaming-copy",
+      "check": "Checks delivery (auth, reputation, ceiling, bounce rate) before touching copy",
+      "weight": 1.0
+    },
+    {
+      "name": "names-1pct-rule",
+      "check": "States that bounce above roughly 1-2% is an infrastructure and list problem, not a copy problem",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

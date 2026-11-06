@@ -1,0 +1,24 @@
+{
+  "eval_id": 31,
+  "eval_name": "A-route-signals-natural",
+  "category": "activation",
+  "prompt": "I want the first line of the email to mention something real about each company, not generic flattery",
+  "assertions": [
+    {
+      "name": "routes-to-signals",
+      "check": "Routes to gtm-outbound-signals",
+      "weight": 1.0
+    },
+    {
+      "name": "offers-signal-menu",
+      "check": "Presents concrete signals (new in role, funding, hiring, pricing page, case study) rather than a style tip",
+      "weight": 1.0
+    },
+    {
+      "name": "one-line-contract",
+      "check": "Holds to one signal producing one copy-ready sentence, not a paragraph of research",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

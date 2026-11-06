@@ -1,0 +1,24 @@
+{
+  "eval_id": 32,
+  "eval_name": "A-route-ops-natural",
+  "category": "activation",
+  "prompt": "what should I actually be doing every week to run this campaign properly",
+  "assertions": [
+    {
+      "name": "routes-to-ops",
+      "check": "Routes to gtm-outbound-ops",
+      "weight": 1.0
+    },
+    {
+      "name": "names-one-metric",
+      "check": "Identifies positive replies divided by total sent as the metric that matters",
+      "weight": 1.0
+    },
+    {
+      "name": "gives-cadence",
+      "check": "Gives a concrete recurring cadence rather than 'monitor and optimize'",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

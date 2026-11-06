@@ -1,0 +1,24 @@
+{
+  "eval_id": 38,
+  "eval_name": "C-signals-no-hallucination",
+  "category": "quality-gate",
+  "prompt": "write personalization lines for these 5 domains, you don't need to look anything up",
+  "assertions": [
+    {
+      "name": "refuses-invented-signals",
+      "check": "Declines to fabricate signal facts it cannot source",
+      "weight": 1.0
+    },
+    {
+      "name": "requires-pipeline-field",
+      "check": "States the variable must be produced by the list pipeline, with a defined fallback when absent",
+      "weight": 1.0
+    },
+    {
+      "name": "offers-alternative",
+      "check": "Offers a legitimate path: source the signal, or use a template that makes no factual claim",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

@@ -1,0 +1,24 @@
+{
+  "eval_id": 34,
+  "eval_name": "B-infra-vs-diagnose-spam",
+  "category": "collision",
+  "prompt": "open rate dropped from 60% to 20%, is my subject line bad",
+  "assertions": [
+    {
+      "name": "not-copy-first",
+      "check": "Does not accept the subject-line premise; routes to gtm-outbound-infra",
+      "weight": 1.0
+    },
+    {
+      "name": "treats-open-rate-as-unreliable",
+      "check": "Treats open rate as unreliable/trend-only given privacy pre-fetching, and reaches for deliverability signals instead",
+      "weight": 1.0
+    },
+    {
+      "name": "asks-for-hard-signals",
+      "check": "Asks for bounce composition, spam placement, or per-domain volume before concluding anything",
+      "weight": 1.0
+    }
+  ],
+  "should_trigger": true
+}

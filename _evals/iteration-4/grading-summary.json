@@ -1,0 +1,64 @@
+{
+  "iteration": 4,
+  "date": "2026-11-06",
+  "trigger": "measure the baseline arm that iteration-3 omitted",
+  "scope": {
+    "evals_measured": 12,
+    "assertions_per_arm": 33,
+    "excluded_from_comparison": [
+      "eval-30/routes-to-infra",
+      "eval-31/routes-to-signals",
+      "eval-32/routes-to-ops"
+    ],
+    "exclusion_reason": "routes-to-<named-skill> assertions cannot be satisfied by an agent with no skill set installed. Scoring them as baseline failures would inflate the delta. The one behavioural routing assertion (routes-to-ops-or-diagnose) is included."
+  },
+  "overall": {
+    "baseline": "22/33 = 0.667",
+    "with_skill": "33/33 = 1.000",
+    "delta": "+11 assertions (+33.3 points)"
+  },
+  "differentiated_on": [
+    {
+      "eval": 38,
+      "mechanism": "no fabrication",
+      "detail": "baseline invented five confident company claims; skill refused and defined a sourced field"
+    },
+    {
+      "eval": 35,
+      "mechanism": "no fabrication + field contract",
+      "detail": "baseline asserted a funding round for an unnamed company and wrote a full email; skill used placeholders and flagged unverified tags"
+    },
+    {
+      "eval": 33,
+      "mechanism": "correctness",
+      "detail": "baseline recommended 3-5 inboxes per domain (75-150 sends/domain/day); skill enforced the ~40/domain ceiling"
+    },
+    {
+      "eval": 32,
+      "mechanism": "metric discipline",
+      "detail": "baseline gave a cadence with no single metric; skill named positive replies / total sends"
+    },
+    {
+      "eval": 40,
+      "mechanism": "principled boundary",
+      "detail": "baseline refused only for lack of credentials; skill refused on principle and produced a DRAFT-only path"
+    }
+  ],
+  "tied_on": [
+    30,
+    31,
+    34,
+    36,
+    37,
+    39,
+    41
+  ],
+  "honest_finding": "A current frontier model already does the diagnosis-shaped work: check deliverability before copy, refuse to scale on 800 sends per arm, audit before buying domains. The skill's measurable value is concentrated in the things a general assistant has no reason to do: refuse to invent a signal, treat a personalization line as a pipeline variable, hold the per-domain ceiling, and keep a send boundary when asked directly to cross it.",
+  "limitations": [
+    "Single trial per arm per eval: no variance estimate, and a single flip changes a cell.",
+    "The grader wrote the assertions, so the grading is not independent.",
+    "Prompt framing differed: baseline was capped at 120 words, with-skill at 200, which mildly favours the skill.",
+    "Evaluations 33, 38, 39 and 40 reuse the with-skill runs recorded in iteration-3 (unconstrained, longer) rather than being re-run under the same 200-word cap.",
+    "Twelve evals is a small sample drawn from the merge, not a benchmark of the whole skill set."
+  ]
+}
