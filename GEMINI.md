@@ -32,7 +32,7 @@ GROUND -> REASON -> ACT -> OBSERVE -> RE-EVALUATE -> VERIFY -> NARRATE
 ---
 
 ## 1. Outbound System Architecture & Skills
-The engine is structured into 9 modular skills under `skills/`:
+The engine is structured into 12 modular skills under `skills/`:
 - `gtm-outbound`: Conductor and full-lifecycle orchestrator.
 - `gtm-outbound-offer`: Value proposition and Grand Slam offer framing.
 - `gtm-outbound-list`: ICP definition, account identification, and TAM sizing.
@@ -42,6 +42,14 @@ The engine is structured into 9 modular skills under `skills/`:
 - `gtm-outbound-score`: Quantitative 100-point rubric for cold copy.
 - `gtm-outbound-diagnose`: Funnel bottleneck diagnostics and recovery playbooks.
 - `gtm-outbound-reply`: Inbound reply classification and triage handling.
+- `gtm-outbound-infra`: Sending infrastructure — domains, warmup, auth, incidents, fleet lifecycle.
+- `gtm-outbound-signals`: 19 buying-signal playbooks, one copy-ready sentence each.
+- `gtm-outbound-ops`: Steady-state weekly rhythm, positive-reply scoring, inbox-type testing.
+
+Depth lives in `skills/gtm-outbound/references/` (115 files, organised into `infra/`,
+`signals/`, `ops/` and `api/`). TypeScript helpers under `skills/gtm-outbound/optional/`
+are opt-in and excluded from the zero-dependency core — never import them into a core
+skill, and never let them into `skills/gtm-outbound/scripts/`.
 
 ---
 

@@ -11,6 +11,10 @@ CLAUDE.md
 __pycache__/
 *.pyc
 
+# Secrets — .env holds live API keys for optional/ scripts
+.env
+.env.local
+
 # OS
 .DS_Store
 Thumbs.db

@@ -184,6 +184,30 @@ Report the expected funnel explicitly: raw scraped → domain resolved → conta
 emails found → verified. Each stage loses rows, and a spec that does not state the
 attrition will undershoot the list by the time it reaches sending.
 
+## Deeper references
+
+| Question | Reference |
+|---|---|
+| Run the whole list build as one-command lanes that sweep every source | `references/list-lanes.md` |
+| Expand ~10 known-good seed companies into a full qualified TAM | `references/list-expansion.md` |
+| Build a near-complete company list for one ICP (SCULPT method) | `references/list-sculpt.md` |
+| Build and tune the AI prompt that qualifies companies | `references/list-ai-qualification.md` |
+| Grade a finished lead CSV across eight dimensions before upload | `references/list-qa.md` |
+| Domain-to-contact lookup via Blitz | `references/sourcing-blitz.md` |
+| Local SMB lists from Google Maps | `references/sourcing-google-maps.md` |
+| Lookalike company discovery (65M+ domains) | `references/sourcing-discolike.md` |
+| People engaging with competitor LinkedIn posts | `references/sourcing-competitor-engagers.md` |
+| Full paginated Prospeo people export | `references/sourcing-prospeo-export.md` |
+| Prospeo Search Person API filters | `references/api/prospeo.md` |
+
+**Order matters here.** Qualify before you pull contacts (`list-ai-qualification.md`), and
+score before you upload (`list-qa.md`). Pulling 25,000 contacts from a company set that was
+never qualified is the single most expensive mistake in this stage — it costs enrichment
+credits for rows that should never have existed.
+
+`sourcing-google-maps.md` and `list-expansion.md` pair with the upstream bundled CSVs; see
+`docs/cold-merge/LIST-SOURCES.md` for where those live and why they are not in this repo.
+
 ## Next
 
 Hand off to `gtm-outbound-copy`. It will validate every merge tag against

@@ -7,19 +7,28 @@ description: >
   validated spintax, and produces Smartlead deliverability, warmup, and
   compliance-gated configurations. Scores launch readiness, diagnoses failing campaigns
   from ESP exports, and triages replies and objections. Also models list size, inbox
-  count, CAC, payback, and A/B significance.
+  count, CAC, payback, and A/B significance. Also builds and maintains the sending
+  infrastructure the program runs on — domain purchase, inbox provisioning, warmup ramps,
+  SPF/DKIM/DMARC, spam placement, incident triage and fleet lifecycle — turns 19 buying
+  signals into copy-ready sentences, and runs the steady-state weekly operating rhythm
+  with positive-reply scoring.
   Use when user says "architect an outbound campaign", "GTM campaign blueprint",
   "engineer a Clay outbound workflow", "Poke the Bear sequence", "narrow my ICP",
   "waterfall enrichment", "spintax", "cold email sequence", "how many leads do I need",
   "my campaign is not working", "reply rate dropped", "someone replied", "handle
   objections", "is this campaign ready to launch", "is cold email legal", "compliance
   for cold outreach", "suppression list", "multichannel sequence", "AI SDR",
-  "LinkedIn outreach sequence", or "video prospecting".
-argument-hint: "[offer | list | clay | copy | math | full | validate <file>]"
+  "LinkedIn outreach sequence", "video prospecting", "set up domains for cold email",
+  "buy domains", "warmup settings", "is my domain burned", "I landed in spam", "bounce
+  rate is too high", "blacklisted", "spam test", "how many inboxes do I need",
+  "personalization at scale", "what do I say in email one", "new in role", "they just
+  raised", "hiring signal", "clean my company names", "lookalike list", "weekly outbound
+  routine", "positive reply rate", "should I change this yet", or "when do I scale".
+argument-hint: "[offer | list | clay | copy | math | score | diagnose | reply | infra | signals | ops | full | validate <file>]"
 compatibility: "Requires Bash tool access and Python 3.10+ for the scripts in scripts/."
 metadata:
   author: Mostafa Daoud
-  version: 2.0.0
+  version: 3.0.0
 
 ---
 <!-- fable-discipline-gate:v1 -->
@@ -52,11 +61,17 @@ pipeline does not produce.
 | `/gtm-outbound full` | Runs offer → list → copy in order, emits `campaign-brief.md` |
 | `/gtm-outbound diagnose <csv>` | Post-launch: why the campaign is failing, and what not to touch |
 | `/gtm-outbound reply` | Classify inbound replies, handle objections, book meetings |
+| `/gtm-outbound infra` | Domains, inbox provisioning, warmup, auth audit, incident triage, fleet lifecycle |
+| `/gtm-outbound signals` | 19 signal playbooks — one buying signal into one copy-ready sentence |
+| `/gtm-outbound ops` | Weekly Mon/Wed/Fri rhythm, positive-reply scoring, inbox-type comparison |
 | `/gtm-outbound validate <file>` | Spintax + merge-tag lint on an existing sequence |
 
-**Build → score → launch → diagnose → reply** is the full loop. The first four sub-skills
-build a campaign; `score` gates it; `diagnose` and `reply` are what bring you back once
-it is running. A campaign that is never diagnosed is a campaign you learn nothing from.
+**Build → score → launch → operate → diagnose → reply** is the full loop. `offer`, `list`,
+`clay` and `copy` build a campaign; `signals` supplies the personalization variables those
+stages emit; `math` sizes it and `score` gates it; `infra` is what makes the sends land;
+`ops` and `diagnose` are what bring you back once it is running. A campaign that is never
+diagnosed is a campaign you learn nothing from, and a campaign that never audits its
+infrastructure is one you cannot diagnose at all.
 
 ## The Artifact Chain
 
@@ -91,6 +106,9 @@ Route on what the user is actually asking for, not on keyword matching alone:
 | "Is this ready", "score my campaign", review of a campaign that has not sent | `gtm-outbound-score` |
 | Campaign has already sent and is underperforming, ESP export shared | `gtm-outbound-diagnose` |
 | A prospect replied, objection handling, booking | `gtm-outbound-reply` |
+| Domains, inboxes, warmup, SPF/DKIM/DMARC, spam placement, blacklists, fleet cost | `gtm-outbound-infra` |
+| Personalization at scale, "what do I say in email one", per-signal lines, name/company cleaning, lookalikes | `gtm-outbound-signals` |
+| Weekly routine, "is it working yet", positive reply rate, inbox-type comparison, when to scale | `gtm-outbound-ops` |
 | "Build me a campaign" with no stage specified | Interactive: ask which stage, offer `full` |
 
 **Partial-target requests default to `full`.** A request like "set up a cold email

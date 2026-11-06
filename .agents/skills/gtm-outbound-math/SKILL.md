@@ -131,3 +131,14 @@ model goes underneath it.
 
 When a sanity check fires, do not bury it. An 8% assumed reply rate silently doubling
 every downstream number is worse than an error, because the output still looks reasonable.
+
+## Experiment design
+
+Sizing a test is arithmetic; deciding *what* to test is not. `references/experiments.md`
+covers single-variable experiment design — experiment types (list-only, copy-only,
+combined), what counts as a valid variable, how to avoid confounding two changes, and how
+to record the state so the next test inherits the last result rather than repeating it.
+
+Use this file for the numbers and that reference for the structure. Running `ab` on a test
+whose two arms differ in more than one variable produces a sample size for a question
+nobody asked.

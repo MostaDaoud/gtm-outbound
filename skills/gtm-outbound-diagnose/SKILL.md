@@ -169,6 +169,17 @@ Write `DIAGNOSIS.md` using `assets/templates/diagnosis.md`:
 - The specific next action, routed to the right sub-skill
 - What additional data would sharpen the diagnosis next time
 
+## Deeper references
+
+| Question | Reference |
+|---|---|
+| Pull replies and classify them in bulk | `references/ops/reply-scoring.md` |
+| Smartlead endpoints for pulling campaign data | `references/api/smartlead.md` |
+
+Before blaming copy for a weak export, confirm infrastructure was healthy across the same
+window — `gtm-outbound-infra`. A campaign whose reply rate halved while a domain sat past
+its daily ceiling has no copy finding to report.
+
 ## Next
 
 After the fix lands, re-run against a fresh export to confirm the layer actually cleared

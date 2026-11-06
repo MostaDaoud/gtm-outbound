@@ -238,3 +238,21 @@ asserting that the setup is compliant. The jurisdiction gate itself — geograph
 model, required artifacts — belongs to the list stage and lives in
 `references/compliance-gates.md`; if it has not run, stop and route back before
 configuring a send.
+
+## Deeper references
+
+| Question | Reference |
+|---|---|
+| Stepwise copy workflow: direction → subject → body → final YAML, with confirmation at each step | `references/copy-stepwise.md` |
+| Scan copy for phrases that trip spam filters | `references/spam-rules.md` |
+| Add Smartlead-compatible spintax variations | `references/copy-spintax.md` |
+| Upload leads + variants to Smartlead as a DRAFT campaign | `references/upload-smartlead.md` |
+| Smartlead API endpoints and patterns | `references/api/smartlead.md` |
+
+`copy-stepwise.md` is the long-form alternative to this file's sequence. Use it when the
+user wants to approve copy one element at a time; use this file when they want a sequence
+designed end to end with the framework applied.
+
+**Upload is always DRAFT.** `upload-smartlead.md` creates the campaign in draft state and
+leaves the Start button to a human. That is deliberate and matches this repo's rule that no
+skill sends anything itself — do not add an auto-start step, and do not offer to.

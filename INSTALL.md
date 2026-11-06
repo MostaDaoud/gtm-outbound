@@ -1,7 +1,7 @@
 # Installing gtm-outbound
 
-A B2B outbound campaign engineering skill set for Claude Code. Nine skills, one agent,
-26 reference files, six Python scripts, nine templates.
+A B2B outbound campaign engineering skill set for Claude Code. Twelve skills, one agent,
+115 reference files, six Python scripts, nine templates.
 
 ## Requirements
 
@@ -12,11 +12,16 @@ A B2B outbound campaign engineering skill set for Claude Code. Nine skills, one 
 | **Python** | 3.10 or newer, on PATH — needed by the six scripts inside the skills |
 | **Dependencies** | **None.** Standard library only — no pip install, no virtualenv |
 | **Network** | Not required after install. Everything runs locally on files you provide |
-| **Disk** | Under 1 MB |
+| **Disk** | ~1.4 MB for the core skills, plus ~0.4 MB of optional tooling |
 
 Optional: an MCP connector for your sending platform (Smartlead, Instantly) lets the
 diagnose and reply workflows pull live data instead of a CSV export. Everything works
 without it.
+
+`skills/gtm-outbound/optional/` holds Node/TypeScript helpers that automate the
+API-driven work (domain purchase, inbox provisioning, auth checks, lead export). They need
+Node 18+, `npx tsx` and API keys, they are **not** covered by `preflight.py`, and nothing
+in the core requires them. See `skills/gtm-outbound/optional/README.md`.
 
 ## Install
 
@@ -26,7 +31,7 @@ One command — no clone needed:
 npx skills add MostaDaoud/gtm-outbound
 ```
 
-This is the [open agent skills](https://agentskills.io) installer. It discovers the nine
+This is the [open agent skills](https://agentskills.io) installer. It discovers the twelve
 skills and asks where to put them. To install globally (available in every project):
 
 ```bash
@@ -89,7 +94,10 @@ If it responds, you are done. If nothing happens, see Troubleshooting.
 ├── gtm-outbound-math/     list sizing, CAC, payback, A/B significance
 ├── gtm-outbound-score/    100-point pre-launch readiness gate
 ├── gtm-outbound-diagnose/ post-launch failure diagnosis
-└── gtm-outbound-reply/    reply triage, objections, booking
+├── gtm-outbound-reply/    reply triage, objections, booking
+├── gtm-outbound-infra/    domains, warmup, auth audit, incidents, fleet lifecycle
+├── gtm-outbound-signals/  19 buying-signal playbooks
+└── gtm-outbound-ops/      weekly rhythm, reply scoring, inbox-type testing
 ```
 
 The installer backs up any existing install (`npx skills remove` undoes it cleanly).
@@ -158,4 +166,6 @@ human sends them. That boundary is deliberate and should stay.
 
 Frameworks are re-expressed with sources credited inline. Portions adapt material from
 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT),
-a GTM course, and a GTM strategy book. No source text is reproduced.
+[coldoutboundskills](https://github.com/growthenginenowoslawski/coldoutboundskills) (MIT,
+by GrowthEngineX — see [NOTICE](NOTICE)), a GTM course, and a GTM strategy book. No source
+text is reproduced verbatim without a provenance comment naming it.

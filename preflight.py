@@ -100,6 +100,7 @@ def check_structure(root: Path) -> list[tuple[str, bool, str]]:
         "gtm-outbound": 1, "gtm-outbound-offer": 1, "gtm-outbound-list": 1,
         "gtm-outbound-clay": 1, "gtm-outbound-copy": 1, "gtm-outbound-math": 1,
         "gtm-outbound-score": 1, "gtm-outbound-diagnose": 1, "gtm-outbound-reply": 1,
+        "gtm-outbound-infra": 1, "gtm-outbound-signals": 1, "gtm-outbound-ops": 1,
     }
     out: list[tuple[str, bool, str]] = []
     for skill in expected:
@@ -109,8 +110,19 @@ def check_structure(root: Path) -> list[tuple[str, bool, str]]:
     na = len(list(agents.glob("*.md"))) if agents.is_dir() else 0
     out.append(("agents", na >= 1, f"{na} agent definition(s)"))
     refs = root / "skills" / "gtm-outbound" / "references"
-    n = len(list(refs.glob("*.md"))) if refs.is_dir() else 0
-    out.append(("references", n >= 15, f"{n} reference files"))
+    n = len(list(refs.rglob("*.md"))) if refs.is_dir() else 0
+    out.append(("references", n >= 40, f"{n} reference files"))
+
+    # Zero-dependency boundary. The core is stdlib Python only; Node/TypeScript tooling
+    # must stay quarantined under optional/ or the no-dependencies promise is broken.
+    scripts = root / "skills" / "gtm-outbound" / "scripts"
+    stray = list(scripts.rglob("*.ts")) if scripts.is_dir() else []
+    out.append((
+        "no-ts-in-core",
+        not stray,
+        "no TypeScript in core scripts/" if not stray
+        else f"{len(stray)} TypeScript file(s) leaked into core scripts/",
+    ))
     return out
 
 
