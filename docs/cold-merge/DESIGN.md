@@ -1,6 +1,6 @@
 # Cold Outbound Skills -> gtm-outbound: curated merge design
 
-Status: in progress
+Status: **complete** — merged, verified, and upskilled via skill-forge
 Branch: `feat/cold-outbound-merge`
 Source: https://github.com/growthenginenowoslawski/coldoutboundskills (MIT)
 Target: https://github.com/MostaDaoud/gtm-outbound
@@ -99,3 +99,25 @@ Every merged skill is also mirrored to `.agents/skills/` to match the existing p
 3. Reference resolution — every reference path named in a SKILL.md exists on disk.
 4. Mirror check — `skills/` and `.agents/skills/` hashes match.
 5. skill-forge review -> evals -> benchmark -> evolve on the merged set.
+
+## Outcome
+
+| Gate | Result |
+|---|---|
+| `preflight.py` | PASS — 12/12 skills, 115 references, 6 scripts, no-ts-in-core guard |
+| Reference resolution | PASS — every path named in a SKILL.md resolves |
+| skill-forge `validate_skill.py --strict` | 12/12 at 100/100, 0 issues |
+| Coverage audit (`_evals/coverage_audit.py`) | PASS after one fix |
+| Behavioural evals (iteration-3) | 12/12 assertions across 4 fresh-context runs |
+
+Two real defects were caught by the gates rather than by inspection:
+
+1. **Orchestrator description hit 1841 chars against a 1024 limit** (score 80, one CRITICAL).
+   Trimmed to 1012. The pre-merge description was already 1069 chars — over the limit before
+   this merge began.
+2. **An eval asserted a rule the skill did not state.** The infra skill had no explicit
+   refusal of filter-evasion tactics, so a `## Boundaries` section was added rather than
+   weakening the assertion.
+
+Neither of these would have been visible from reading the diff.
+
