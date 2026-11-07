@@ -2,7 +2,7 @@
 
 Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[19] 4. Need & Motivations > 4.4 Attribution Theory @ 37:42**
   Less sales when we apply it on the same product template, same brand, but different category where total different systems are at play. those are the differences you should focus on first in in my opinion and most psychologists opinion instead of staring yourself blind at the very prototypical popular personality typing theories and having said that I will end it up with a movie and then wrap it up before closing it down and this movie shows I think very nicely how the personality is not the big driver. It's not the intrinsic that I am a person that is this way. I am not a person that's always helping. But it's the situation that determines it more than your personality. Plays like this street in New York City.
@@ -59,7 +59,7 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 - **[12] 21-Nonconscious Motivation > 04-Social Proof @ 03:12**
   if you use a video or if you use a photo. Another kind of differentiation in social proof is whether it's action-based or preference-based. For instance, if you're selling a product, you could say people ordered your product or people preferred your product. For a video, you could say that 3,000 people viewed the video or 3,000 people liked the video. And one study did just that.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[15] 06-Lukas Fisher AI Copy Secrets Vol 1 @ 15:50**
   what is good and what isn't. And so it's kind of like, I think if you had never studied copywriting or marketing, you never read any of the books, never looked at a sales page, and then you tried to do this it might not work very well like the average business owner who's like oh just write me an email promoting my whatever the product is they're probably going to get absolute shit or it's just going to sound like everyone else's stuff whereas when you start to understand storytelling and marketing and copywriting then you can start to like man it's all about like the way i've been thinking about it is um the key is not like everyone has access to these tools so
@@ -96,7 +96,7 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 - **[14] 04-X Twitter Profit / 01-X Profit Course > 04-Twitter Funnels Setup @ 05:10**
   email and also gets people to watch your free training and potentially book a call if you have a solid training. This can be a VSL, this can be a lot of different things that you could be using here as well. Next, we have a sales page funnel. So this can be for someone selling a membership, a low ticket product, whatever it may be. This is exclusively for someone who is willing to sell a product under a thousand dollars based on being able to be profitable in that product. So this is a example of our coaches monthly product that we have a template already here for you that you can add in all your details. Essentially, this is a long sales letter that has been broken down into
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[14] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 2) @ 18:45**
   So there's no right or wrong way. But if you're someone that like, that sounds like a fun thing for you, we don't do it as strategically on the sales pages. But when we are doing something in like emails, we always work to have social proof or testimonial that's aligned with whatever the messaging of the email is.
@@ -121,7 +121,7 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 - **[8] 01-Introduction > 01-PostHello No AI Bots Were Harmed In The Making Of This Course @ 09:06**
   And lastly, we will get to editing, and that is how to polish content for publishing and maintain quality at scale. And we will cover AI-assisted editing, human editing, and quality control, so you can see how the system works. you learn how to write good content first, and then you learn how to use those skills with ChatGPT to create content quickly at lower prices. And then we get into editing, and that is maintaining quality at scale. So it's a nice little system that we're going to learn here. I'll see you in the next video, and that is the limitations of AI. And I really suggest you pay close attention to that video because we have to cover the limitations of AI so you understand why these skills are so
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[9] 05-Instagram-Reels-Copywriting > 01-Writing Hooks That Go Viral @ 00:24**
   People talk so much about writing good hooks as if they need to trick their viewers into watching mediocre content. So like 17 real hooks to grab attention. 15 real hook ideas that they won't be able to scroll past. in my experience as someone that has not just built a decent sized audience close to a million followers i have found that it is much more effective to do the things that are noteworthy that are interesting and then your hook is just your hook so no mediocre just like no good marketing will fix a bad product, no good hook will fix bad content.
@@ -137,20 +137,20 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 - **[9] Buyology - Part 01 @ 58:12**
   No. Like fMRI, SST was the final word on the human mind. You couldn't get any more cutting edge than this. In other words, neuroimaging could uncover truths that a half century of market research, focus groups, and opinion polling couldn't come close to accomplishing. I was so excited by what I was reading, I nearly rang the call button just so I could tell the steward.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[22 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 05:29**
   sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily well check it out again here is a sequence that we had for a class and here's a student that wrote all these examples in this exact same thing look subject line objective email email copy look attention interest desire he wrote a whole autoresponder sequence with just this formula and he got really good at it he was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long sales copy
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
 
 - **[20 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 04:25**
   Okay? Desire. If you use this formula from now on, you will make 30% more money. That's not necessarily true. I'm just saying it to get you to desire it. So you can see what can be possible with this formula. The formula is ADA. And I go on in the intersection to explain it over here. And then the actual word is, I want to get you to use ADA right now. So take out a sheet of paper and write the acronym AIDA on it. All right. So that's just like our basic outline of a sales page there we go so already we have written basically a properly formatted sales letter and if we flush this out it can become a real
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 04:25_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 04:25_
 
 - **[18] 01-Videos > 209-How to use the A.I.D.A formula in copywriting @ 08:22**
   So all we did was make a pitch for this guy to buy a freaking helicopter, but all we did was follow the ADA formula, attention, interest, desire, action. And look, now we have an entire completed sales pitch that we can send out in a cold email. This could be a phone script. This could be a video script. This could be a sales page. This could be in a brochure. This could be a one pager. This could be all sorts of stuff. And if we want to make it a really long sales page, all we have to do is add some more stuff to each of these sections. So that is the Ada formula. It is by far one of the most helpful sales formulas on the planet. In my opinion,
@@ -172,8 +172,8 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 
 - **[15 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 04:57**
   And then the actual word is, I want to get you to use ADA right now. So take out a sheet of paper and write the acronym AIDA on it. All right. So that's just like our basic outline of a sales page there we go so already we have written basically a properly formatted sales letter and if we flush this out it can become a real sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily extraordinarily well
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 04:57_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 04:57_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 04:57_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 04:57_
 
 - **[15] 01-Videos > 378-First autoresponder sequence created and its a top 1 quality level Added some CTAs to  @ 02:52**
   Now, I wrote a little pro tip that if you're going to reuse this, you could potentially add a block at the bottom with your email sender at the end. And what this does is instead of at the end of the email, if next year you use it and you add some CTA over here, for example, you could just update it in one spot and it gets updated on the next one.
@@ -219,13 +219,13 @@ Selected 90 of 771 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 07:09**
   sales page right here it may not be a long form but the same format still totally works so you definitely have to make sure you use this formula on all the things you write and you'll probably never have writer's block again you'll be able to fill out things just like that and I've got to tell you when people start using this formula they immediately see an increase in sales because in the past they would sit down to write something and they'd be like um what do I write I don't know maybe just make something up at the top of my head with the a to formula all you have to do is go back to the template and
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 07:09_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 07:09_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 07:09_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 07:09_
 
 - **[14 +2 repeats] 01-Videos > 245-Three Tiered Pricing @ 02:52**
   So the cheap package will just be two emails. That's the basic amount of work. The advanced package will be the two emails, the editing and the proofing, plus a sales page. And then the super professional package will have other optional things on there for them. So it be like this plus social media posts plus SEO outreach So instead of going to the customer and saying, hey customer, I'm going to charge you $1,000.
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
 
 - **[14] 01-Videos > 39-Giving a main stage speech to 150 people in the book publishing space going over a solid script for the speech @ 03:11**
   But like a three sentence thing. It's like Charles was in college, used BookPro, and then made $50,000 a month reselling. month recently we have that social proof in the story okay have you checked that part which part over here it's if you search Emra em are a yes oh there you go our earliest users I did not see that sorry yeah so I like to do three different i always like to do three so that one's a good so emera story and then two more one sentence stories okay i think sometimes if you just tell one story it's kind of like an outlier for example you're like joe rogan started a podcast and it became the biggest podcast in the world well but

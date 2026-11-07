@@ -2,7 +2,7 @@
 
 Selected 90 of 736 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[19] 4. Need & Motivations > 4.4 Attribution Theory @ 37:42**
   Less sales when we apply it on the same product template, same brand, but different category where total different systems are at play. those are the differences you should focus on first in in my opinion and most psychologists opinion instead of staring yourself blind at the very prototypical popular personality typing theories and having said that I will end it up with a movie and then wrap it up before closing it down and this movie shows I think very nicely how the personality is not the big driver. It's not the intrinsic that I am a person that is this way. I am not a person that's always helping. But it's the situation that determines it more than your personality. Plays like this street in New York City.
@@ -59,7 +59,7 @@ Selected 90 of 736 unique scoring passages. Each entry is verbatim transcript te
 - **[9] 17-Building Habits and Loyalty > 07-Hooked Lecture  How to Build Habit-Forming Products @ 14:36**
   That's the A, ability. Ability is how easy or difficult something is to do. And T stands for trigger. We just talked about triggers. So any human behavior only requires these three things. Motivation, ability, and trigger. So let's dive in. We already talked about triggers. Let's talk about motivation and ability. Motivation according to Edward Deasy, the father of self-determination theory. Deasy tells us that motivation is the energy for action, how much we want to do a particular behavior. Now, this is one of these areas of consumer psychology that we've been arguing about for years and years, but Fogg gives us six basic levers that we can pull on to make somebody more likely to do a behavior by boosting
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[16] 01-Bill Mueller- AI Copy Secrets Vol 1 @ 23:29**
   But it did a good job. I'll just scroll through this slowly. do you have any questions at this point i mean not really this story's great like i'm like it's just interesting like just weird random shit i'm like this is insane uh it makes me want to go look it up i love the idea i think what's interesting about the process that you that you put this together is the back and forth which i don't you know i don't know how most people use chat gpt or claude or these different things but for me um sometimes i'll put a prompt in i do mine with voice messages and explain my thing and then I get something really good back. But usually,
@@ -96,7 +96,7 @@ Selected 90 of 736 unique scoring passages. Each entry is verbatim transcript te
 - **[12] 03-Magnetic Content 2.0 / 01-Magnetic Content > 08-Copywriting Deep Dive @ 04:02**
   right stories for stories telling sake are pointless there's so many of these accounts especially on twitter that are like oh let's tell this story and blah blah blah like it's it's all stupid you don't want to be a storyteller for no reason you want to write something to give people a certain belief for me the belief was that you can make 5k in a weekend in a better way and i'll show you how i did that shortly so here's an exercise think of a belief you want to shift think of a random exciting story think of a call to action slash steps someone should take so here is an example belief dms are the way to grow your business
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[10] 04-Messaging Best Practices > 11-Messaging with Lower Vibe Emotions @ 06:32**
   And then oftentimes you'll see people respond and they'll be like, oh my gosh, are you okay? Like, how can I help you? How can I support you? And I think it like if you really having a hard time as a human and you like and your intention what you trying to create is I just really need someone to help me right now A hundred percent That fine You should get support if you need support But if what you wanting to do is having messaging in your business, that's allowing you to transmit a lower vibration emotion is you want to maintain your leadership. You want to maintain the fact that you're a spiritual being having the human
@@ -135,7 +135,7 @@ Selected 90 of 736 unique scoring passages. Each entry is verbatim transcript te
 - **[8] Buyology - Part 02 @ 53:11**
   Shouldn't take long. There are only a couple of items on our list. Let's make our way to the peanut butter section first. There's Skippy. Peter Pan, Jif, the generic supermarket offering, plus a few virtuous organic brands, salt-free, no sugar added, the sort where the oil rises to the top. Most consumers think about their choice for all of two seconds. In this case, let's say you grab the Jif, and we're on to our next stop. Was your decision rational? It may have seemed that way to you as you made your choice, but it wasn't, not by a long shot. If your decision-making process was conscious and articulated, my guess is it might have gone something like this.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[22] 01-Videos > 352-Going over how to write a script for an investment pitch but actually converting it into @ 04:09**
   so 500k to start yeah and up sure if beyond yeah okay and you're going to manage that money yeah all right so what i think is instead of like a story script i think what you're actually doing is more like a sales pitch so i mean have you have you seen some of the stuff on ada that we talked about in the course i don't know if you've looked into that yeah yeah so the ada formula might actually be the way that you're going to pitch this so so that's of course your attention interest desire action right this could actually be the script that you follow rather than a story script necessarily So oftentimes a story like the hero's journey, that's really good for telling a fun, engaging story or like watching a movie, like a piece of entertainment, right?

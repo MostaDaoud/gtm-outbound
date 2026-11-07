@@ -8,7 +8,7 @@ its lesson and timestamp.
 ## 1. What the page is actually doing
 
 Morrison's frame: "sales is just a transference of belief." The reader must
-arrive at a specific set of beliefs — "this is a person or a place, a program
+arrive at a specific set of beliefs - "this is a person or a place, a program
 that I feel a desire to deepen into... This person gets where I'm at and they
 know how to help me. I understand how this takes me from where I am now to where
 I want to go. And I want to do that. And I believe I'll get this result"
@@ -18,7 +18,7 @@ I want to go. And I want to do that. And I believe I'll get this result"
 That list is a usable audit. Read your draft and mark where each belief is
 established. Unmarked beliefs are where the page leaks.
 
-**Structure** comes from `frameworks.md` — AIDA for a single offer, the story
+**Structure** comes from `frameworks.md` - AIDA for a single offer, the story
 spine when the reader must change how they see themselves.
 
 ---
@@ -30,20 +30,20 @@ The most directly actionable layout instruction in the corpus:
 > "if something emotionally touches us we pay more attention to it... any emotion
 > on your page or as a brand you should promote that, and promote it in an
 > emotional way, and use visuals because visuals tend to be more impactful for
-> emotions than text — and display your USPs and your call to actions close to
+> emotions than text - and display your USPs and your call to actions close to
 > those emotionally powerful spots on your page"
 > (Schutz, *3. Attention & Perception > 3.4 Persuasion Techniques* @ 23:42)
 
 Three separable instructions:
 
-1. **Emotion earns attention** — grounded in Damasio's *Descartes' Error*, cited
+1. **Emotion earns attention** - grounded in Damasio's *Descartes' Error*, cited
    in the same passage (@ 23:42).
 2. **Visuals carry emotion better than text.** Your emotional peak should
    usually be an image, not a paragraph.
 3. **Put the USP and the CTA next to the emotional peak.** Not at a tidy
    interval. Not "above the fold" by convention. *Next to the feeling.*
 
-Most long pages get this backwards — emotional story in the middle, CTA stranded
+Most long pages get this backwards - emotional story in the middle, CTA stranded
 at the bottom after the FAQ.
 
 ---
@@ -52,7 +52,7 @@ at the bottom after the FAQ.
 
 From live testing on loan products: emphasise "the end goal, which is a new
 kitchen or a new car," de-emphasise the instrument, remove the category words
-"credit" and "loan," and make the product less comparable — "just apply for it,
+"credit" and "loan," and make the product less comparable - "just apply for it,
 we'll call you, we'll make sure you get the money" (*4. Need & Motivations >
 4.5 Techniques* @ 37:57).
 
@@ -62,12 +62,12 @@ naming your deliverable describe; headings naming the reader's outcome sell. See
 
 ---
 
-## 4. Segment effects — the same page can win and lose simultaneously
+## 4. Segment effects: the same page can win and lose simultaneously
 
 The finding most likely to save you from a bad rollout. Schutz describes a page
 addressing fear of switching telco providers:
 
-- For **prospects**, seeing it "conversion rates dropped" — it was
+- For **prospects**, seeing it "conversion rates dropped" - it was
   counter-effective.
 - For **existing customers** (identified by cookie), the same page "uplifted the
   conversions in terms of people prolonging their subscription."
@@ -77,7 +77,7 @@ you tell you should not be feared" (*2. System 1 > 2.1 Characteristics of System
 1* @ 42:11).
 
 **Consequences for how you test:** an aggregate flat result can hide a large win
-and a large loss cancelling out. Segment before concluding — at minimum, new
+and a large loss cancelling out. Segment before concluding - at minimum, new
 versus returning.
 
 **And for reassurance copy specifically:** naming an objection to defuse it plants
@@ -91,24 +91,24 @@ already live, not on the cold entry page.
 Three characteristics to design against (*2.1 Characteristics of System 1*
 @ 45:21):
 
-- **Always on** — it is processing before the reader "decides" to read.
-- **What you see is all there is** — it reasons only from what is on screen.
+- **Always on** - it is processing before the reader "decides" to read.
+- **What you see is all there is** - it reasons only from what is on screen.
   Anything below the fold does not exist for this system.
-- **Associative** — meaning arrives through association, not argument.
+- **Associative** - meaning arrives through association, not argument.
 
 The middle one is the design constraint. Every screen must stand alone, because
 System 1 will not wait for your later paragraph to resolve the ambiguity.
 
 **The practical form of that constraint is the sub-headline layer.** Scanning is
 "the most dominant behavior online," and scanners read the headline and
-sub-headlines only — the module's rule is a sub-heading after every two
+sub-headlines only - the module's rule is a sub-heading after every two
 paragraphs, and its verdict on pages without them is "you've lost"
 (*Digital Psychology & Persuasion, 03-Digital Psychology  Persuasion Minidegree >
 02-Principles of Persuasive Design* @ 16:03). See `headlines.md` §7 for what those
 sub-headings have to say.
 
 **Two page-level findings from the same lesson.** Removing a section from a
-long-form page raised sales **20%** — the improvement was subtractive. And
+long-form page raised sales **20%** - the improvement was subtractive. And
 triggers, per Fogg, land hardest "when the motivation is at its highest," which
 is an argument about *where* the CTA sits rather than how it is worded (@ 25:53).
 
@@ -121,14 +121,14 @@ one instruction.
 
 Covered in `headlines.md`. The two rules that matter most on long pages:
 
-- Curiosity beats confidence — the gap-opening headline beats the authority claim
+- Curiosity beats confidence - the gap-opening headline beats the authority claim
   (*3.3 Attention* @ 11:10).
 - Write it **after** the body. Morrison notes that starting linearly with this
   sentence invites perfectionism and stalls the draft (*06-Bonus > 02* @ 06:17).
 
 Her framing of its job: attract "your best buyers," pique interest, and "spark
 curiosity that's going to keep them engaged throughout the entire sales page"
-(@ 06:17) — sustained curiosity, not a single hook.
+(@ 06:17) - sustained curiosity, not a single hook.
 
 ---
 
@@ -143,7 +143,7 @@ not rational and your effort belongs elsewhere (@ 28:31).
 
 **This does not mean drop your USPs.** It means: keep one to three, place them
 next to the emotional peak (§2), phrase them so the buyer can repeat them to a
-partner — and stop expecting them to do the persuading.
+partner - and stop expecting them to do the persuading.
 
 Constraint from `offers.md`: one to three, five maximum, and chunk if more
 (*1.4* @ 11:36).
@@ -165,8 +165,8 @@ Constraint from `offers.md`: one to three, five maximum, and chunk if more
 
 ## Sources
 
-Bart Schutz, *Master of Online Persuasion* — 1.4, 2.1, 3.3, 3.4, 4.5.
-Kathryn Morrison, *Words Are Wands* — Bonus.
+Bart Schutz, *Master of Online Persuasion* - 1.4, 2.1, 3.3, 3.4, 4.5.
+Kathryn Morrison, *Words Are Wands* - Bonus.
 
 Related: `frameworks.md` (AIDA and the story spine), `headlines.md` (the
 opening), `offers.md` (pricing and scarcity), `psychology.md` (dual-process

@@ -2,7 +2,7 @@
 
 Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[19] 4. Need & Motivations > 4.4 Attribution Theory @ 37:42**
   Less sales when we apply it on the same product template, same brand, but different category where total different systems are at play. those are the differences you should focus on first in in my opinion and most psychologists opinion instead of staring yourself blind at the very prototypical popular personality typing theories and having said that I will end it up with a movie and then wrap it up before closing it down and this movie shows I think very nicely how the personality is not the big driver. It's not the intrinsic that I am a person that is this way. I am not a person that's always helping. But it's the situation that determines it more than your personality. Plays like this street in New York City.
@@ -56,7 +56,7 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 - **[11] 17-Building Habits and Loyalty > 05-Nir Eyals Hooked Model- A Quick Overview @ 00:42**
   products like Facebook and Yelp and Instagram succeeded, and why so many other products that were apparently very similar failed. His answer is what he calls his Hooked model. And it's a very simple four-step process that involves a trigger and action, reward and investment. And I'm going to give you a little bit more detail on that in just a moment. And I'm going to If we go back to my persuasion slide, it maps just about perfectly to his two steps of the trigger, which I call my nudge, and the action, which is actually getting the customer to the bottom of the slide to do what you want them to do. Only he adds this great recirculation step
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[16] 01-Bill Mueller- AI Copy Secrets Vol 1 @ 23:29**
   But it did a good job. I'll just scroll through this slowly. do you have any questions at this point i mean not really this story's great like i'm like it's just interesting like just weird random shit i'm like this is insane uh it makes me want to go look it up i love the idea i think what's interesting about the process that you that you put this together is the back and forth which i don't you know i don't know how most people use chat gpt or claude or these different things but for me um sometimes i'll put a prompt in i do mine with voice messages and explain my thing and then I get something really good back. But usually,
@@ -93,7 +93,7 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 - **[13] 03-Magnetic Content 2.0 / 01-Magnetic Content > 03-Content Types @ 07:36**
   So let's say you're a video editing agency. Talk about how Alex Ormozzi produces 60 pieces of content every single week with this formula, right? And then case study it out because you're acquiring the social proof of Hormozy and doing a case study on him. And you will say at the end that he is not a client, but that's what I would do if I was working with him.
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[13] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 1) @ 06:17**
   It's to attract and grab the attention of your best buyers. It's to pique their interest and enchant them into reading more. And it's to spark curiosity that's going to keep them engaged throughout the entire sales page. And here's a pro tip that asked me how I know, because I've lived through this. And because it is true, right, that like this is a very critical sentence. I mean, maybe we could argue it's maybe it's not the most important, but it's an extremely important sentence on the page that can sometimes get us into like perfectionism or I've got to do it right or whatever. And so then if we're thinking we need to go in a linear process of writing the sales
@@ -135,15 +135,15 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 - **[8] Buyology - Part 02 @ 53:11**
   Shouldn't take long. There are only a couple of items on our list. Let's make our way to the peanut butter section first. There's Skippy. Peter Pan, Jif, the generic supermarket offering, plus a few virtuous organic brands, salt-free, no sugar added, the sort where the oil rises to the top. Most consumers think about their choice for all of two seconds. In this case, let's say you grab the Jif, and we're on to our next stop. Was your decision rational? It may have seemed that way to you as you made your choice, but it wasn't, not by a long shot. If your decision-making process was conscious and articulated, my guess is it might have gone something like this.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[24] 02-Courses / 02-Copy Concepts > 02-The AIDA Model What It Is and How to Use It @ 00:00**
   I mean on email structure one thing that we agreed on that I don't think everyone is doing and it's just a I think a very common sale and copywriting format I'm curious how often you use this outside of email outreach is the Ada copyrighted for me I can describe that all the time I use it for everything I use it like in stories I tell in person so what you're about to see here is a really really simple outline called Ada AIDA, A-I-D-A. It means attention, interest, desire, action. This has been around for a long time. It's in that movie, Glenberry, Frost, whatever it's called. It's a very popular formula and it's super interesting, especially for emails. Because what it does is it takes
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[23] 02-Courses / 01-Copywriting Course > 05-BONUS VIDEO It normally costs 99 to buy this video interview @ 33:47**
   Arial is the font we should be sending our email in? Generally, that's accepted as a universal font that everyone has on their machines. If you use some fancy font, some people may not have it. I tend to use Arial, and that works really well. The next thing I do is now I've got this big, what do I write? Instead of doing that, I follow this framework. I literally write out attention, interest, desire, action. Remember, our old little… Our old little AIDA formula?
@@ -153,11 +153,11 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 
 - **[22 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 05:29**
   sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily well check it out again here is a sequence that we had for a class and here's a student that wrote all these examples in this exact same thing look subject line objective email email copy look attention interest desire he wrote a whole autoresponder sequence with just this formula and he got really good at it he was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long sales copy
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
 
 - **[20 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 04:25**
   Okay? Desire. If you use this formula from now on, you will make 30% more money. That's not necessarily true. I'm just saying it to get you to desire it. So you can see what can be possible with this formula. The formula is ADA. And I go on in the intersection to explain it over here. And then the actual word is, I want to get you to use ADA right now. So take out a sheet of paper and write the acronym AIDA on it. All right. So that's just like our basic outline of a sales page there we go so already we have written basically a properly formatted sales letter and if we flush this out it can become a real
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 04:25_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 04:25_
 
 - **[18] 01-Videos > 209-How to use the A.I.D.A formula in copywriting @ 08:22**
   So all we did was make a pitch for this guy to buy a freaking helicopter, but all we did was follow the ADA formula, attention, interest, desire, action. And look, now we have an entire completed sales pitch that we can send out in a cold email. This could be a phone script. This could be a video script. This could be a sales page. This could be in a brochure. This could be a one pager. This could be all sorts of stuff. And if we want to make it a really long sales page, all we have to do is add some more stuff to each of these sections. So that is the Ada formula. It is by far one of the most helpful sales formulas on the planet. In my opinion,
@@ -191,8 +191,8 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 
 - **[15 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 04:57**
   And then the actual word is, I want to get you to use ADA right now. So take out a sheet of paper and write the acronym AIDA on it. All right. So that's just like our basic outline of a sales page there we go so already we have written basically a properly formatted sales letter and if we flush this out it can become a real sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily extraordinarily well
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 04:57_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 04:57_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 04:57_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 04:57_
 
 - **[15] 01-Videos > 527-Going over how to write a script for an investment pitch but actually converting it into @ 04:46**
   going to pitch this so so that's of course your attention interest desire action right this could actually be the script that you follow rather than a story script necessarily so oftentimes a story like the hero's journey that's really good for telling a fun engaging story or like watching a movie like a piece of entertainment right where it makes you feel highs and lows but if you're actually trying to get someone to give you money you are doing a sales pitch my friend so it might actually be helpful to also put it in this format so the end is send me $500,000 to manage.
@@ -226,8 +226,8 @@ Selected 90 of 725 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 07:09**
   sales page right here it may not be a long form but the same format still totally works so you definitely have to make sure you use this formula on all the things you write and you'll probably never have writer's block again you'll be able to fill out things just like that and I've got to tell you when people start using this formula they immediately see an increase in sales because in the past they would sit down to write something and they'd be like um what do I write I don't know maybe just make something up at the top of my head with the a to formula all you have to do is go back to the template and
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 07:09_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 07:09_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 07:09_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 07:09_
 
 - **[14] 01-Videos > 624-June 8th 2023 @ 30:45**
   point of view, for example, um, I want to die at 85 and I wrote a blog post about it and that gets thousands of views per month still, because it's just a, an interesting view on death. And because I wrote that so many people linked to it, that it starts ranking number one for all sorts of keywords. And, and it's because I didn't just start with an SEO, like outline of like what I think people want to hear. I started off with my weird view about this. And so I don't know if you have any, um, differentiating, um, ideas about this that you can share on any of these topics, but I would suggest sometimes if you do just start writing that topic. And that's far more

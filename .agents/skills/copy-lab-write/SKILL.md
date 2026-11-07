@@ -4,18 +4,19 @@ description: >
   Write direct-response copy using frameworks from a multi-course library and
   provenance-aware local books, documents, audio, and videos. Produces sales pages, VSL scripts,
   email sequences and launches, cold
-  outreach, DMs, ads, landing pages, one-pagers, taglines, and offer structures,
+  outreach, DMs, ads, landing pages, social hooks, LinkedIn posts, one-pagers, taglines, and offer structures,
   each built on a named framework with source citations and annotated choices.
   Use when the user says "write a sales page", "write a VSL", "write an email
   sequence", "write a launch", "cold email", "write a sales letter", "write an
   ad", "write a one pager", "write a tagline", "draft copy", "copy-lab write",
-  "write fascination bullets", "bullet copy", "humanize this copy", "make this
+  "write fascination bullets", "bullet copy", "write hooks", "LinkedIn hook",
+  "hook sprint", "LinkedIn post", "humanize this copy", "make this
   sound less AI", "remove AI clichés", or asks for new or rewritten
   direct-response copy grounded in the course library. For
   scoring copy that already exists, use copy-lab-critique instead.
 ---
 
-# Copy Lab — Write
+# Copy Lab: Write
 
 Produce direct-response copy grounded in the mined library. The output should be
 usable as written, with the reasoning visible enough that the user can push back
@@ -25,50 +26,51 @@ on specific choices.
 folder, not this one: `../copy-lab/references/` and `../copy-lab/scripts/`.
 Resolve these sibling-relative paths to absolute paths before reading or
 executing them. Short
-names below — `voice.md`, `offers.md` — mean files in that references directory.
+names below - `voice.md`, `offers.md` - mean files in that references directory.
 
-## Step 1 — Establish the brief
+## Step 1: Establish the brief
 
 Ask only for what you genuinely cannot infer. If the user is mid-flow, state
 assumptions and write; a draft with explicit assumptions beats an interrogation.
 
 1. **The one action** this piece should cause
-2. **The reader** — who they are, and how aware they already are of the problem,
+2. **The reader** - who they are, and how aware they already are of the problem,
    the solution category, and this specific product
-3. **The offer** — what it is, price, what makes it different
-4. **Proof available** — real numbers, testimonials, case studies, credentials
-5. **Traffic source** — what they already know on arrival
+3. **The offer** - what it is, price, what makes it different
+4. **Proof available** - real numbers, testimonials, case studies, credentials
+5. **Traffic source** - what they already know on arrival
 6. **Position in a sequence**, if any
-7. **Voice** — an existing sample is worth more than adjectives
-8. **For a value proposition** — category, current alternative, target outcome,
+7. **Voice** - an existing sample is worth more than adjectives
+8. **For a value proposition** - category, current alternative, target outcome,
    functional differentiator, and any customer language about the feeling or
    identity the result creates
 
 If the user cannot supply proof, proceed and mark the slots. Do not invent it.
 
-## Step 2 — Check the offer first
+## Step 2: Check the offer first
 
 Apply Wendt's question before writing a word: *would you personally hand over
 money for this?* If the offer looks like the real problem, say so in one or two
 sentences, then write the best version anyway under that stated caveat.
 (`offers.md`)
 
-## Step 3 — Pick the framework
+## Step 3: Pick the framework
 
 | Piece | Default | Reference |
 |-------|---------|-----------|
 | Email, ad, pitch, script, one-pager | AIDA | `frameworks.md` |
-| Long-form sales page | Modified AIDA — AIDA with testimonials interleaved | `frameworks.md`, `sales-pages.md` |
+| Long-form sales page | Modified AIDA - AIDA with testimonials interleaved | `frameworks.md`, `sales-pages.md` |
 | VSL | Problem → solution → recap → offer introduction | `sales-pages.md` |
 | Webinar or live | Big promise → new vs. old way → three secrets → CTA | `frameworks.md` |
 | Cold outreach set | Value email → case-study email → Crossroads angle | `emails.md` |
 | Launch | Sequence timed to an event, never a standalone ask | `emails.md` |
 | Tagline | Dump → trim → trim to under a sentence | `frameworks.md` |
-| Nothing fits / blank page | Who, What, Where, Why, When — then a framework | `frameworks.md` |
+| Social post, LinkedIn post, hook sprint | Body first → 4-format hook sprint (Dense, Punchy+Context, Single-Line Bomb, Stacked) → Top 3 picks | `social-hooks.md` |
+| Nothing fits / blank page | Who, What, Where, Why, When - then a framework | `frameworks.md` |
 
 State which framework you chose and why.
 
-## Step 4 — Load only the references you need
+## Step 4: Load only the references you need
 
 Read the framework file plus the format file from
 `../copy-lab/references/`. Add `psychology.md` when proof or
@@ -104,6 +106,18 @@ functional → emotional → self-expressive ladder, filter claims through the
 customer/brand/competitor “winning zone,” then assemble only the slots the final
 line needs.
 
+For Arabic, Saudi, UAE, or Gulf market copy, video scripts, Ramadan or National
+Day campaigns, load `gcc-copywriting.md` (or delegate directly to `copy-lab-gcc`).
+Calibrate dialect (Najdi, Emirati, White Arabic) and enforce the GCC Anti-Slop
+Contract (no literal translated English marketing cliches, pure dialect without
+Egyptian/Levantine slips).
+
+For social posts, LinkedIn/X content, or short-form feed hooks, load `social-hooks.md`.
+Compose against mobile (~90 units / <= 50 chars for full lines, <= 45 chars for last
+visible line). Apply the Cut-Zone Test at characters 42 and 66 for trailing lines.
+Rotate across the 4 formats (Dense, Punchy+Context, Single-Line Bomb, Stacked), enforce
+the strict em-dash ban, and present 8-10 options with Top 3 Picks.
+
 To find material the library does not cover:
 
 ```bash
@@ -114,9 +128,9 @@ Course results cite a lesson and timestamp; local sources cite a page, chapter,
 or video timestamp. Use source passages as research, quote only brief excerpts,
 and never reproduce a substantial section of a source.
 
-## Step 5 — Draft
+## Step 5: Draft
 
-Write the skeleton first — the framework's sections as literal headers — then
+Write the skeleton first - the framework's sections as literal headers - then
 fill each one, then delete the headers. This is Medhora's method and it is the
 fastest route out of a blank page.
 
@@ -141,7 +155,7 @@ While drafting, hold these:
 - **CTAs near the emotional peaks**, and an early one for readers already
   convinced. (`sales-pages.md`)
 
-## Step 6 — Self-check before delivering
+## Step 6: Self-check before delivering
 
 Run these against the draft. They are the highest-frequency failures in the
 corpus:
@@ -153,7 +167,7 @@ corpus:
       and credible differentiator when the format calls for them
 - [ ] Emotional and identity benefits trace back to something the product
       demonstrably does
-- [ ] Nothing that reads as generic model output — is there something here only
+- [ ] Nothing that reads as generic model output - is there something here only
       this author could have written?
 - [ ] Load-bearing lines are visual, supported, and ownable where the format permits
 - [ ] If the anti-generic pass was requested: no clustered stock constructions,
@@ -162,7 +176,7 @@ corpus:
 - [ ] The single intended action is unmistakable
 - [ ] Proof is results-shaped, not praise-shaped
 - [ ] Every fascination maps to content that delivers its implied answer
-- [ ] Length earns itself — brevity is where the value is
+- [ ] Length earns itself - brevity is where the value is
 
 ## Output format and delivery mode
 
@@ -173,34 +187,34 @@ Match the user's requested format before applying any template:
 - **Annotated** (when the user asks for reasoning): add the framework, choices,
   alternatives, and source notes after the clean copy.
 - **Variants** (when the user asks for options): provide controlled headline,
-  hook, or CTA alternatives—not several full drafts.
+  hook, or CTA alternatives - not several full drafts.
 - **Campaign** (when the request spans channels): build the page, email, and
   social adaptations from the same three to five core points.
 
 Use this full template only for Annotated mode:
 
 ```markdown
-## {Piece} — {Product}
+## {Piece}: {Product}
 
-**Framework:** {name} — {one line on why}
+**Framework:** {name} - {one line on why}
 **Reader:** {who} · **Awareness:** {level} · **Action:** {the one action}
 
 ---
 
-{THE COPY — clean, ready to use, no annotations inline}
+{THE COPY - clean, ready to use, no annotations inline}
 
 ---
 
 ### Choices worth knowing about
-- **{element}** — {why}, applying {principle} (`reference.md`)
+- **{element}** - {why}, applying {principle} (`reference.md`)
 
 ### Alternatives
-- **Headline B:** {copy} — {when this one is better}
-- **CTA B:** {copy} — {when this one is better}
+- **Headline B:** {copy} - {when this one is better}
+- **CTA B:** {copy} - {when this one is better}
 
 ### Needs from you
-- `[PROOF NEEDED: {type}]` at {location} — {what would fill it}
-- `[DEADLINE: confirm]` — {what to verify}
+- `[PROOF NEEDED: {type}]` at {location} - {what would fill it}
+- `[DEADLINE: confirm]` - {what to verify}
 
 ### If this underperforms
 {The first thing to change, and why that one first}
@@ -223,7 +237,7 @@ Use this full template only for Annotated mode:
 piece. The user should choose between options, not review drafts.
 
 **Write the sequence alongside the page.** Medhora writes email sequences and
-sales pages together, then reuses both on social — the three to five core points
+sales pages together, then reuses both on social - the three to five core points
 become the pillar piece. (`sales-pages.md`)
 
-**Match the user's format exactly** — MDX in, MDX out.
+**Match the user's format exactly** - MDX in, MDX out.

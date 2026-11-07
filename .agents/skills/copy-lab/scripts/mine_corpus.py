@@ -255,8 +255,8 @@ class _Union:
 def _canonical_rank(entry: dict) -> tuple:
     """Sort key deciding which copy of a repeated passage to keep.
 
-    Prefers the shallowest path — a lesson filed directly under a course folder
-    beats the same lesson nested inside a sub-course — then falls back to
+    Prefers the shallowest path - a lesson filed directly under a course folder
+    beats the same lesson nested inside a sub-course - then falls back to
     alphabetical order so the choice is stable across runs.
     """
     path = Path(entry["passage"].path)
@@ -273,8 +273,8 @@ def collapse_across_corpus(
     passage can appear three or four times. Per-file deduplication cannot see
     that, and the copies crowd distinct material out of the theme digests.
 
-    Exact repeats match on a normalized fingerprint. Near repeats — separate
-    whisper runs over the same footage, differing by a word — match on 5-word
+    Exact repeats match on a normalized fingerprint. Near repeats - separate
+    whisper runs over the same footage, differing by a word - match on 5-word
     shingle Jaccard similarity, compared only between passages that already
     share several shingles.
 
@@ -290,7 +290,7 @@ def collapse_across_corpus(
     if not entries:
         return ([], {"exact_groups": 0, "near_groups": 0, "copies_removed": 0})
 
-    # Stage 1 — exact repeats.
+    # Stage 1 - exact repeats.
     exact: dict[str, list[int]] = defaultdict(list)
     for index, entry in enumerate(entries):
         exact[fingerprint(entry["passage"].text)].append(index)
@@ -304,7 +304,7 @@ def collapse_across_corpus(
 
     exact_groups = sum(1 for group in members if len(group) > 1)
 
-    # Stage 2 — near repeats among the representatives.
+    # Stage 2 - near repeats among the representatives.
     near_groups = 0
     if near_threshold < 1.0 and len(representatives) > 1:
         sets = [shingles(entries[rep]["passage"].text) for rep in representatives]
@@ -395,7 +395,7 @@ def course_quotas(
 
     Keep ``minimum`` low relative to ``total_slots``. The floor is paid to every
     course present in the theme, so with many courses a generous floor consumes
-    the whole digest and the weighting stops doing anything — at 17 courses a
+    the whole digest and the weighting stops doing anything - at 17 courses a
     floor of 4 already claims 68 of 75 slots.
 
     Args:
@@ -548,7 +548,7 @@ def main(argv: list[str] | None = None) -> int:
     files_empty = 0
     passages_total = 0
 
-    # Phase 1 — read, window, and score every file. Deduplication has to wait
+    # Phase 1 - read, window, and score every file. Deduplication has to wait
     # until the whole corpus is in hand, since repeats span course folders.
     entries: list[dict] = []
     for path in iter_transcript_paths(root):
@@ -587,13 +587,13 @@ def main(argv: list[str] | None = None) -> int:
 
     kept_total = len(entries)
 
-    # Phase 2 — collapse repeats across the whole corpus.
+    # Phase 2 - collapse repeats across the whole corpus.
     if not args.quiet:
         print(f"  collapsing duplicates across {kept_total} passages...",
               file=sys.stderr)
     collapsed, dedupe_stats = collapse_across_corpus(entries, args.near_threshold)
 
-    # Phase 3 — persist and bucket by theme.
+    # Phase 3 - persist and bucket by theme.
     jsonl_path = output / "mined.jsonl"
     theme_pools: dict[str, list[dict]] = defaultdict(list)
     with jsonl_path.open("w", encoding="utf-8") as store:

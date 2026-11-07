@@ -2,7 +2,7 @@
 
 Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[13] 8. Pricing Psychology > 8.2 Setting your price @ 08:10**
   part of the price and then later on add shipping and handling costs etc etc which is more the drip prices how to choose that perfect price structure and that's the first thing to decide upon and when you set the price to you chose this price structure and then we'll get to how to get to the base price so first how to get to a price structure and the two things two two topics i want to talk about when it comes to price structure the first one is uh complex pricing the second one is drift pricing because uh of course you can just choose one price one fixed price uh but there are two alternatives um and the first one is complex pricing complex pricing is the combining of products right or
@@ -59,7 +59,7 @@ Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript te
 - **[7] 19-Decision Making > 04-Master the Moment of Decision Using Applied Neuroscience Methods for Measuring Attention Emotion  Memory  Karsten Lund @ 00:10**
   I'm all about decision making and mastering the moment of decision making. And even though it's not going to be very imminent from the talk today, I'm a practitioner. I've actually been doing this for 10 years. I've been running a lot of split tests and I've had a win rate of around 25%. So 75% of these tests have not been successful.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[11] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 05:22**
   is always the best play but here i read back again and i thought okay it kind of is a bit buried i thought ai had a point here so when i actually wrote this email and sent it out to the list um i put the testimonial further down so that was an interesting insight um this was also good cta placement clarity so the cause action that i wrote was literally just where was it yeah go here to inject more fun into your days this was just a broadcasting onto my list nothing nothing crazy i didn't want to be too hardline with the cta but it did give me a note that i could make it stronger
@@ -96,7 +96,7 @@ Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript te
 - **[10] 03-Magnetic Content 2.0 / 01-Magnetic Content > 06-Ideal Week Setup - Notion Walkthrough @ 01:41**
   a Tuesday you skip to another topic Right So moving forward what I would recommend doing is taking these types and organizing it into how you want to do it i would recommend not having it in this specific order just because it doesn't help you that much stand out if everyone is here doing the same thing tuesdays get boring because it's all just social proof right so what i recommend doing is the themes based around authority social proof and borrowed authority and technical and authority i would split them up to be every second day, just so you have that balance, right? Now, once you've sort of created this, you can go in, duplicate the content types so that you have, okay, I might do a you
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[8] 06-Bonus > 01-The Art and Science of Cold Outreach @ 22:05**
   I share immediately actionable tools and strategies on topics like calendar and time management, cross-functional team communication, how to leave work stress when you go home. If you have a small conference room or group space, I'd be happy to come in and do a lunch and learn for any people interested. Below, you'll see a few client testimonials. And if you're interested, I will provide a kit with an email template to send out promoting the event, as well as printable flyers you can hang in the workplace if that's more convenient. Are you interested? Christine.
@@ -123,7 +123,7 @@ Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript te
 - **[7] Buyology - Part 01 @ 56:20**
   Which is where our brain scanning study came in. For me, it all began with a Forbes magazine cover story, In Search of the Buy Button, which I picked up during a typical day-long airplane flight. The article chronicled the goings-on in a small lab in Greenwich, England, where a market researcher had joined forces with a cognitive neuroscientist to peer inside the brains of eight young women as they watched a TV show interspersed with half a dozen or so commercials for products ranging from Kit Kat chocolates to Smirnoff vodka to Volkswagen's Passat. Using a technique known as SST, which measures electrical activity inside the brain, and resembles, I later found out, a floppy, black-roaring 20s-era bathing cap,
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[17] 01-Videos > 93-Intro to autoresponders @ 00:00**
   Hey, it's Neville Medora here. And today we are going to be talking about one of my favorite topics that's boring for most people, but is the secret weapon behind a lot of big companies. And it is an email autoresponder. You can check it out right here. Build an email autoresponder that warms up customers for you. So before we start, I would like to tell you why you should actually listen to me on this. I mean, you're watching this course, you're learning from me.
@@ -157,7 +157,7 @@ Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript te
 
 - **[13 +1 repeats] 01-Videos > 612-August 31st 2023 @ 11:19**
   You can get your foot in the door like that. But over time, like what happens is like, for example, AI wasn't really big till about a year ago. Now, if you go on Upwork or Fiverr, there's whole sections for AI. And so there's people that used to just do content marketing that now doing whole different tasks. And so I always tell people, keep your options open. Don't, don't, don't niche down immediately. Don't be like a copywriter just for coaches. If that's not like a thing that, you know, you really like, or you've done before, I'd say you can offer this, but like I said, I think what's going to happen is you're going to get one or two clients and then you're gonna be
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 695-Office Hours August 30 2023 @ 11:17_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 695-Office Hours August 30 2023 @ 11:17_
 
 - **[13] 01-Videos > 93-Intro to autoresponders @ 08:28**
   inbox all the time. So that's a little trick. And then the other thing is an autoresponder is slowly teaching you about your audience. So sometimes I'll survey my audience and say, what have you learned the most from me? And I'll think it's like about making money or whatever. And they're all say copywriting. And I go, Oh, interesting. Everyone's learning copywriting from me. Perhaps that's something I should explore more. And this could direct your business all by just having a simple little message at the bottom of your autoresponder. So now let's talk about auto responders as a sales sequence. So the beauty of the auto responder is you can send many emails over time. You're not cramming all the information that you need to send them into one
@@ -188,7 +188,7 @@ Selected 90 of 436 unique scoring passages. Each entry is verbatim transcript te
 
 - **[11 +1 repeats] 01-Videos > 346-Reviewing a blog post about learning finances and a lesson in story telling @ 03:26**
   interesting, like the earn spend, like this could be an interesting as its own blog post as a framework. But I think you're going from like your experience to this Mr. Money person. Who's like, you don't really know who he is in your, your head. I can't picture him. And then to like, here's five principles on, on earning stuff. So I think what you need to do with this, Like the writing was great, but stay on topic with the main thing.
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 477-Reviewing a blog post about learning finances and a lesson in story telling @ 03:26_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 477-Reviewing a blog post about learning finances and a lesson in story telling @ 03:26_
 
 - **[11] 01-Videos > 374-I created a Shopify merch store now how to integrate it with my content on Instagram @ 23:17**
   called envision five questions if i say how do i change background color that's all i have to say it knows i'm talking about envision community five see so then it does it and the way that it does it has instructions right here and i just said i run copywriting course upgraded in april i can do light coding and css updates so that i just gave it i just really blabbed it like voice command um and then you could add files i don't need to add files here but basically you could say like these are my sales processes these are my blog posts whatever if you want you don't you don't have to do anything. Um, and then I, now I just have this and I'm always using this. So,

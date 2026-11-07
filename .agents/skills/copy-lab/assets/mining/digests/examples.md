@@ -2,7 +2,7 @@
 
 Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[21] 2. System 1 > 2.3 Theoretical Models @ 07:56**
   cognitive response model is the heuristic systematic model and it's from the same period it's almost the same so again there's a persuasion attempt there's the determinant motivation there's the determinant ability if both are good enough then we make a choice with system 2 which they called compensatory strategies based on the information about the attributes of each of the options a very rational choice if either one or both of them are not good enough we go into system one processing but the holistic systematic model already made a distinction there between two types of system one reactions and the first one is if there are no situational cues present and which can be anything in the situation take for example you are walking across the
@@ -59,7 +59,7 @@ Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript t
 - **[11] 17-Building Habits and Loyalty > 07-Hooked Lecture  How to Build Habit-Forming Products @ 27:50**
   The first way that it invests... investments increase the likelihood of the next pass is by loading the next trigger loading the next trigger so for example when i use whatsapp and i send someone a message you can substitute slack or any number of other messaging services here when i send someone a message there's no immediate gratification right i don't get any points i don't get badges nothing really happens when i send someone a message but what i'm doing when i send that message is that i'm loading the next trigger because i'm likely to get a reply and that reply comes coupled with what's that an example of that jewel icon an external trigger prompting me through the hook once again okay so
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[18] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 09:41**
   And so here's an example of what I did. So this is the prompt. And you can use this pretty much verbatim. So I said, I'm a freelance copywriter who wants to practice my skills and develop world-class jobs. To help with this, I want you to create a fake client brief for me to read through and practice writing one email for, which I want you to give me detailed feedback on with a grade for each part of the email. To start, I want you to create a particularly challenging brief that tests my ability to understand market saturation, the five levels of awareness, optimal product positioning, and more. Basically, I want you to create a very challenging client brief situation, making it hard for me to write a strategically and positionally
@@ -96,7 +96,7 @@ Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript t
 - **[13] 01-MUST WATCH AI Challenge > 08-How To Grow An Audience 500k Followers @ 25:23**
   beat community um i like it because it's got some cool like automations you can do within the platform and it's got like everything bundled into one um but yeah i never really liked school i never liked uh circle or any of the other ones but i really like heartbeat because they just got all the features i love yeah nice and so you've got some uh big viral bangers online not only written text but in videos as well tell the people how do we go viral on social media what makes a viral video for example bring me through your brainstorming process the hook you know the the base of the content the storytelling walk me through yeah so
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[13] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 1) @ 06:17**
   It's to attract and grab the attention of your best buyers. It's to pique their interest and enchant them into reading more. And it's to spark curiosity that's going to keep them engaged throughout the entire sales page. And here's a pro tip that asked me how I know, because I've lived through this. And because it is true, right, that like this is a very critical sentence. I mean, maybe we could argue it's maybe it's not the most important, but it's an extremely important sentence on the page that can sometimes get us into like perfectionism or I've got to do it right or whatever. And so then if we're thinking we need to go in a linear process of writing the sales
@@ -118,7 +118,7 @@ Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript t
 - **[11] 03-Module 2- The Process - Cracking The Code of Generating High-Quality Content With Chat-GPT > 01-Step 3- Prompting Prompting is Nothing Like What You Think It Is @ 03:17**
   It's just ChatGPT can't handle all the instructions. It breaks down. Editing all these words at one time is difficult and it's just easier to add things as you go along rather than doing it all at the end. Also, taking time to outline your article with helpful info, then generating in small chunks helps you do less work editing at the end, which I think is the hard part. So taking the time to really control the output and improve it as you go along in small sections is a lot easier than going back and editing a ton of stuff at one time. It's just, it's not fun. So do it this way. It is much better. The process looks something like this.
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[15] 01-As-We-Begin > 01-Congrats On Your Investment @ 02:48**
   sales copy. And the thing is, this is a skill that will not only help your business, but will help you in every area of your life. For example, let's say you decide you no longer want to run your business. Do you know how much copywriters are making online on upwork.com, which is a freelance site? Let me show you. Okay, let me just show you. So this is Upwork. This is a copywriting site. Well, it's a freelance site, but let me just show you. $75 an hour, $50 an hour, $70 an hour, $45, whatever, $50 an hour, $25 an hour, $77 an hour. There's countless copywriters and then vice versa with jobs it's the same thing right so if you are searching for jobs
@@ -137,7 +137,7 @@ Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript t
 - **[10] Buyology - Part 01 @ 50:09**
   What are shoppers really thinking? And since no one can come up with a decent answer to these questions, companies plow ahead, using the same strategies and techniques as they always have. Marketers, for example, are still doing the same old stuff. Quantitative research, lots and lots of volunteers about an idea, a concept, a product, or even a kind of packaging, followed by qualitative research, which turns a more intense spotlight on smaller focus groups, hand-picked from the same population.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[26] 01-Videos > 66- Office Hours- September 18 2025 @ 10:44**
   Um, but, but I'm just, but I am building a like a little bit of a portfolio. So yeah, I always, I always talk about the three tier rate, the, so for example, it goes like this. You triple it and you triple it again. it again. So a $500 project could potentially be a $1,500 project pretty easily. And the $500 price doesn't scare away the people on the low end. But then if someone wants a much more premium product, they're also likely to get this, where if you just charge $500, people go, okay, that's the price. That's all you'll ever make. So I always tell people that this price should be at least 10 times more than this price. And you have a tiered system. So you can tell someone,
@@ -195,7 +195,7 @@ Selected 90 of 1713 unique scoring passages. Each entry is verbatim transcript t
 
 - **[15 +1 repeats] 01-Videos > 349-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product  @ 00:24**
   You generally have to do it in a sequence and kind of butter people up and also time it to some event. is what I've noticed. I mean, I, our, our copywriting course a year costs like seven 50 a year. So let's call them the same range as a thousand, right? If I just send out a random sales email being like, Hey, buy the copywriting course. It almost always has no effect. There's, there's no, right. So instead we always do, we always do like full launches. For example, I'll just, uh, I could probably show you over here on a different doc. Um, whenever we send out launches, I mean, it's like a bunch of emails related to each other. It's never just like,
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 481-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product @ 00:24_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 481-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product @ 00:24_
 
 - **[15] 01-Videos > 378-First autoresponder sequence created and its a top 1 quality level Added some CTAs to  @ 02:52**
   Now, I wrote a little pro tip that if you're going to reuse this, you could potentially add a block at the bottom with your email sender at the end. And what this does is instead of at the end of the email, if next year you use it and you add some CTA over here, for example, you could just update it in one spot and it gets updated on the next one.

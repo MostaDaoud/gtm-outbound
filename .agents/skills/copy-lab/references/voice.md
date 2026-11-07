@@ -10,9 +10,9 @@ its lesson and timestamp.
 The cleanest definition in the corpus (*Branding & Brand Strategy, 14-Branding >
 05-Build a brand voice* @ 07:24):
 
-- **Voice / personality** — "what your brand sounds like when they talk." Stable.
+- **Voice / personality** - "what your brand sounds like when they talk." Stable.
   Ties to vision, mission, narrative, and to visual identity.
-- **Tone** — "the kind of mood that your brand is in at the moment of writing any
+- **Tone** - "the kind of mood that your brand is in at the moment of writing any
   ad or piece of content." Varies "depending on what topic you're writing about,
   which audience you're talking to and in which channel."
 
@@ -21,7 +21,7 @@ highly spirited"; Old Spice as "humorous and fun-loving" (@ 07:24).
 
 There is a **third building block** taught alongside these two:
 
-- **Rhythm** — "the pace, aka how fast or slow your brand talks, and any other
+- **Rhythm** - "the pace, aka how fast or slow your brand talks, and any other
   language patterns it uses," including how long or short the sentences run
   (@ 07:24).
 
@@ -32,7 +32,7 @@ usually what people mean when they say a draft "doesn't sound like us."
 **What varies tone, concretely.** The lesson names topic, audience and channel,
 and gives the axes as examples: upbeat with exclamation marks and emoji for a
 funding announcement; "deeply reflective" for market change. The sharpest is
-geographic — a US audience "generally okay with hardline selling approaches"
+geographic - a US audience "generally okay with hardline selling approaches"
 against a European audience who "strongly dislike hardline selling," where you
 "need to adapt a softer approach" (@ 07:24).
 
@@ -49,7 +49,7 @@ never.
 ## 2. Voice is a refusal to take the safe option
 
 Oatly is cited precisely for what it declined to do: "what Oatly did here was
-definitely not adopt a safe choice for the target audience" — "It's like milk but
+definitely not adopt a safe choice for the target audience" - "It's like milk but
 made for humans," continuing into "so what is this oat drink anyway? Milk? No,
 it's not milk" (*14-Branding > 05-Build a brand voice* @ 01:28).
 
@@ -57,8 +57,8 @@ The generalisable move is that the copy sounds like a person with a position,
 including a slightly combative one. Safe voice is not neutral; it is a choice to
 sound like the category.
 
-Pair this with the clichés exercise in `positioning.md` §4 — "what are the clichés
-that they hate" — which produces the list of things your voice must refuse.
+Pair this with the clichés exercise in `positioning.md` §4 - "what are the clichés
+that they hate" - which produces the list of things your voice must refuse.
 
 ---
 
@@ -100,9 +100,9 @@ specifies your organization's purpose and reason for being. It is a target at
 which all the plans and programs should be aimed" (*14-Branding > 03-Brand soul*
 @ 05:27).
 
-The case given is Sweetgreen — founded by students with "a vision to change the
+The case given is Sweetgreen - founded by students with "a vision to change the
 world for salad. You never think that you could change the world for the salad,
-but they did it" — with the mission "to inspire healthier communities by
+but they did it" - with the mission "to inspire healthier communities by
 connecting people to real food" (@ 05:27).
 
 Note the structure: an oversized ambition attached to an unglamorous category.
@@ -118,18 +118,18 @@ more your information is told as a story, the more meaning we give to it, the
 more we relate it to other associated aspects and concepts and the more it's
 embedded in our brain" (*7. Persuasive Marketing > 7.1 Your Offer* @ 38:33).
 
-He demonstrates it self-referentially — noting that the models he taught *without*
+He demonstrates it self-referentially - noting that the models he taught *without*
 a story are the ones listeners struggle to recall, while the conditioning lesson
 stuck because it carried the dentist's "this won't hurt a bit" (@ 38:33).
 
 **The deeper version.** Schutz argues the self is itself a narrative: "a story
 about who you are... it helps you interact with each other," organising "the
-behavioral schemas that you should apply when you come to a new situation" — and
+behavioral schemas that you should apply when you come to a new situation" - and
 "the self might be an illusion, a story created" because it is useful to the
 brain (*6. Self, Social & Situation > 6.1* @ 14:56).
 
 If identity is a story people tell themselves, copy works by offering a line that
-fits the story they are already telling — or a better one.
+fits the story they are already telling - or a better one.
 
 **Scepticism is a reasonable starting position.** The Radical Differentiation
 instructor is candid about arriving late to this: storytelling "is being thrown
@@ -139,7 +139,7 @@ evidence, not the fashion (*13-Radical Differentiation > 11-Message* @ 01:19).
 
 The structure he settles on is the same story spine set out in `frameworks.md`
 §2. What matters for voice is the role it assigns you: **the reader is the
-character and you are the guide** — so a voice that positions the brand as the
+character and you are the guide** - so a voice that positions the brand as the
 hero is not merely immodest, it is structurally wrong.
 
 ---
@@ -151,7 +151,7 @@ Schutz is direct that personality-based targeting is mostly an artefact:
 - "we highly overemphasize personalities and underemphasize the situations"
   (*6.1 Self & Situation* @ 18:30).
 - Personality models rest on questionnaires asking people how they respond "or
-  even worse how they think they would respond — in terms of methodology you're
+  even worse how they think they would respond - in terms of methodology you're
   in a worse nightmare" (@ 18:30).
 - On persona algorithms: "are they finding your personality or are they just
   segmenting on intent or gender?" He notes women test as somewhat more
@@ -159,11 +159,11 @@ Schutz is direct that personality-based targeting is mostly an artefact:
   "personality" result may be neither (*4. Need & Motivations > 4.4 Attribution
   Theory* @ 34:05).
 - Same product, same brand, different *category* produced fewer sales because
-  "totally different systems are at play" — the situation, not the person
+  "totally different systems are at play" - the situation, not the person
   (@ 37:42).
 
-**What to do instead:** write for a *situation* — what the reader is doing,
-where, under what pressure, having just come from where — rather than for a
+**What to do instead:** write for a *situation* - what the reader is doing,
+where, under what pressure, having just come from where - rather than for a
 personality sketch. This is the same conclusion `research.md` §2 reaches from the
 segmentation side.
 
@@ -174,7 +174,7 @@ rule is deliberately restrained: after the research has been organised on the
 page, clean it lightly so it no longer sounds like pasted interview cards; do
 not rebuild it and erase the language that made it specific
 (*Product Marketing, 13-Radical Differentiation >
-11-everyone-hates-marketers__3-steps-to-write-copy-tha* @ 46:10–47:27).
+11-everyone-hates-marketers__3-steps-to-write-copy-tha* @ 46:10-47:27).
 
 Her first two editing sweeps are **clarity**, then **voice and tone**. Clarity is
 checked first and again at the end; voice asks whether the brand is present line
@@ -211,11 +211,11 @@ person saying it different ways.
 
 ## Sources
 
-Branding & Brand Strategy — 14-Branding (brand voice, brand soul, brand identity,
+Branding & Brand Strategy - 14-Branding (brand voice, brand soul, brand identity,
 Go Beyond approach).
-Bart Schutz, *Master of Online Persuasion* — 4.4, 6.1, 7.1.
-Kathryn Morrison, *Words Are Wands* — Messaging Best Practices.
-Product Marketing — 13-Radical Differentiation.
+Bart Schutz, *Master of Online Persuasion* - 4.4, 6.1, 7.1.
+Kathryn Morrison, *Words Are Wands* - Messaging Best Practices.
+Product Marketing - 13-Radical Differentiation.
 
 Related: `positioning.md` (the clichés list), `headlines.md` (voice in the first
 line), `psychology.md` (why situation beats personality),

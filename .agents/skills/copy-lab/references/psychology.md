@@ -16,26 +16,26 @@ agent, and the rational part of them is the *weaker* part.
 
 **Two systems, and only one of them is usually present.**
 
-- System 1 — fast, emotional, intuitive, associative, always on, outside
+- System 1 - fast, emotional, intuitive, associative, always on, outside
   conscious control.
-- System 2 — slow, rational, reasons about the future, and **costs energy to
+- System 2 - slow, rational, reasons about the future, and **costs energy to
   run** (Schutz, *1.1 Introduction System 1 & 2* @ 35:03).
 
 Kahneman's own compact definition is now indexed as a local audiobook source:
 System 1 "operates automatically and quickly" with little effort or voluntary
 control; System 2 allocates attention to effortful activity and complex
-computation (Daniel Kahneman — *Thinking, Fast and Slow*, @ 00:46:29). He adds
+computation (Daniel Kahneman - *Thinking, Fast and Slow*, @ 00:46:29). He adds
 the division of labour that matters for copy: System 1 generates impressions,
 feelings, intentions, and intuitions; System 2 commonly endorses them into
-beliefs with little modification (@ 00:58:22–00:58:51).
+beliefs with little modification (@ 00:58:22-00:58:51).
 
-Schutz teaches the pair through a deliberately memorable analogy — his Queen as
-System 1, his King as System 2 — and is explicit that the analogy exists because
+Schutz teaches the pair through a deliberately memorable analogy - his Queen as
+System 1, his King as System 2 - and is explicit that the analogy exists because
 the numbered labels do not stick: "it's very hard to remember system one and
 system two so that helps" (*1.1* @ 35:51). Use the same trick on readers.
 
 **Rationality is evolutionarily recent, which is why it is weak.** System 2
-acquired real force only ~70,000–100,000 years ago, against ~600 million years of
+acquired real force only ~70,000-100,000 years ago, against ~600 million years of
 nervous system (*1.1* @ 17:02). Do not design as though the reasoning system is
 in charge.
 
@@ -44,10 +44,10 @@ in charge.
 Check these before assuming rational argument will land at all
 (Schutz, *1.2 Characteristics System 2* @ 04:09):
 
-1. **Importance** — life-threatening decisions, or parting with money.
-2. **Justification** — if the buyer will have to explain the purchase to a
+1. **Importance** - life-threatening decisions, or parting with money.
+2. **Justification** - if the buyer will have to explain the purchase to a
    partner or a boss, System 2 wakes up *in advance* to prepare reasons.
-3. **Knowledge** — the more they know the category, the less mental energy the
+3. **Knowledge** - the more they know the category, the less mental energy the
    decision costs.
 
 The justification condition is the most actionable of the three: it means a
@@ -68,7 +68,7 @@ them. Supply them.
 as such (*1.2* @ 13:30). Treat the depletion framing as illustrative. The
 capacity limit is well supported; the "mental fuel tank empties" model is not.
 
-### Post-decision rationalisation — the load-bearing insight
+### Post-decision rationalisation: the load-bearing insight
 
 The split-brain work of Gazzaniga and LeDoux: one hemisphere sees a snow-covered
 lane and picks a shovel; the language hemisphere, which never saw it, invents a
@@ -97,18 +97,18 @@ signal the decision is not rational and your effort belongs elsewhere
 From Schutz, *1.4 System 2 Persuasion Techniques*, with his own case results.
 
 **Forced choice beats default when you need a decision.** Doing nothing costs no
-energy, so defaults win by inertia. European organ-donation consent runs 85–99.97%
+energy, so defaults win by inertia. European organ-donation consent runs 85-99.97%
 in opt-out countries against far lower in opt-in ones (@ 01:11). Their own cookie
 testing: header or footer placement drew ~20% opt-in; a forced-choice lightbox
 drew 75% (@ 04:47).
 
 **Strip distraction where the buyer is goal-directed.** Everything non-essential
-comes off the page — including navigation and social share buttons (@ 05:22).
+comes off the page - including navigation and social share buttons (@ 05:22).
 Extends to timing: target push notifications at quiet moments, not commutes
 (@ 06:41).
 
 **Focus on one to three USPs, five maximum** (@ 11:36). Choose the ones where you
-*beat* competitors, and attach affective forecasting — the felt experience, not
+*beat* competitors, and attach affective forecasting - the felt experience, not
 the feature. Two results: a Belgian savings account where emphasising a single
 interest rate beat full redesigns from two rival agencies (@ 13:31); a hotel page
 where the same eight USPs merely chunked into three layered groups lifted
@@ -125,8 +125,8 @@ RC cars shown to men, because those are not rational decisions. Where it does
 apply, three to five options, or chunk into coherent groups. They also won at
 Conrad by *reducing the number of filters* (@ 26:09).
 
-**One he refuses to demonstrate.** Base-rate neglect — inflating a percentage by
-choosing a flattering subset — he calls "pure manipulation" and declines to show
+**One he refuses to demonstrate.** Base-rate neglect - inflating a percentage by
+choosing a flattering subset - he calls "pure manipulation" and declines to show
 examples, saying he tells clients no (@ 18:07). Recorded here because his
 drawing of that line is itself instructive: it is the only technique in the set
 he refuses.
@@ -138,7 +138,7 @@ he refuses.
 From the Digital Psychology & Persuasion modules.
 
 **Anchoring.** A bias toward the first figure encountered. "This product normally
-costs $1,200. We're going to give it to you for $59 today" — once the $1,200 is
+costs $1,200. We're going to give it to you for $59 today" - once the $1,200 is
 set, $59 reads cheap (*Digital Psychology & Persuasion, 18-Cognitive Biases >
 32-Anchoring* @ 00:02). Noted as most common in pricing but not limited to it.
 
@@ -151,12 +151,12 @@ to report what most people already did (*21-Nonconscious Motivation >
 
 Two qualifiers carried from the source:
 
-- It must be **honest** — "if you can honestly show that other people are doing
+- It must be **honest** - "if you can honestly show that other people are doing
   the right thing" (@ 01:18).
 - **Peer specificity beats volume.** Emphasising people *like the reader* is
   called out as the stronger lever, not the raw subscriber count (@ 01:18).
 
-**Courtesy bias — a research warning, not a copy tactic.** People answer surveys
+**Courtesy bias - a research warning, not a copy tactic.** People answer surveys
 to be socially correct rather than truthful, so satisfaction research skews
 positive unless respondents are genuinely angry (*18-Cognitive Biases >
 04-Courtesy Bias* @ 00:02). To get past it, ask questions that invite nuance
@@ -164,16 +164,16 @@ rather than eliciting "I was really happy with everything," and do not confuse
 feedback about a *person* with feedback about the experience (@ 00:43).
 
 This compounds with post-decision rationalisation from §1: customer research is
-distorted twice over — once by confabulated reasons, once by politeness. Weight
+distorted twice over - once by confabulated reasons, once by politeness. Weight
 behavioural evidence above stated preference.
 
-**Fluency — ease of processing is read as truth.** The effect runs across three
+**Fluency - ease of processing is read as truth.** The effect runs across three
 levels, and it is the closest thing in the corpus to an experimental basis for
 "write plainly":
 
 - **Names.** Claims attributed to people with harder-to-pronounce names were
   judged less truthful. The study controlled for ethnicity, so the effect is
-  pronounceability alone — "easy-to-say names result in higher truthiness"
+  pronounceability alone - "easy-to-say names result in higher truthiness"
   (*18-Cognitive Biases > 09-Fluency Bias* @ 00:03).
 - **Vocabulary.** A paper deliberately titled in dense academic register set out
   to test whether big words signal intelligence. Where the long words were *not
@@ -188,11 +188,11 @@ The instructor's summary is unhedged: "strive for fluency… use easy language,
 simple fonts, anything that makes things easier."
 
 This is the mechanism under Medhora's buzzword test and Morrison's "clear over
-clever" in `voice.md` — three sources, three traditions, one instruction. Note
+clever" in `voice.md` - three sources, three traditions, one instruction. Note
 what it does *not* license: fluency raises believability, not accuracy.
 
 The audiobook supplies the mechanism and the warning. Repetition, priming, and
-clear presentation can all increase cognitive ease (Kahneman — *Thinking, Fast
+clear presentation can all increase cognitive ease (Kahneman - *Thinking, Fast
 and Slow*, @ 02:47:46; @ 03:16:06). But the feeling of ease has multiple possible
 causes, so it cannot distinguish a familiar or readable claim from a true one
 (@ 03:02:07). Use fluency to remove friction around evidence, never as a
@@ -200,7 +200,7 @@ substitute for evidence.
 
 **What You See Is All There Is (WYSIATI).** System 1 constructs the best story
 it can from the evidence currently visible and does not automatically account
-for missing information (Kahneman — *Thinking, Fast and Slow*, @ 04:09:38).
+for missing information (Kahneman - *Thinking, Fast and Slow*, @ 04:09:38).
 That is the source-level basis for the page rule in `sales-pages.md`: every
 screen must carry enough of the case to stand alone. It also explains why a
 single coherent example can feel more complete than it is; coherence is not
@@ -209,7 +209,7 @@ coverage.
 **Reference points come before loss aversion.** Prospect theory's missing
 variable is the earlier state against which an option is coded as a gain or a
 loss; the same final outcome can therefore feel different when the starting
-point changes (Kahneman — *Thinking, Fast and Slow*, @ 13:19:00). For copy, name
+point changes (Kahneman - *Thinking, Fast and Slow*, @ 13:19:00). For copy, name
 the buyer's real status quo before promising movement away from it. Do not use
 "people hate losses" as a context-free recipe: the audiobook explicitly notes
 that the endowment effect can disappear when the reference point changes or
@@ -225,7 +225,7 @@ is not the example the source describes.
 
 **People remember peaks and endings, not an experience's full duration.** In
 the clinical example, retrospective pain ratings were predicted by the worst
-moment and the end, while duration contributed little—the peak-end rule and
+moment and the end, while duration contributed little - the peak-end rule and
 duration neglect (@ 18:01:00). Applying that to marketing is an inference, not
 the experiment itself: protect the most intense moment in an onboarding,
 checkout, event, or client process, and design the final interaction with the
@@ -239,9 +239,9 @@ the product will transform their life. Research questions can create the same
 distortion by making the subject of the question loom larger than it normally
 does.
 
-**Image bias — pictures make claims feel true even when they prove nothing.**
+**Image bias - pictures make claims feel true even when they prove nothing.**
 Shown the statement that giraffes are the only mammal that cannot jump, people
-agreed with it far more readily when a photo of a giraffe sat beside it — though
+agreed with it far more readily when a photo of a giraffe sat beside it - though
 the photo says nothing about jumping. A second experiment paired the (false)
 claim that thermometer mercury is magnesium with either a thermometer or a
 deliberately irrelevant lizard; the thermometer image raised belief, and both
@@ -272,30 +272,29 @@ of Medhora's bolded "ladder" pointing at the email input.
 
 **Agreement across every instructor in the corpus:** the brain is dual-process.
 Schutz notes it is "the only thing that they all agree upon" among researchers
-who otherwise share no model (*1.2 Theoretical Models* is where he develops why —
-see `frameworks.md` on the toothbrush problem).
+who otherwise share no model (*1.2 Theoretical Models* is where he develops why - see `frameworks.md` on the toothbrush problem).
 
-**Divergence worth preserving — Schutz on Cialdini.** He credits Cialdini with
+**Divergence worth preserving - Schutz on Cialdini.** He credits Cialdini with
 putting persuasion on the map, then says plainly that *Influence* is 30+ years
 old and "persuasive psychology" is not six tricks (*1.1* @ 21:52). Copy sourced
 from Cialdini's six principles alone is, on his account, working from a
 deliberately narrow slice.
 
 **The partial answer to that objection, from the other side of the corpus.** The
-Digital Psychology module summarises Cialdini's *Pre-Suasion* — the later book,
+Digital Psychology module summarises Cialdini's *Pre-Suasion* - the later book,
 which the instructor notes far fewer people have read than the ~3 million who
 read *Influence*. Its theme, in his reading, is **two words: timing and
 priming** (*21-Nonconscious Motivation > 13-Lessons from Pre-suasion* @ 00:03):
 
-- **Timing** — invoke a principle such as scarcity or social proof *before* the
+- **Timing** - invoke a principle such as scarcity or social proof *before* the
   persuasion attempt, and place it close to it. "If it happens right before, it's
   going to be more powerful than if it happened minutes, weeks, months before."
-- **Priming** — put the reader in a particular frame of mind first, and the
+- **Priming** - put the reader in a particular frame of mind first, and the
   subsequent ask lands harder.
 
 This narrows the gap with Schutz rather than closing it: the later Cialdini is
 about *sequence and context* rather than a list of levers, which is much closer
-to Schutz's own position. Where the two still part company is scope — Schutz
+to Schutz's own position. Where the two still part company is scope - Schutz
 argues the whole decision is non-rational, not that the tricks need better
 staging.
 
@@ -306,17 +305,17 @@ and the author as "Sheldini". The book is **Pre-Suasion**; the author is
 **Brand psychology sits on the same substrate.** Archetypes are described as
 "based on human psychology... more or less universally recognized across
 different cultures" (*Branding & Brand Strategy, 14-Branding >
-05-Identify your Brand personality* @ 07:44) — a System 1 recognition device,
+05-Identify your Brand personality* @ 07:44) - a System 1 recognition device,
 which is why archetype work belongs to fast processing, not argument.
 
 **Distinctive cues can carry the brand before an argument starts.** Lindstrom's
 second *Buyology* transcript treats sight, shape, texture, sound, and scent as
 retrieval handles for learned associations. His examples include Nokia's
 ringtone, a new Mercedes' interior scent, Harley-Davidson's engine sound, and
-Toblerone's irregular shape and texture (*Martin Lindstrom — Buyology, Part 02*
-@ 22:21–23:32). Later he describes rapid product choice as a compression of
+Toblerone's irregular shape and texture (*Martin Lindstrom - Buyology, Part 02*
+@ 22:21-23:32). Later he describes rapid product choice as a compression of
 memory, emotion, price, packaging, and prior experience rather than a fully
-articulated comparison (@ 53:11–57:13).
+articulated comparison (@ 53:11-57:13).
 
 For copy and brand systems, the usable lesson is narrower than the book's
 neuromarketing claim: inventory the nonverbal cues customers already recognize,
@@ -353,14 +352,14 @@ has to be distinctive, fitting, and ethically earned.
 
 ## Sources
 
-Bart Schutz, *Master of Online Persuasion* — sections 1 (System 2), 2 (System 1),
+Bart Schutz, *Master of Online Persuasion* - sections 1 (System 2), 2 (System 1),
 5 (Memory & Learning), 6 (Self, Social & Situation).
-Digital Psychology & Persuasion — modules 16–21 (Attention Basics, Building
+Digital Psychology & Persuasion - modules 16-21 (Attention Basics, Building
 Habits and Loyalty, Cognitive Biases, Decision Making, Building Trust,
 Nonconscious Motivation).
-Branding & Brand Strategy — modules 11, 14.
-Daniel Kahneman — *Thinking, Fast and Slow* (local audiobook transcript).
-Martin Lindstrom — *Buyology*, Part 02 (course transcript).
+Branding & Brand Strategy - modules 11, 14.
+Daniel Kahneman - *Thinking, Fast and Slow* (local audiobook transcript).
+Martin Lindstrom - *Buyology*, Part 02 (course transcript).
 
 Related: `frameworks.md` (ELM, Fogg, Hooked, and the toothbrush problem),
 `offers.md` (pricing and anchoring in practice), `research.md` (getting past
@@ -368,8 +367,8 @@ courtesy bias in customer interviews).
 
 ## 6. New-source additions: attention and influence need an honest substrate
 
-Cialdini's *Influence* is a checklist of mechanisms—reciprocity,
-commitment/consistency, social proof, authority, liking, and scarcity—but the
+Cialdini's *Influence* is a checklist of mechanisms - reciprocity,
+commitment/consistency, social proof, authority, liking, and scarcity - but the
 copy implication is not “add a trigger.” Each mechanism needs a real cue:
 authority must be relevant, social proof must come from a comparable group,
 scarcity must describe a genuine limit, and commitment must follow a choice the
@@ -378,8 +377,8 @@ reciprocity, commitment, social proof, authority, and scarcity.)
 
 *Pre-Suasion* adds a sequencing layer: what receives attention immediately
 before a choice is more likely to be treated as important and causal. Use that
-to order the opening, proof, and question—not to smuggle an unrelated
-association into the reader's mind. (*Pre-Suasion*, chapters 2–5.)
+to order the opening, proof, and question - not to smuggle an unrelated
+association into the reader's mind. (*Pre-Suasion*, chapters 2-5.)
 
 **Audit questions:** What did we deliberately make focal? What fact makes that
 focus relevant? Would the mechanism still be ethical and persuasive if the

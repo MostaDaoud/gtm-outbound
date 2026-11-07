@@ -2,7 +2,7 @@
 
 Selected 90 of 1310 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[14] 6. Self, Social & Situation > 6.3 Self, Social & Situation Techniques @ 08:08**
   doesn't mean it's not useful to use a profiling tool, because the algorithms of the tools are actually pretty cool, right? It's just that you have to feed the data that the algorithm is based on, not only with a cookie or a login type of behavior, like this person is constantly reacting to this persuasion tactic in a consistent way, but also feeding contextual data. And you'll be amazed on how many effects you're going to find that influence your users behavior way more than their individual differences and a hard thing will always be if you can use it to actually target or even make one-on-one the interaction you have with your online visitor rate for example let's say we find that I'll
@@ -59,7 +59,7 @@ Selected 90 of 1310 unique scoring passages. Each entry is verbatim transcript t
 - **[9] 21-Nonconscious Motivation > 06-Event Video- Social Proof Power Plays @ 04:29**
   In fact, they trust others or strangers 12 times more than any manufacturer or brand descriptions. Even a description of a product, 12 times more. Imagine your conversion rate times 12. If you could improve that. That's my promise to you today. I'm going to help you be 12 times more effective in your marketing by harnessing this social proof phenomenon.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[18] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 09:41**
   And so here's an example of what I did. So this is the prompt. And you can use this pretty much verbatim. So I said, I'm a freelance copywriter who wants to practice my skills and develop world-class jobs. To help with this, I want you to create a fake client brief for me to read through and practice writing one email for, which I want you to give me detailed feedback on with a grade for each part of the email. To start, I want you to create a particularly challenging brief that tests my ability to understand market saturation, the five levels of awareness, optimal product positioning, and more. Basically, I want you to create a very challenging client brief situation, making it hard for me to write a strategically and positionally
@@ -96,7 +96,7 @@ Selected 90 of 1310 unique scoring passages. Each entry is verbatim transcript t
 - **[14] 03-Magnetic Content 2.0 / 04-Bonus- Actions Posts Stories and Liv > 03-Live SOP and Strategy @ 19:54**
   them into your content cadence um make sure they're uniquely you though i know that some people have just taken that template and kind of just changed the photos. Make sure it's your colors, your branding, whatever it is, I want to make sure it's as you as possible. All right, let's bring this home. So the A to Z SOP here. Here's how we create, promo, and perform our lives. The first thing we do is we come up with a broad topic for the month. So an example would be offer, right? Then we want to come up with four sub topics for every single main topic, right? So within offer, we have niche messaging, offer building and pricing, because those are each week's topics. So we have March
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[12] 04-Messaging Best Practices > 01-Getting Started @ 01:29**
   Is there something that I'm feeling insecure about that's creating my heart to close? And then we want to look at that, right? So like as within, so without, we always have to do our internal work. And then the best practices, we're always looking at being connected to the client's heart and then having really sharp minds that are able to stop thinking in our brain and start thinking in our client's brain and think what do they need to hear right now to understand to create connection to the value of my offer and why it really valuable for them right now One last thing I want to talk about before we dive into the best practices which of course it creates connection It shortens your sales cycle right
@@ -127,7 +127,7 @@ Selected 90 of 1310 unique scoring passages. Each entry is verbatim transcript t
 - **[9] 01-Introduction > 01-PostHello No AI Bots Were Harmed In The Making Of This Course @ 07:04**
   So AI is here to stay. My advice is to embrace it the right way. If you follow this writing advice, you're most likely going to see I never guarantee anything, but you're most likely going to see more engagement, more time on page, more signups or clicks to affiliates or offers, more sales and better branding. And moving forward, as people want to interact more and more with human brands and less with AI this is only going to be more important If you want to build like a legit business in Google eyes and readers eyes this type of content will be super valuable to your business So we are currently at the peak of the hype cycle and this is leading to misinformation and hype claiming AI can do things that it simply cannot
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[15] 01-As-We-Begin > 01-Congrats On Your Investment @ 02:48**
   sales copy. And the thing is, this is a skill that will not only help your business, but will help you in every area of your life. For example, let's say you decide you no longer want to run your business. Do you know how much copywriters are making online on upwork.com, which is a freelance site? Let me show you. Okay, let me just show you. So this is Upwork. This is a copywriting site. Well, it's a freelance site, but let me just show you. $75 an hour, $50 an hour, $70 an hour, $45, whatever, $50 an hour, $25 an hour, $77 an hour. There's countless copywriters and then vice versa with jobs it's the same thing right so if you are searching for jobs
@@ -135,15 +135,15 @@ Selected 90 of 1310 unique scoring passages. Each entry is verbatim transcript t
 - **[9] 10-Landing-Page-Copywriting > 01-Answering The Most Important Question @ 04:20**
   page based on that. Essentially what we're, what we're really just looking at here is some sense of, is this a product I would personally buy? Would I personally give away money to this? If the answer is no, good. We need to work on your product. If the answer is hell yeah, we probably need to work on your landing page. It's good to be confident in your offer. It's good to be confident in your offer, but not so overly confident you miss actual problems with your conversion rate or you're shocked when your conversion rate is like a very typical two to 6%. So that's just something I wanted to start off, excuse me, but I just wanted to start off
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[26] 01-Videos > 66- Office Hours- September 18 2025 @ 10:44**
   Um, but, but I'm just, but I am building a like a little bit of a portfolio. So yeah, I always, I always talk about the three tier rate, the, so for example, it goes like this. You triple it and you triple it again. it again. So a $500 project could potentially be a $1,500 project pretty easily. And the $500 price doesn't scare away the people on the low end. But then if someone wants a much more premium product, they're also likely to get this, where if you just charge $500, people go, okay, that's the price. That's all you'll ever make. So I always tell people that this price should be at least 10 times more than this price. And you have a tiered system. So you can tell someone,
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[22] 01-Videos > 352-Going over how to write a script for an investment pitch but actually converting it into @ 04:09**
   so 500k to start yeah and up sure if beyond yeah okay and you're going to manage that money yeah all right so what i think is instead of like a story script i think what you're actually doing is more like a sales pitch so i mean have you have you seen some of the stuff on ada that we talked about in the course i don't know if you've looked into that yeah yeah so the ada formula might actually be the way that you're going to pitch this so so that's of course your attention interest desire action right this could actually be the script that you follow rather than a story script necessarily So oftentimes a story like the hero's journey, that's really good for telling a fun, engaging story or like watching a movie, like a piece of entertainment, right?

@@ -12,7 +12,7 @@ description: >
   or critique workflow.
 ---
 
-# Copy Lab — Mine
+# Copy Lab: Mine
 
 Rebuild the reference library from the transcript corpus. Run this when courses
 are added, when the scoring vocabulary changes, or when the library drifts out
@@ -30,7 +30,7 @@ directory or into the transcript corpus.
 |---------|-------|
 | New course added to `_transcripts/` | Full re-mine, then update affected references |
 | New book, document, captioned video, or audio added | Transcribe when needed, add it to the external source catalog, then ingest |
-| `validate_library.py` reports stale or thin files | Targeted — re-mine, rewrite only what it flagged |
+| `validate_library.py` reports stale or thin files | Targeted - re-mine, rewrite only what it flagged |
 | Theme vocabulary needs changing | Edit `THEMES` in `mine_corpus.py`, full re-mine |
 | Digests look noisy or thin | Retune scoring, full re-mine |
 
@@ -46,7 +46,7 @@ up:
 ```
 
 `derive_coordinates` applies the map and **keeps the original folder as the first
-section component**, so nothing is lost — a citation still names the exact module
+section component**, so nothing is lost - a citation still names the exact module
 the passage came from. Folders absent from the map keep their own name as the
 course.
 
@@ -62,7 +62,7 @@ per-course quotas and scatters one curriculum across several digest sections.
 
 ---
 
-## Step 1 — Index
+## Step 1: Index
 
 ```bash
 python /absolute/path/to/copy-lab/scripts/copy_lab.py index
@@ -70,7 +70,7 @@ python /absolute/path/to/copy-lab/scripts/copy_lab.py index
 
 Writes `corpus_index.json` in the configured external data directory. Check the
 per-course lesson and word counts in the output against what you expect. A
-course showing 0 words means its files did not parse — see Troubleshooting.
+course showing 0 words means its files did not parse - see Troubleshooting.
 Files named `document.md` are deliberately excluded: they are document imports,
 not course lessons, and belong in the source catalog below.
 
@@ -127,7 +127,7 @@ Register the original media as `source_path`, the WebVTT as `text_path`, the
 media extension as `format`, and the manifest as `transcript_manifest_path`.
 The ingester rejects incomplete transcripts and source or transcript hash drift.
 
-## Step 2 — Mine
+## Step 2: Mine
 
 ```bash
 python /absolute/path/to/copy-lab/scripts/copy_lab.py mine --per-theme 75 --min-score 7
@@ -137,17 +137,17 @@ python /absolute/path/to/copy-lab/scripts/copy_lab.py mine --per-theme 75 --min-
 
 Produces the following under the configured external data directory:
 
-- `mining/digests/{theme}.md` — top passages per theme, grouped by
+- `mining/digests/{theme}.md` - top passages per theme, grouped by
   course, each carrying `course > lesson @ timestamp`
-- `mining/mined.jsonl` — every unique passage above threshold; this is
+- `mining/mined.jsonl` - every unique passage above threshold; this is
   what `search_corpus.py` searches
-- `mining/mining_report.json` — coverage, yield, and dedupe statistics
+- `mining/mining_report.json` - coverage, yield, and dedupe statistics
 
 **Deduplication runs corpus-wide, after scoring.** Courses republish the same
 lesson under several folders, so an identical passage can appear three or four
 times and crowd distinct material out of the digests. Exact repeats match on a
-normalized fingerprint; near repeats — separate whisper runs over the same
-footage — match on 5-word shingle overlap at `--near-threshold` (default 0.85,
+normalized fingerprint; near repeats - separate whisper runs over the same
+footage - match on 5-word shingle overlap at `--near-threshold` (default 0.85,
 set to 1.0 to disable). The canonical copy is the one at the shallowest path,
 chosen deterministically; the rest appear as `also in:` lines beneath it.
 
@@ -158,17 +158,17 @@ chosen deterministically; the rest appear as `also in:` lines beneath it.
 - Each theme's `pool` should comfortably exceed `per_theme`, so the selector is
   actually selecting rather than taking everything available
 
-## Step 3 — Calibrate if the yield is wrong
+## Step 3: Calibrate if the yield is wrong
 
 The threshold is the main lever, and the right value depends on the corpus.
 
 | Symptom | Fix |
 |---------|-----|
-| Pools ≈ selected count | Threshold too high — lower `--min-score` |
+| Pools ≈ selected count | Threshold too high - lower `--min-score` |
 | Digests full of rambling | Threshold too low, or raise the filler penalty in `mine_corpus.py` |
 | One course dominates every theme | Quotas are sqrt-weighted in `course_quotas()`; lower the exponent effect or raise the floor |
 | A theme is empty | Its vocabulary in `THEMES` does not match how the corpus talks |
-| One course yields far fewer passages per word than its peers | Its **register** differs, not its quality — see below |
+| One course yields far fewer passages per word than its peers | Its **register** differs, not its quality - see below |
 | Near-identical passages still reaching digests | Lower `--near-threshold` toward 0.75 |
 | Distinct passages wrongly merged | Raise `--near-threshold` toward 0.95, or 1.0 for exact-only |
 
@@ -176,25 +176,25 @@ The threshold is the main lever, and the right value depends on the corpus.
 
 The scorer rewards teaching language, and different courses teach in different
 voices. Conversational courses are full of "always", "most people", "here's how".
-Structured curricula teach in a flatter register — "the goal here is", "our
-objectives", "the first step" — and without those phrases in `STRONG_SIGNALS`
+Structured curricula teach in a flatter register - "the goal here is", "our
+objectives", "the first step" - and without those phrases in `STRONG_SIGNALS`
 they score far below their actual value.
 
 This is a real failure that has already happened once: a six-lesson, 15k-word
 course yielded **3 passages** until lecture-register signals were added, then
 yielded 16. Diagnose it by comparing passages-per-1,000-words across courses in
 `mining_report.json`. An outlier low course usually needs vocabulary, not a lower
-threshold — lowering the threshold globally lets noise in everywhere else.
+threshold - lowering the threshold globally lets noise in everywhere else.
 
 Check `deduplication.copies_removed` in the report. Zero across a corpus with
 republished lessons means the threshold is too strict; a number approaching
 `passages_kept` means it is far too loose and distinct material is being merged.
 
 To choose a threshold rather than guess it, score the whole corpus and read the
-distribution before committing — target keeping roughly 8–15% of themed
+distribution before committing - target keeping roughly 8-15% of themed
 passages.
 
-## Step 4 — Distill in a staging package
+## Step 4: Distill in a staging package
 
 Digests are raw material, not references. For each theme, read the digest and
 write or update the corresponding file in a staged copy of `references/`.
@@ -215,16 +215,16 @@ global Claude skill or `_transcripts/` during distillation.
 | `positioning.md` | `references/positioning.md` |
 | `research.md` | `references/research.md` |
 | `examples.md` | `references/swipe-file.md` |
-| — | `references/critique-rubric.md` is synthesized from the others |
-| — | `references/anti-generic-copy.md` is a reviewed operational adaptation, not a mined digest |
-| — | `references/harry-dry-copywriting.md` is a reviewed video distillation with timestamp citations |
+| - | `references/critique-rubric.md` is synthesized from the others |
+| - | `references/anti-generic-copy.md` is a reviewed operational adaptation, not a mined digest |
+| - | `references/harry-dry-copywriting.md` is a reviewed video distillation with timestamp citations |
 
 Read one digest, write its reference, move on. Reading them all first wastes
 context and blurs the material.
 
 ### Distillation standards
 
-- **Every claim carries a citation** — `(Instructor, lesson @ timestamp)`
+- **Every claim carries a citation** - `(Instructor, lesson @ timestamp)`
 - **Organize by what a writer needs**, not by the order the digest presents
 - **Preserve disagreement.** Where instructors conflict, record both positions
   and say which lesson each came from
@@ -234,6 +234,42 @@ context and blurs the material.
 - **Do not smooth speculation into fact.** If an instructor is reasoning aloud
   or making a dated claim, mark it as theirs
 
+### The library stratum
+
+References are the method. `library/` is the evidence: verbatim, cited arrays of
+what a named writer actually said. Build a library file when the source is a body
+of prose worth quoting (an email corpus, a book, a lecture series) rather than a
+tactic to be restated.
+
+| Rule | Detail |
+|------|--------|
+| Citation form | `(Subject, Date)` for emails, `author: title, chapter N` for books, `author: title, @ MM:SS` for video |
+| Quote limit | 30 words or fewer, verbatim, never paraphrased into quotation marks |
+| One claim per entry | A bolded line, then the quote, then the locator |
+| Provenance | Record every source in `library/manifest.json` |
+| Coverage honesty | Every library file ends with a coverage note naming what it could not verify |
+
+Every quote must survive a check against the source text. If a passage cannot be
+located, omit it rather than reconstructing it from memory. Images and OCR-poor
+scans are recorded as gaps, never guessed.
+
+When a source splits a quotation with an attributive clause, as in
+`"simple sells," said Deutsch, "and very simple sells very well"`, do not close
+the gap silently. Mark the elision with an ellipsis (`"simple sells... and very
+simple sells very well"`) and name the speaker. Joining two halves into one
+continuous quotation without the marker misrepresents the source, even when every
+word is authentic.
+
+After adding or editing a library file, rebuild its manifest, then validate:
+
+```bash
+python /absolute/path/to/copy-lab/scripts/validate_library.py --write-library-manifest
+python /absolute/path/to/copy-lab/scripts/copy_lab.py validate
+```
+
+A library file that is edited without regenerating the manifest reports
+`Changed since provenance review`. That finding is the gate working, not noise.
+
 ### Adding a course
 
 If a new course introduces a theme the current vocabulary misses, add it to
@@ -241,7 +277,7 @@ If a new course introduces a theme the current vocabulary misses, add it to
 `validate_library.py`, add a row to the orchestrator's reference table, and
 re-mine.
 
-## Step 5 — Validate
+## Step 5: Validate
 
 ```bash
 python /absolute/path/to/copy-lab/scripts/copy_lab.py validate
@@ -269,7 +305,7 @@ configuration.
 **Duplicate passages across courses.** Handled by the pipeline. Repeats are
 collapsed corpus-wide to a canonical location, with the other locations listed
 under the entry as `also in:` lines. Cite the canonical one. If duplicates still
-reach a digest, they differ by more than the near-duplicate threshold — lower
+reach a digest, they differ by more than the near-duplicate threshold - lower
 `--near-threshold` (0.85 default) and re-run.
 
 **Search returns nothing after re-mining.** `copy_lab.py search` reads the

@@ -355,11 +355,11 @@ def build_dashboards(
     dashboard += "- [[Workflows/Swipe Research|Research the library]]\n- [[Workflows/Humanize Copy|Remove generic patterns]]\n"
     dashboard += "- [[Workflows/Refresh Library and Vault|Refresh the library and vault]]\n\n"
     dashboard += "## Library\n\n"
-    dashboard += "- [[Topic Library]] — distilled frameworks and playbooks\n"
-    dashboard += f"- [[Course Library]] — the {len(course_links)}-course corpus map\n"
-    dashboard += "- [[Source Library]] — books, PDFs, letters, and videos\n"
-    dashboard += "- [[Theme Coverage]] — mined passage coverage\n"
-    dashboard += "- [[Library Health]] — build provenance and current counts\n"
+    dashboard += "- [[Topic Library]] - distilled frameworks and playbooks\n"
+    dashboard += f"- [[Course Library]] - the {len(course_links)}-course corpus map\n"
+    dashboard += "- [[Source Library]] - books, PDFs, letters, and videos\n"
+    dashboard += "- [[Theme Coverage]] - mined passage coverage\n"
+    dashboard += "- [[Library Health]] - build provenance and current counts\n"
     dashboard += "- [[Copy Lab Workflow.canvas|Workflow canvas]]\n\n"
     dashboard += "## Working space\n\n- [[Inbox/Inbox|Inbox]]\n- [[Projects/Projects|Projects]]\n- [[Source Notes/Source Notes|Source notes]]\n- [[Templates/Templates|Templates]]\n\n"
     if not source_catalog_available:
@@ -511,7 +511,7 @@ status: draft
 created: {{date}}
 tags: [copy-lab/project]
 ---
-# Copy Brief — 
+# Copy Brief - 
 
 ## One action
 
@@ -535,7 +535,7 @@ status: active
 created: {{date}}
 tags: [copy-lab/project]
 ---
-# Project — 
+# Project - 
 
 ## Brief
 
@@ -556,7 +556,7 @@ type: critique
 created: {{date}}
 tags: [copy-lab/critique]
 ---
-# Critique — 
+# Critique - 
 
 **Segment:**  
 **Action:**  
@@ -577,7 +577,7 @@ type: swipe-note
 created: {{date}}
 tags: [copy-lab/swipe]
 ---
-# Swipe — 
+# Swipe - 
 
 ## Passage
 
@@ -594,7 +594,7 @@ type: source-note
 created: {{date}}
 tags: [copy-lab/source-note]
 ---
-# Source Note — 
+# Source Note - 
 
 ## Source
 
@@ -611,7 +611,7 @@ type: voice-guide
 created: {{date}}
 tags: [copy-lab/voice]
 ---
-# Voice Guide — 
+# Voice Guide - 
 
 ## Sounds like
 

@@ -1,0 +1,47 @@
+{
+ "generated_utc": "2026-11-07T11:10:07Z",
+ "note": "Library files are distilled from the sources below. Every quote is verbatim and carries a source locator. Regenerate with copy-lab-mine when sources change.",
+ "entries": [
+  {
+   "file": "coverage-map.md",
+   "sources": [
+    "corpus_index.json",
+    "mined.jsonl",
+    "digests/*.md"
+   ],
+   "words": 2680,
+   "sha256": "dc12ceef0c26339a",
+   "method": "quantitative coverage audit"
+  },
+  {
+   "file": "emails/harry-dry.md",
+   "sources": [
+    "1FalzcTxIk_LnyuU4Nvfxb04nEGGHgK_-MHbxyFeSvN4"
+   ],
+   "words": 6802,
+   "sha256": "2771ccc6f613f80d",
+   "method": "verbatim-quoted distillation with per-claim source locators"
+  },
+  {
+   "file": "emails/verygoodcopy-1.md",
+   "sources": [
+    "1JE_dAIdisaiPypmnG3S7-FBenoU9CK-MUNWUQ6pZv4k",
+    "173QOSMW-0GYu7G-pDs9adZV152mBkq4mHzYe50mrM3o"
+   ],
+   "words": 7388,
+   "sha256": "06141a1f6cc06565",
+   "method": "verbatim-quoted distillation with per-claim source locators"
+  },
+  {
+   "file": "emails/verygoodcopy-2.md",
+   "sources": [
+    "1x6ciWp2HGO_NbCqYe1ee_nlyBHOu1SPeeGnm6zJcgsM",
+    "1MLKL_bzF1HBVtBT63HddTiTGZDDuwdnjeruLl8IGE74",
+    "1xybW_SsmaBEPu2ChknA6-xiLPtAPH4eKTV6weBrYQak"
+   ],
+   "words": 7113,
+   "sha256": "674d7ecbda05fc70",
+   "method": "verbatim-quoted distillation with per-claim source locators"
+  }
+ ]
+}

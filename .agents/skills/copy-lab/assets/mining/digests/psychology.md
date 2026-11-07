@@ -2,7 +2,7 @@
 
 Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[21] 2. System 1 > 2.3 Theoretical Models @ 07:56**
   cognitive response model is the heuristic systematic model and it's from the same period it's almost the same so again there's a persuasion attempt there's the determinant motivation there's the determinant ability if both are good enough then we make a choice with system 2 which they called compensatory strategies based on the information about the attributes of each of the options a very rational choice if either one or both of them are not good enough we go into system one processing but the holistic systematic model already made a distinction there between two types of system one reactions and the first one is if there are no situational cues present and which can be anything in the situation take for example you are walking across the
@@ -53,7 +53,7 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 - **[13] 21-Nonconscious Motivation > 06-Event Video- Social Proof Power Plays @ 03:04**
   They're like, you did really good on the run today. I'm like, yeah, have never been able to complete that again. Be kind of nice on autopilot to exercise, though, wouldn't it? Probably the strangest case I could ever think of for the instance of social proof. And the social proof phenomenon says that when we encounter a fear or uncertainty that we instinctively look to the behavior of others to guide our decision-making.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[15] 04-Kim Schwalm AI Copy Secrets Vol 1 @ 06:49**
   others have failed. And then the final step is you want to develop, you know, come up with your big idea, what angle you're going to use, right, to grab attention. That would be something that would go into your headline or your email subject line, you know, and then you want to, you know, basically create a blueprint for your ad. And you can do this just once you've done all these steps of the research using some of the tools I'm going to show you, you'll be able to put together a copy platform and an outline for your promo, and you'll have all this other potential copy you can just basically drop right into your copy, into your promo as you start to craft it.
@@ -90,7 +90,7 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 - **[11] 01-MUST WATCH AI Challenge > 01-DAY 1- RECAP VIDEO @ 00:18**
   So this is my perfect day. I want to attract clients who have similar values, beliefs, desires as me. I am age, you know, 29 is what I am, but I'll just put 30 for now and want to work with people in a similar age range, my ideal client is growing their business, they want to do it simple, fun and profitable way. Oh, and they want to scale without the burnout. Here's my perfect day. And so you throw this in to GPT, right? And it's best if you are working with your actual GPT or whatever AI that you use that has memory. This right here is a custom GPT that we're actually creating. We've created four clients and we will build one with you if you become a client. And
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[14] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 2) @ 18:45**
   So there's no right or wrong way. But if you're someone that like, that sounds like a fun thing for you, we don't do it as strategically on the sales pages. But when we are doing something in like emails, we always work to have social proof or testimonial that's aligned with whatever the messaging of the email is.
@@ -121,7 +121,7 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 - **[8] 01-Introduction > 01-PostHello No AI Bots Were Harmed In The Making Of This Course @ 09:06**
   And lastly, we will get to editing, and that is how to polish content for publishing and maintain quality at scale. And we will cover AI-assisted editing, human editing, and quality control, so you can see how the system works. you learn how to write good content first, and then you learn how to use those skills with ChatGPT to create content quickly at lower prices. And then we get into editing, and that is maintaining quality at scale. So it's a nice little system that we're going to learn here. I'll see you in the next video, and that is the limitations of AI. And I really suggest you pay close attention to that video because we have to cover the limitations of AI so you understand why these skills are so
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[9] 05-Instagram-Reels-Copywriting > 01-Writing Hooks That Go Viral @ 00:24**
   People talk so much about writing good hooks as if they need to trick their viewers into watching mediocre content. So like 17 real hooks to grab attention. 15 real hook ideas that they won't be able to scroll past. in my experience as someone that has not just built a decent sized audience close to a million followers i have found that it is much more effective to do the things that are noteworthy that are interesting and then your hook is just your hook so no mediocre just like no good marketing will fix a bad product, no good hook will fix bad content.
@@ -137,15 +137,15 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 - **[10] Buyology - Part 01 @ 88:36**
   Goldfish, I read once, have a working memory of approximately seven seconds. So every seven seconds, they start their lives all over again. Reminds me of the way I feel when I watch TV commercials. A couple of reasons for this jump out at me right away. The first and most obvious is today's fast-moving, ever-changing, always-on media assault. The internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the news stations, newspapers, magazines, catalogs, email, iPods, podcasts, instant messaging, text messaging, and computer and video games are all vying for our increasingly finite and worn-out
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[24] 02-Courses / 02-Copy Concepts > 02-The AIDA Model What It Is and How to Use It @ 00:00**
   I mean on email structure one thing that we agreed on that I don't think everyone is doing and it's just a I think a very common sale and copywriting format I'm curious how often you use this outside of email outreach is the Ada copyrighted for me I can describe that all the time I use it for everything I use it like in stories I tell in person so what you're about to see here is a really really simple outline called Ada AIDA, A-I-D-A. It means attention, interest, desire, action. This has been around for a long time. It's in that movie, Glenberry, Frost, whatever it's called. It's a very popular formula and it's super interesting, especially for emails. Because what it does is it takes
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[23] 02-Courses / 01-Copywriting Course > 05-BONUS VIDEO It normally costs 99 to buy this video interview @ 33:47**
   Arial is the font we should be sending our email in? Generally, that's accepted as a universal font that everyone has on their machines. If you use some fancy font, some people may not have it. I tend to use Arial, and that works really well. The next thing I do is now I've got this big, what do I write? Instead of doing that, I follow this framework. I literally write out attention, interest, desire, action. Remember, our old little… Our old little AIDA formula?
@@ -155,7 +155,7 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 
 - **[22 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 05:29**
   sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily well check it out again here is a sequence that we had for a class and here's a student that wrote all these examples in this exact same thing look subject line objective email email copy look attention interest desire he wrote a whole autoresponder sequence with just this formula and he got really good at it he was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long sales copy
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
 
 - **[18] 01-Videos > 209-How to use the A.I.D.A formula in copywriting @ 08:22**
   So all we did was make a pitch for this guy to buy a freaking helicopter, but all we did was follow the ADA formula, attention, interest, desire, action. And look, now we have an entire completed sales pitch that we can send out in a cold email. This could be a phone script. This could be a video script. This could be a sales page. This could be in a brochure. This could be a one pager. This could be all sorts of stuff. And if we want to make it a really long sales page, all we have to do is add some more stuff to each of these sections. So that is the Ada formula. It is by far one of the most helpful sales formulas on the planet. In my opinion,
@@ -207,7 +207,7 @@ Selected 90 of 621 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +1 repeats] 03-Copywriting Guides > 19-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42**
   You see, that was my biggest fear that I was going to give this $5,000 figure to the Ducati dealership and they were gonna laugh at me and say it's too much money so here's the genius of the three prong pricing and here's how it works you have three different options which people can pick from like this there's the basic the advanced and the expensive now the basic thing is the safe bet that's the lowest price that you're willing to charge the next up is the advanced that's the middle section. This is the one that you want people to go for. And this is going to have your basic service plus a couple of other additional services on top. Now, the expensive one is kind
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42_
 
 - **[14] 03-Copywriting Guides > 27-How to write headlines by NevMed of CopywritingCourse.com @ 00:00**
   Hey! Everybody always asks me about headlines, headlines, headlines. How do I get good ones? How do I come up with them? I've got writer's block about a headline. And don't feel bad. Even my friend Derek Halpern, who I consider an expert copywriter, told me he was struggling with the headline. So we all have trouble with headlines. And here's three really good reasons that you should pay a little bit of attention to your headline. 1. Most people use headlines to decide whether or not to even read your article. 2. The way you position your headline defines how people interact with your content and three on average about eight out of ten people will read headline copy but only two out of ten will read

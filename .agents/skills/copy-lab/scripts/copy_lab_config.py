@@ -206,3 +206,11 @@ def resolve_source_manifest(explicit: Path | None = None) -> Path:
     if explicit:
         return explicit.expanduser().resolve()
     return resolve_source_dir() / "manifest.json"
+
+
+if __name__ == "__main__":
+    import sys
+    print(f"copy-lab config ({sys.argv[0]}): {default_config_path()}")
+    sys.exit(0)
+
+

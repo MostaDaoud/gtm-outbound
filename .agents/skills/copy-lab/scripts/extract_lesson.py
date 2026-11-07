@@ -41,7 +41,7 @@ def resolve_by_title(root: Path, query: str) -> list[Path]:
 
 def main(argv: list[str] | None = None) -> int:
     # Transcripts contain em dashes, curly quotes and the occasional non-Latin
-    # character. Windows consoles default to cp1252, which cannot encode them —
+    # character. Windows consoles default to cp1252, which cannot encode them  - 
     # printing would raise UnicodeEncodeError mid-lesson.
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")

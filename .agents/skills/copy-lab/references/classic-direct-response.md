@@ -4,8 +4,8 @@ Use this reference for sales letters, print-style ads, direct mail, long-form
 landing pages, proof architecture, closes, and response-oriented audits. It
 distills two page-indexed local PDFs:
 
-- Robert Collier — *The Robert Collier Letter Book*
-- Victor O. Schwab — *How to Write a Good Advertisement*
+- Robert Collier - *The Robert Collier Letter Book*
+- Victor O. Schwab - *How to Write a Good Advertisement*
 
 These are historical sources. Preserve their durable mechanics, but apply Copy
 Lab's standing rules: no unsupported claims, invented proof, or manufactured
@@ -25,8 +25,8 @@ urgency.
 Collier states the six-part letter sequence on page 56. Schwab introduces the
 five-part advertisement sequence on page 5. The systems are compatible rather
 than competing: Collier separates urgency from the final instructions, while
-Schwab treats both as parts of the action stage. (Robert Collier — *The Robert
-Collier Letter Book*, page 56; Victor O. Schwab — *How to Write a Good
+Schwab treats both as parts of the action stage. (Robert Collier - *The Robert
+Collier Letter Book*, page 56; Victor O. Schwab - *How to Write a Good
 Advertisement*, page 5)
 
 ## 1. Enter the reader's existing thought
@@ -92,8 +92,8 @@ Schwab treats the advertisement as an uninvited competitor for attention. The
 headline's immediate job is to bring the right reader into the body copy; an
 excellent body cannot rescue a headline nobody follows. (Schwab, pages 5 and 7)
 
-Attention should come from reader value—news, instruction, a relevant problem,
-or a desired advantage—not from empty shock.
+Attention should come from reader value - news, instruction, a relevant problem,
+or a desired advantage - not from empty shock.
 
 ### Show an advantage
 
@@ -112,7 +112,7 @@ lets the reader infer the advantage. (Schwab, page 57)
 Proof options include demonstrations, construction details, performance facts,
 specific guarantees, named testimonials with permission, and measured results.
 The evidence must itself be believable; startling truth may need careful
-context rather than louder wording. (Schwab, pages 57–67)
+context rather than louder wording. (Schwab, pages 57-67)
 
 ### Persuade the reader to grasp the advantage
 
@@ -126,7 +126,7 @@ this as making the reader's picture of value outweigh the picture of price.
 
 Schwab distinguishes attractive, convincing copy from copy that actually asks
 for a response. The action must be explicit and should connect to the value the
-copy just established. (Schwab, pages 78–80)
+copy just established. (Schwab, pages 78-80)
 
 Possible actions include buying, requesting information, trying a
 demonstration, completing a self-assessment, or taking another meaningful step
@@ -136,11 +136,11 @@ toward the product. Choose one primary action for the piece.
 
 Collier's close combines:
 
-1. persuasion or inducement—the gain from acting and any real cost of delay;
-2. instructions—the exact, easy next step.
+1. persuasion or inducement - the gain from acting and any real cost of delay;
+2. instructions - the exact, easy next step.
 
 He warns that interest without explicit instructions lets the reader fall back
-into inaction. (Collier, pages 53–55)
+into inaction. (Collier, pages 53-55)
 
 **Integrity override:** Collier's historical “penalty” language is not a license
 to manufacture loss, deadlines, or scarcity. Use a cost of delay only when it
@@ -207,6 +207,6 @@ that claim.
 
 ## Citation format
 
-Cite these sources as `Robert Collier — The Robert Collier Letter Book, page N`
-and `Victor O. Schwab — How to Write a Good Advertisement, page N`. Keep
+Cite these sources as `Robert Collier - The Robert Collier Letter Book, page N`
+and `Victor O. Schwab - How to Write a Good Advertisement, page N`. Keep
 quotations brief and summarize the surrounding argument.

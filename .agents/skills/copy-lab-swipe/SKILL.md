@@ -3,8 +3,7 @@ name: copy-lab-swipe
 description: >
   Look up what the copywriting library actually says about a topic, instructor,
   author, or technique, and return brief passages with precise citations.
-  Searches the indexed multi-course transcript corpus plus local books, audio, and videos
-  — Schutz, Medhora, Morrison, Wendt, Fox, Meng, Rohan and the Drop Dead Copy
+  Searches the indexed multi-course transcript corpus plus local books, audio, and videos - Schutz, Medhora, Morrison, Wendt, Fox, Meng, Rohan and the Drop Dead Copy
   panel, plus the Product Marketing, Digital Psychology & Persuasion, and
   Branding & Brand Strategy curricula covering positioning, messaging,
   segmentation, competitive intel, cognitive biases, and behavioral design. Use
@@ -16,7 +15,7 @@ description: >
   copy-lab-write; for scoring copy use copy-lab-critique.
 ---
 
-# Copy Lab — Swipe
+# Copy Lab: Swipe
 
 Answer questions from the sources themselves, with citations precise enough to
 open the video at the right moment or find the page/chapter in a book.
@@ -26,7 +25,7 @@ folder, not this one: `../copy-lab/references/` and `../copy-lab/scripts/`.
 Resolve these sibling-relative paths to absolute paths before reading or
 executing them.
 
-## Step 1 — Try the reference library first
+## Step 1: Try the reference library first
 
 For well-covered topics the distilled answer already exists and is faster and
 cleaner than raw transcript:
@@ -36,6 +35,7 @@ cleaner than raw transcript:
 | AIDA, research process, webinar structure, taglines | `../copy-lab/references/frameworks.md` |
 | System 1/2, biases, social proof, open loops, memory | `../copy-lab/references/psychology.md` |
 | Headlines, hooks, subject lines, curiosity | `../copy-lab/references/headlines.md` |
+| Social hooks, LinkedIn/X feed openings, mobile truncation, 4 formats | `../copy-lab/references/social-hooks.md` |
 | Page structure, conversion findings | `../copy-lab/references/sales-pages.md` |
 | Sequences, launches, cold outreach, newsletters | `../copy-lab/references/emails.md` |
 | Pricing, scarcity, discounts, tiering | `../copy-lab/references/offers.md` |
@@ -61,7 +61,7 @@ a primary citation.
 Treat `anti-generic-copy.md` as an operational adaptation of a user-supplied
 skill, not as a course-derived authorship test or detector validation.
 
-## Step 2 — Search the sources
+## Step 2: Search the sources
 
 When the library does not cover it, or the user wants the source:
 
@@ -71,16 +71,16 @@ python ../copy-lab/scripts/copy_lab.py search "social proof" --source all --limi
 
 Options that matter:
 
-- `--course Medhora` — restrict to one instructor (substring match)
-- `--course Schwartz` — also filters by a book title or author
-- `--source corpus|books|all` — select course transcripts, books, or both
-- `--full` — search raw transcripts instead of mined passages, for anything the
+- `--course Medhora` - restrict to one instructor (substring match)
+- `--course Schwartz` - also filters by a book title or author
+- `--source corpus|books|all` - select course transcripts, books, or both
+- `--full` - search raw transcripts instead of mined passages, for anything the
   miner scored below threshold
-- `--any` — broaden a multi-term query; all terms are required by default
-- `--diverse` — round-robin ranked hits by course to surface other viewpoints
-- `--min-match-score N` — discard weak query matches
-- `--json` — structured output
-- `--limit N` — default 15
+- `--any` - broaden a multi-term query; all terms are required by default
+- `--diverse` - round-robin ranked hits by course to surface other viewpoints
+- `--min-match-score N` - discard weak query matches
+- `--json` - structured output
+- `--limit N` - default 15
 
 Quote multi-word phrases. Search terms use whole words or phrases after
 normalization, so case and punctuation do not matter. Start with all-term mode;
@@ -90,7 +90,7 @@ use `--any` only when recall matters more than precision.
 before concluding the course corpus is silent.** `--full` affects transcripts;
 books are searched from their generated source index.
 
-## Step 3 — Read around the hit
+## Step 3: Read around the hit
 
 A search result is a window, not the argument. When a hit looks load-bearing,
 pull the surrounding context:
@@ -103,24 +103,23 @@ python ../copy-lab/scripts/copy_lab.py extract --find "AIDA formula" --from 04:0
 query is ambiguous. Pass a path directly when you have one. `--timestamps` keeps
 the paragraph markers.
 
-## Step 4 — Answer
+## Step 4: Answer
 
 **Prefer a short quotation plus a summary.** Quote only when wording carries
 the point, keep each excerpt brief, and never reproduce a lesson or substantial
-section. These are spoken transcripts, so light cleanup of filler is fine—mark
+section. These are spoken transcripts, so light cleanup of filler is fine - mark
 it if you cut anything substantive.
 
 **Cite courses as** `Course, lesson @ timestamp`. **Cite books as**
-`Author — Title, page N` or `Author — Title, chapter X`. **Cite videos as**
-`Speaker — Title, @ MM:SS`. Never turn the source
+`Author - Title, page N` or `Author - Title, chapter X`. **Cite videos as**
+`Speaker - Title, @ MM:SS`. Never turn the source
 index into a substitute for the original: quote briefly and summarize.
 
 **Report disagreement.** Where instructors conflict, show both. Medhora on
 headlines being over-thought versus Morrison on the headline as the most
 important sentence is a real disagreement, not a retrieval error.
 
-**Report absence honestly.** If the corpus does not cover something, say so —
-"nothing in these courses addresses X" — rather than filling the gap with
+**Report absence honestly.** If the corpus does not cover something, say so - "nothing in these courses addresses X" - rather than filling the gap with
 general knowledge presented as though it came from the library. If you add
 outside knowledge, label it as outside the corpus.
 
@@ -133,16 +132,16 @@ the unverified original issue.
 
 | Course | Lessons | Emphasis |
 |--------|---------|----------|
-| Bart Schutz — Master of Online Persuasion | 33 | Behavioral science, dual-process theory, pricing psychology |
-| Neville Medhora — Copywriting Course | 798 | Direct response, office-hours teardowns, freelancing |
-| Jason C Fox — Magnetic Content | 41 | Social content, DMs, offers, community |
-| Kathryn Morrison — Words Are Wands | 35 | Messaging, sales pages, voice, cold outreach |
-| Drop Dead Copy — AI Copy Secrets Vol 1 | 8 | Eight working copywriters on AI workflow |
-| Rohan — Copy Launchpad | 5 | Outreach systems, research, client acquisition |
-| Maria Wendt — Words Into Money | 4 | Hooks, landing pages, fundamentals |
-| Kevin Meng — Next-Level AI Content | 3 | AI content process, editorial guidelines |
+| Bart Schutz - Master of Online Persuasion | 33 | Behavioral science, dual-process theory, pricing psychology |
+| Neville Medhora - Copywriting Course | 798 | Direct response, office-hours teardowns, freelancing |
+| Jason C Fox - Magnetic Content | 41 | Social content, DMs, offers, community |
+| Kathryn Morrison - Words Are Wands | 35 | Messaging, sales pages, voice, cold outreach |
+| Drop Dead Copy - AI Copy Secrets Vol 1 | 8 | Eight working copywriters on AI workflow |
+| Rohan - Copy Launchpad | 5 | Outreach systems, research, client acquisition |
+| Maria Wendt - Words Into Money | 4 | Hooks, landing pages, fundamentals |
+| Kevin Meng - Next-Level AI Content | 3 | AI content process, editorial guidelines |
 
-**Multi-instructor curricula** — these ship as numbered module folders that
+**Multi-instructor curricula** - these ship as numbered module folders that
 `assets/course_map.json` rolls up into one course name. The module folder is kept
 as the citation's section, so `Product Marketing > 12-Positioning > 08-… @ 10:18`
 names both.
@@ -155,7 +154,7 @@ names both.
 
 Medhora is roughly 81% of the corpus by word count, and the curricula are small
 beside him. The mining quotas deliberately compress that so smaller courses are
-not buried — worth remembering when a search returns mostly Medhora. Use
+not buried - worth remembering when a search returns mostly Medhora. Use
 `--course` to force the other side into view, and note that `--course "Product
 Marketing"` now matches the rolled-up name rather than a folder.
 
@@ -181,8 +180,7 @@ corpus is silent.
 **Short answer:** {2-3 sentences}
 
 ### {Instructor}
-> "{verbatim passage}"
-— `{Course} > {lesson} @ {timestamp}`
+> "{verbatim passage}" - `{Course} > {lesson} @ {timestamp}`
 
 {One line on what it means in practice}
 

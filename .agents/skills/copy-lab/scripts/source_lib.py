@@ -460,7 +460,7 @@ def extract_source(source: dict) -> tuple[list[dict], dict]:
                     "lesson": locator,
                     "timestamp": unit["timestamp"] if locator_type == "timestamp" else "",
                     "part": part,
-                    "citation": f"{source.get('author', '')} — {source['title']}, {locator}".strip(" —"),
+                    "citation": f"{source.get('author', '')} - {source['title']}, {locator}".strip("  - "),
                     "text": text,
                 }
             )
@@ -615,3 +615,10 @@ def validate_source_index(
         "records": manifest.get("records", 0),
     }
     return findings, summary
+
+
+if __name__ == "__main__":
+    import sys
+    print(f"source_lib module: {sys.argv[0]}")
+    sys.exit(0)
+

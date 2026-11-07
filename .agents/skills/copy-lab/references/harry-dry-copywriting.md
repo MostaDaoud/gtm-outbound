@@ -1,4 +1,4 @@
-# Harry Dry — practical copy review and rewriting
+# Harry Dry: practical copy review and rewriting
 
 Use this reference for ads, landing pages, headlines, positioning lines,
 newsletters, and anti-generic edits. It distills Harry Dry's working methods
@@ -24,15 +24,15 @@ Review an important sentence with three questions:
 Dry introduces all three at the start, then contrasts an interchangeable
 recruitment slogan with New Balance's specific pairing of supermodels in London
 and dads in Ohio. The latter is picturable, checkable, and tied to the brand's
-actual audience span. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 01:30–02:30)
+actual audience span. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 01:30-02:30)
 
 ### Operational scorecard
 
 For each load-bearing line, mark:
 
-- `V` — visual or concrete
-- `F` — falsifiable and supported
-- `O` — ownable by this product
+- `V` - visual or concrete
+- `F` - falsifiable and supported
+- `O` - ownable by this product
 
 `VFO` is a strong line. Missing one letter is a revision prompt, not an
 automatic failure. Legal copy, navigation, and necessary category labels may
@@ -51,8 +51,8 @@ Zoom in:
 Result: `From couch to 5K.`
 
 Dry uses this progression to show how repeated “what do I actually mean?”
-questions turn an abstraction into a visible journey. (Harry Dry — *Learn
-Copywriting in 76 Minutes*, @ 04:00–05:30)
+questions turn an abstraction into a visible journey. (Harry Dry - *Learn
+Copywriting in 76 Minutes*, @ 04:00-05:30)
 
 ---
 
@@ -69,8 +69,8 @@ When a phrase feels polished but empty:
 The useful distinction is concrete versus abstract, not informal versus
 formal. “Better way,” “seamless transition,” and “change an industry” are hard
 to see. A charging pit bull, a specific commute behavior, or a named product
-detail gives memory something to hold. (Harry Dry — *Learn Copywriting in 76
-Minutes*, @ 03:00–04:30)
+detail gives memory something to hold. (Harry Dry - *Learn Copywriting in 76
+Minutes*, @ 03:00-04:30)
 
 Do not manufacture sensory detail. If the brief does not contain the required
 specific, leave `[SPECIFIC NEEDED: …]` and ask for it.
@@ -93,7 +93,7 @@ judgment:
 Dry's shorthand is to imagine that you cannot describe; you may only point.
 His gold example moves from “great investment” to a chart and relevant market
 behavior. The work is research: locate the thing that makes the judgment
-reasonable. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 06:30–09:00)
+reasonable. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 06:30-09:00)
 
 ### Fact-to-copy method
 
@@ -106,7 +106,7 @@ reasonable. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 06:30–09:00)
 A fact is a starting point, not automatically a headline. Dry explicitly notes
 that a true number may still be dull; the writer has to find what it reveals.
 His principle is that facts ground the story and give language precision.
-(Harry Dry — *Learn Copywriting in 76 Minutes*, @ 45:30–49:30)
+(Harry Dry - *Learn Copywriting in 76 Minutes*, @ 45:30-49:30)
 
 ---
 
@@ -128,8 +128,7 @@ If yes, inspect:
 
 Dry's Volvo example uses a visible instrument detail to create a claim tied to
 that car. His larger rule is to find something no one else is doing that the
-audience actually cares about; mere difference is insufficient. (Harry Dry —
-*Learn Copywriting in 76 Minutes*, @ 09:00–10:00 and @ 12:00–13:30)
+audience actually cares about; mere difference is insufficient. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 09:00-10:00 and @ 12:00-13:30)
 
 Comparative claims still require evidence and legal review where applicable.
 Ownable does not mean exaggerated.
@@ -149,7 +148,7 @@ The copy is the wire between those two poles. Dry then divides the job into:
 2. **What do you have to say?** A fact, belief, argument, or useful difference.
 3. **How will you say it well?** The wording, rhythm, image, and structure.
 
-(Harry Dry — *Learn Copywriting in 76 Minutes*, @ 21:00–22:00 and @ 25:00–29:00)
+(Harry Dry - *Learn Copywriting in 76 Minutes*, @ 21:00-22:00 and @ 25:00-29:00)
 
 This order matters. Wordplay cannot rescue the wrong audience or the absence of
 an idea.
@@ -168,8 +167,8 @@ The writing environment should reproduce the reading environment:
 
 Dry writes directly in the delivery tool because copy and design change one
 another. A line that works by itself may wrap badly, disappear beside competing
-elements, or take too long to decode in context. (Harry Dry — *Learn Copywriting
-in 76 Minutes*, @ 24:00–25:00 and @ 35:30–36:30)
+elements, or take too long to decode in context. (Harry Dry - *Learn Copywriting
+in 76 Minutes*, @ 24:00-25:00 and @ 35:30-36:30)
 
 ### The quick-comprehension check
 
@@ -182,7 +181,7 @@ hide it, then ask:
 
 Dry calls this the “one Mississippi, two Mississippi” test. It is most useful
 for ads and first-screen communication, not for every sentence in long-form
-copy. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 14:00–15:00)
+copy. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 14:00-15:00)
 
 ---
 
@@ -196,12 +195,12 @@ groups useful conflict into:
 - **Competitors:** two products or categories in direct contrast.
 
 Before/after and problem/solution also work. The point is not aggression; the
-contrast helps the reader understand each side relatively. (Harry Dry — *Learn
-Copywriting in 76 Minutes*, @ 29:30–31:30 and @ 52:00–53:30)
+contrast helps the reader understand each side relatively. (Harry Dry - *Learn
+Copywriting in 76 Minutes*, @ 29:30-31:30 and @ 52:00-53:30)
 
 For stories, look for the implicit **but**: what changed, resisted, failed, or
 complicated the expected path? Do not mechanically insert the word in every
-paragraph. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 64:00–65:30)
+paragraph. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 64:00-65:30)
 
 ---
 
@@ -209,7 +208,7 @@ paragraph. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 64:00–65:30)
 
 Dry's demonstrated ad did not arrive as a polished first draft. His sequence:
 
-1. Save a promising seed — often a fact or argument.
+1. Save a promising seed - often a fact or argument.
 2. Add a contrasting alternative or enemy.
 3. Borrow a relevant layout principle from a strong example.
 4. Draft directly with the design.
@@ -221,8 +220,8 @@ Dry's demonstrated ad did not arrive as a polished first draft. His sequence:
 8. Keep refining until each element earns its place.
 
 The example took about 25 rewrites and developed piece by piece. This supports
-iteration, not a mandatory rewrite count. (Harry Dry — *Learn Copywriting in 76
-Minutes*, @ 29:00–41:00)
+iteration, not a mandatory rewrite count. (Harry Dry - *Learn Copywriting in 76
+Minutes*, @ 29:00-41:00)
 
 ### Simplicity is an editing result
 
@@ -235,12 +234,12 @@ Dry treats simple writing as rewriting. Apply this deletion test:
 
 His cited Kaplan rule is that words not working for the sentence work against
 it. He extends the same idea to scope: a narrower idea is often stronger.
-(Harry Dry — *Learn Copywriting in 76 Minutes*, @ 56:00–59:00)
+(Harry Dry - *Learn Copywriting in 76 Minutes*, @ 56:00-59:00)
 
 When seeking feedback, present two or three controlled versions of the same
 unit. Reviewers can combine the best line with the best structure more usefully
-than they can respond to one isolated draft. (Harry Dry — *Learn Copywriting in
-76 Minutes*, @ 59:00–60:00)
+than they can respond to one isolated draft. (Harry Dry - *Learn Copywriting in
+76 Minutes*, @ 59:00-60:00)
 
 ---
 
@@ -255,7 +254,7 @@ To structure a large subject:
 Dry reduces copywriting to audience, substance, and expression; he splits an
 audience-growth essay into the first 100 readers and the next 9,900. The labels
 make a large problem graspable without pretending every topic has three equal
-parts. (Harry Dry — *Learn Copywriting in 76 Minutes*, @ 60:00–62:00)
+parts. (Harry Dry - *Learn Copywriting in 76 Minutes*, @ 60:00-62:00)
 
 Parallelism should sharpen meaning. Do not alter a verified number solely to
 make lines symmetrical.
@@ -273,7 +272,7 @@ letter:
 - Use contrast inside examples so the lesson is easier to understand.
 - Keep paragraphs easy to enter and move through on the reading device.
 
-(Harry Dry — *Learn Copywriting in 76 Minutes*, @ 50:30–54:30)
+(Harry Dry - *Learn Copywriting in 76 Minutes*, @ 50:30-54:30)
 
 His own two-line paragraph ceiling is explicitly described as idiosyncratic,
 not universally good. Preserve a client's established rhythm and use short
@@ -292,7 +291,7 @@ Dry frames AI as a tool whose usefulness depends on three human inputs:
 - **Experience:** noticing real behavior and having material that was not
   generated from stock language.
 
-(Harry Dry — *Learn Copywriting in 76 Minutes*, @ 65:30–69:30)
+(Harry Dry - *Learn Copywriting in 76 Minutes*, @ 65:30-69:30)
 
 Copy Lab implementation:
 

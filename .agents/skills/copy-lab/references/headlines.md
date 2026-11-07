@@ -12,16 +12,15 @@ list of templates. That makes it portable to formats the templates never covered
 ## 1. Curiosity is the strongest lever
 
 Schutz includes it with visible reluctance and then endorses it hard: "I doubted
-whether I would include it in the course but I think it's too powerful not to —
-it's curiosity. If you bring something into a user's conscious awareness that
+whether I would include it in the course but I think it's too powerful not to - it's curiosity. If you bring something into a user's conscious awareness that
 makes him curious that's very powerful in where he puts his attention"
 (*3. Attention & Perception > 3.3 Attention* @ 11:10).
 
 **The worked test in that lesson is the whole lesson.** Brian Massey's AdWords
-test pitted a conventional authority claim — roughly *we hold all the secrets to
-internet marketing* — against:
+test pitted a conventional authority claim - roughly *we hold all the secrets to
+internet marketing* - against:
 
-> "lousy marketing and dated IDs — don't come to our site"
+> "lousy marketing and dated IDs - don't come to our site"
 
 The second was "a big winner" (@ 11:10).
 
@@ -34,13 +33,13 @@ claims close the gap; curiosity headlines open one.
 ## 2. Surprise, front and back
 
 From Schutz's five tips for a persuasive offer narrative: "surprise, because
-surprises are the changes — remember Kahneman. So especially in the beginning and
+surprises are the changes - remember Kahneman. So especially in the beginning and
 in the end surprise people, because if you surprise in the first sentence they'll
 get their attention" (*7. Persuasive Marketing > 7.2 Techniques for Your Offer*
 @ 16:50).
 
 The mechanism he gives is more useful than the instruction. A surprising opening
-**sets a narrative goal** — it creates a problem the reader now needs to resolve,
+**sets a narrative goal** - it creates a problem the reader now needs to resolve,
 which "boosts the need for them to find the meaning behind it, to find the
 solution." The payoff: "more likeable, more memorable and more trustworthy"
 (@ 16:50).
@@ -57,7 +56,7 @@ next one.
 ## 3. The story-shaped headline
 
 The most-quoted headline in advertising is cited in the corpus for a specific
-reason — it is a story in one line:
+reason - it is a story in one line:
 
 > "They laughed when I sat down to play"
 > (*Digital Psychology & Persuasion, 18-Cognitive Biases > 11-Narrative Fallacy*
@@ -68,7 +67,7 @@ information in the context of a story it will be more effective and more
 memorable" (@ 00:38).
 
 That headline contains a character, a conflict, an implied reversal, and an
-unresolved ending — in seven words. Test your headline for those elements before
+unresolved ending - in seven words. Test your headline for those elements before
 reaching for adjectives.
 
 **The warning attached to the same lesson.** The narrative fallacy is that
@@ -93,15 +92,15 @@ category rather than for you. See `positioning.md` §4 on clichés.
 
 ---
 
-## 5. Fear-based openings — two conditions
+## 5. Fear-based openings: two conditions
 
 If your hook raises a threat, Schutz's constraint is that the threat alone
 backfires without two supports (*2. System 1 > 2.4 Persuasion Techniques*
 @ 11:06):
 
-1. **Response efficacy** — the reader must believe the action removes the threat:
+1. **Response efficacy** - the reader must believe the action removes the threat:
    "is this gonna lead to the effect that I wanted to."
-2. **Self-efficacy** — "the moment you are inducing fear they have to feel that
+2. **Self-efficacy** - "the moment you are inducing fear they have to feel that
    they can do it."
 
 His example is people who are fully aware of severe health threats and do not
@@ -121,7 +120,7 @@ spark curiosity that's going to keep them engaged throughout the entire sales
 page" (*Words Are Wands, 06-Bonus > 02-How to Write Sales Pages That Actually
 Sell (part 1)* @ 06:17).
 
-Note "your best buyers," not all readers — the Massey headline in §1 works by
+Note "your best buyers," not all readers - the Massey headline in §1 works by
 excluding people.
 
 Her practical caution from the same lesson: this sentence invites perfectionism,
@@ -135,7 +134,7 @@ come back for the headline once you know what the page actually promises.
 The persuasive-design module states it as a rule rather than a preference:
 
 > "After every two paragraphs, you need to have a sub-headline. Because the most
-> dominant behavior online is **scanning** — and people do that by reading your
+> dominant behavior online is **scanning** - and people do that by reading your
 > headline and sub-headlines. That's it. If you don't have sub-headlines, you've
 > lost. They don't know anything."
 
@@ -158,7 +157,7 @@ actually writing for them.
 
 ## 8. Adapt the hook to format and channel
 
-> "Every good storyline has a hook — something that draws the reader in. A hook
+> "Every good storyline has a hook - something that draws the reader in. A hook
 > is critical to your storyline and should be **customized based on the type of
 > content** you create, whether it's an article, a video, a blog post, **and the
 > channels** you plan to use."
@@ -167,7 +166,7 @@ actually writing for them.
 effective messaging* @ 01:20)
 
 The same idea therefore needs a different opening per surface. This is the
-strategic version of the headline/hook/subject-line split — one narrative, three
+strategic version of the headline/hook/subject-line split - one narrative, three
 entry points, none of them reusable verbatim.
 
 ### Homepage value proposition: clarity before cleverness
@@ -181,9 +180,18 @@ obscuring the offer (*Product Marketing, 13-Radical Differentiation >
 The worked line is: **"Shop the world's largest selection of built-to-last,
 weathertight pet doors."** Every component came from research: product/category,
 selection as the reason customers chose the seller, and durability plus weather
-protection as the outcomes visitors wanted (@ 44:37–45:24). The lesson's warning
+protection as the outcomes visitors wanted (@ 44:37-45:24). The lesson's warning
 is blunt: attempts to be exceptional through subtle wording often hide the fact
 that the company has what the visitor came for (@ 44:02).
+
+### Short-form feed hooks: mobile screen budget & truncation physics
+
+For LinkedIn, X, Threads, and short-form social feeds, the headline is replaced
+by the **hook** (the 1-3 lines visible before the `...more` truncation cut).
+Consult `social-hooks.md` for the measured mobile screen budget (<= 50 chars for
+full lines, <= 45 chars for the last visible line), the Cut-Zone Test at
+characters 42 and 66, the 4 formats (Dense, Punchy+Context, Single-Line Bomb,
+Stacked), and the Parenthetical Technique.
 
 ---
 
@@ -206,11 +214,11 @@ Before shipping a headline:
 
 ## Sources
 
-Bart Schutz, *Master of Online Persuasion* — 2.4, 3.3, 7.2.
-Digital Psychology & Persuasion — 18-Cognitive Biases.
-Branding & Brand Strategy — 14-Branding.
-Kathryn Morrison, *Words Are Wands* — Bonus.
-Product Marketing — 13-Radical Differentiation.
+Bart Schutz, *Master of Online Persuasion* - 2.4, 3.3, 7.2.
+Digital Psychology & Persuasion - 18-Cognitive Biases.
+Branding & Brand Strategy - 14-Branding.
+Kathryn Morrison, *Words Are Wands* - Bonus.
+Product Marketing - 13-Radical Differentiation.
 
 Related: `psychology.md` (attention and System 1), `voice.md` (making the line
 sound like you), `sales-pages.md` (what follows the headline),
@@ -224,8 +232,8 @@ Advertising Methods* adds a useful ranking: self-interest and a clear benefit
 usually beat curiosity alone; a curiosity headline has to earn the reader's
 time with a believable payoff. The book also recommends writing many candidates
 and judging them from the bored reader's point of view. (*Ogilvy on Advertising*,
-chapter “Miracles of research”; *Tested Advertising Methods*, pages 11–13,
-16, 21–25.)
+chapter “Miracles of research”; *Tested Advertising Methods*, pages 11-13,
+16, 21-25.)
 
 **New headline pass**
 

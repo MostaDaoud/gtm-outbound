@@ -2,7 +2,7 @@
 
 Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[14] 8. Pricing Psychology > 8.3 Reducing the pain of paying @ 00:00**
   Hi there, welcome to the second part of pricing, psychological pricing techniques and tactics of the three that I'll give to you. The first one was all about setting your price, right? How to choose a price structure or at least how to consider psychological principles when setting a price structure and how to set a base price that you're going to charge your prospect or your or customer for your product or service. Now we have this price right and they have to pay it. In this second part we will look at how we can reduce the pain of paying that is involved with paying your price and they're basically two things to consider. The first one is how to time the payment in such a way
@@ -59,7 +59,7 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 - **[10] 18-Cognitive Biases > 31-Precision Bias @ 00:03**
   Now, I mentioned precision bias earlier, and it represents our preference or belief that precise numbers are inherently better than round numbers. One of the first experiments to show this had people look at a product like a television, for example, and people saw it with different prices, either $500 even or a price that was just a little bit below, but was precise, like $497.13, or a little bit bigger, like $501.52.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[13] 07-Rob Marsh AI Copy Secrets Vol 1 @ 38:11**
   Let's see. We want copy type. So anything from sales letters, VSLs, upsell scripts, webinars. they basically have frameworks all built into this tool and then you can generate things from generate any of those i've used it for i have i wanted a vsl for this emotional copy master class that i had created and have as part of a lead funnel and just asked it to do a mid-length VSL. So not two minutes, but also not 30 minutes, right? And it, by section by section, builds out the problem, the solution, recap, offer introduction, right? It goes through a typical John Benson VSL, and he's got all kinds of different other copywriters frameworks in here.
@@ -96,7 +96,7 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 - **[14] 01-MUST WATCH AI Challenge > 01-DAY 1- RECAP VIDEO @ 02:59**
   then we create a promise what do they get what are you actually doing for them you know what are they actually getting from you what is their you know how are you solving that pain and then your positioning what makes you different is your mechanism how are you doing that right through us we are coaching and we're using what we call the invisible sales funnel compounding compounding offer and then we have a conversion ecosystem so these are our unique mechanisms then the plan We draw out that graph that we showed How do they get there And then the purpose is why you why are you uniquely qualified to solve this And the thing is, this all ties together because you share their values, beliefs, et cetera, but also you're the
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[13] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 1) @ 19:40**
   then you move into introducing right so often like you're just look at any sales page right like uh of like successful successful sales pages you'll notice that is a flow that's like very consistently happening and so it was funny because even though i never took a training on sales pages i think i just intuitively like was just always doing this because it's sort of messaging best practices right and so here it's like okay now that once i've like we've really grounded this in let's talk about the offer let's talk about what the thing is okay and then you can see here once i introduce the offer for some people that's all they need so if that's all they need i'm gonna
@@ -121,7 +121,7 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 - **[9] 01-Introduction > 01-PostHello No AI Bots Were Harmed In The Making Of This Course @ 07:04**
   So AI is here to stay. My advice is to embrace it the right way. If you follow this writing advice, you're most likely going to see I never guarantee anything, but you're most likely going to see more engagement, more time on page, more signups or clicks to affiliates or offers, more sales and better branding. And moving forward, as people want to interact more and more with human brands and less with AI this is only going to be more important If you want to build like a legit business in Google eyes and readers eyes this type of content will be super valuable to your business So we are currently at the peak of the hype cycle and this is leading to misinformation and hype claiming AI can do things that it simply cannot
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[9] 10-Landing-Page-Copywriting > 01-Answering The Most Important Question @ 04:20**
   page based on that. Essentially what we're, what we're really just looking at here is some sense of, is this a product I would personally buy? Would I personally give away money to this? If the answer is no, good. We need to work on your product. If the answer is hell yeah, we probably need to work on your landing page. It's good to be confident in your offer. It's good to be confident in your offer, but not so overly confident you miss actual problems with your conversion rate or you're shocked when your conversion rate is like a very typical two to 6%. So that's just something I wanted to start off, excuse me, but I just wanted to start off
@@ -137,7 +137,7 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 - **[7] Buyology - Part 02 @ 54:25**
   Tasteless, the few times I had it. Always needs salt, too. Plus, didn't I read somewhere that organic doesn't necessarily mean anything? Plus, it's almost double the price. Jif. What's that old advertising slogan of theirs? Choosy mothers choose Jif. Well, I am. Fairly discriminating person. These are the subconscious conversations that go on in our heads every time we choose one product over another. Except they are rarely, if ever, uttered aloud. Instead, we rely on almost instant shortcuts that our brains have created to help us make buying decisions.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[26] 01-Videos > 66- Office Hours- September 18 2025 @ 10:44**
   Um, but, but I'm just, but I am building a like a little bit of a portfolio. So yeah, I always, I always talk about the three tier rate, the, so for example, it goes like this. You triple it and you triple it again. it again. So a $500 project could potentially be a $1,500 project pretty easily. And the $500 price doesn't scare away the people on the low end. But then if someone wants a much more premium product, they're also likely to get this, where if you just charge $500, people go, okay, that's the price. That's all you'll ever make. So I always tell people that this price should be at least 10 times more than this price. And you have a tiered system. So you can tell someone,
@@ -186,15 +186,15 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 
 - **[15 +1 repeats] 03-Copywriting Guides > 19-Three Tiered Pricing Structure w_ Examples and Templates @ 06:31**
   And instead of using check marks, they kind of just omit the features that aren't included on this one. Also with the four-tier pricing plan is WP Engine. So their plan names are actually kind of interesting. I like them because they're very descriptive. They've got startup, growth, and scale. And then if you want to go bigger than that, you can always go custom. This is a nice little four-tier pricing plan and it explains all the technical limitations and what you get with each here is price intelligently's high-end dual pricing now they offer a very expensive product and they offer in two different ways you can either just buy it at 45k outright so 45 000 one shot or you can go their 15k a month route and it looks like they really want you to buy the 15k
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 06:31_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 06:31_
 
 - **[14] 01-Videos > 235-How to get more gigs on UpWork for my profile @ 02:48**
   thing you need to do is start getting more jobs on get more jobs and complete them. Get beyond 10 plus jobs. I think that should be your goal for right now. And so you can ask friends on Facebook to order quick gigs and rate you on Upwork. Or you can go on Upwork and offer a limited time April special or whatever month it is. And this way you can maybe even reduce your price a little bit, but this is super common in the Amazon world that people will actually release a new product and go severely into debt just to get the ratings really high. But once the ratings are high and they have a lot of that social proof, things just
 
 - **[14 +2 repeats] 01-Videos > 245-Three Tiered Pricing @ 02:52**
   So the cheap package will just be two emails. That's the basic amount of work. The advanced package will be the two emails, the editing and the proofing, plus a sales page. And then the super professional package will have other optional things on there for them. So it be like this plus social media posts plus SEO outreach So instead of going to the customer and saying, hey customer, I'm going to charge you $1,000.
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
 
 - **[14] 01-Videos > 399-We take a confusing landing page and are step-by-step making it easier for people to buy @ 00:19**
   Appreciate that. Thank you. Appreciate the idea. Yeah. So next step. So you do the first step. So now we got two buttons. So creative cards and creative course. I think one of the things you need to do is I find this section here, retail sale, like, you know, I think you should just get rid of this and just say the price.
@@ -210,7 +210,7 @@ Selected 90 of 728 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +1 repeats] 03-Copywriting Guides > 19-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42**
   You see, that was my biggest fear that I was going to give this $5,000 figure to the Ducati dealership and they were gonna laugh at me and say it's too much money so here's the genius of the three prong pricing and here's how it works you have three different options which people can pick from like this there's the basic the advanced and the expensive now the basic thing is the safe bet that's the lowest price that you're willing to charge the next up is the advanced that's the middle section. This is the one that you want people to go for. And this is going to have your basic service plus a couple of other additional services on top. Now, the expensive one is kind
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 50-Three Tiered Pricing Structure w_ Examples and Templates @ 01:42_
 
 - **[14] 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 00:44**
   the basic package is the lowest price so it's for very little work and it's for your lowest minimum price that you're willing to charge for a lot of people this option will be the right price because it's the cheapest but if you charge a really low price you never know if you could have got a higher price so in that case what we do is we charge an advanced package this is where we offer more services more time more care but also for more money so this option is usually the right one for most people so you don't scare away anyone with the low price but you ideally get this this advanced package option then what you do

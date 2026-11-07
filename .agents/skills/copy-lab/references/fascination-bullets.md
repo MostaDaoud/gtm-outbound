@@ -2,7 +2,7 @@
 
 Use this reference when writing, varying, or auditing curiosity-driven bullet
 copy. A fascination opens a specific information gap and makes the underlying
-content—not the bullet itself—the only honest way to close it.
+content - not the bullet itself - the only honest way to close it.
 
 ## Provenance and citation status
 
@@ -16,7 +16,7 @@ Flores.
 When provenance matters, cite it as:
 
 > Secondary reproduction attributed to Clayton Makepeace, `r/SalesCopy`, Parts
-> I–IV, retrieved 10 August 2026.
+> I - IV, retrieved 10 August 2026.
 
 Do **not** say Copy Lab possesses, read, or verified the original issue. The 21
 working type names are operationally available; primary-source provenance
@@ -45,7 +45,7 @@ A benefit bullet closes the loop:
 
 A fascination keeps the valuable resolution open:
 
-> The Friday-report step that consumes most of your time—and the two-field fix
+> The Friday-report step that consumes most of your time - and the two-field fix
 > that removes it.
 
 The second line is only honest if the product identifies that step and teaches
@@ -57,25 +57,25 @@ the promised fix.
 |---:|---|---|---|
 | 1 | **How To** | Promises a desired result while withholding the method | “How to [result] without [objection].” |
 | 2 | **Secret To** | Frames a genuinely little-known mechanism as privileged knowledge | “The secret to [result] that [credible group] uses when [situation].” |
-| 3 | **Why** | States a surprising condition and withholds its cause | “Why [counterintuitive fact]—and what it means for [reader].” |
+| 3 | **Why** | States a surprising condition and withholds its cause | “Why [counterintuitive fact] - and what it means for [reader].” |
 | 4 | **What** | Names valuable information the reader does not yet possess | “What [authority] checks first before [decision].” |
 | 5 | **What NEVER** | Activates loss avoidance around a specific mistake | “What never to [action] when [high-stakes condition].” |
-| 6 | **PLUS** | Adds a final value item and closes a list with momentum | “PLUS—[additional payoff or resource] that helps you [result].” |
-| 7 | **Number** | Turns several items into a concrete, bounded inventory | “The [N] signs that [problem]—and what each one tells you.” |
-| 8 | **Right… WRONG!** | Surfaces a familiar assumption, then breaks it | “[Common belief], right? WRONG—and here is what actually matters.” |
-| 9 | **WARNING** | Flags a credible danger and implies protective information | “WARNING: [specific risk]—the safeguard to check before [event].” |
+| 6 | **PLUS** | Adds a final value item and closes a list with momentum | “PLUS - [additional payoff or resource] that helps you [result].” |
+| 7 | **Number** | Turns several items into a concrete, bounded inventory | “The [N] signs that [problem] - and what each one tells you.” |
+| 8 | **Right… WRONG!** | Surfaces a familiar assumption, then breaks it | “[Common belief], right? WRONG - and here is what actually matters.” |
+| 9 | **WARNING** | Flags a credible danger and implies protective information | “WARNING: [specific risk] - the safeguard to check before [event].” |
 | 10 | **Are You…?** | Gets a likely yes and makes the bullet self-relevant | “Are you [recognizable behavior]? If so, check [unresolved risk/opportunity].” |
 | 11 | **Gimmick** | Gives a real mechanism a memorable, descriptive name | “The ‘[coined name]’ test that reveals [useful hidden condition].” |
 | 12 | **Sneaky** | Highlights a hidden, guarded, or easily overlooked move | “The sneaky [practice] that quietly [costs/creates outcome].” |
 | 13 | **Statement of Interest + Benefit** | Leads with an intriguing fact, then connects it to practical value | “[Interesting fact]. Here is how it helps you [benefit].” |
-| 14 | **Direct Benefit** | Opens with an action-led result, then deepens it with proof or mechanism | “[Action verb] [benefit]—using [credible but unresolved mechanism].” |
+| 14 | **Direct Benefit** | Opens with an action-led result, then deepens it with proof or mechanism | “[Action verb] [benefit] - using [credible but unresolved mechanism].” |
 | 15 | **Specific Question** | Asks a consequential question whose answer the reader wants | “[Precise question]? The answer changes how you [decision].” |
 | 16 | **If… Then** | Lets the reader self-qualify, then promises a relevant payoff | “If [condition], then [benefit or needed action].” |
 | 17 | **When** | Makes timing the missing, valuable variable | “When [surprising time] is the best moment to [action].” |
 | 18 | **Quickest, Easiest** | Appeals to speed, simplicity, or lower effort | “The quickest, easiest way to [result] without [credible constraint].” |
-| 19 | **Truth** | Resolves a contested, confusing, or myth-heavy issue | “The truth about [controversy]—what the evidence means for [reader].” |
+| 19 | **Truth** | Resolves a contested, confusing, or myth-heavy issue | “The truth about [controversy] - what the evidence means for [reader].” |
 | 20 | **Better** | Positions a supported alternative against an accepted default | “Better than [familiar option]: the [mechanism] that [differentiated benefit].” |
-| 21 | **Single** | Elevates one demonstrably dominant item above the rest | “The single most important [thing] to [result]—and why it outranks [alternative].” |
+| 21 | **Single** | Elevates one demonstrably dominant item above the rest | “The single most important [thing] to [result] - and why it outranks [alternative].” |
 
 Type names reproduce the secondary source's taxonomy. Capitalization and
 punctuation are normalized for consistency; “Quickest, Easiest” covers the
@@ -107,11 +107,11 @@ The labels **Secret To**, **Sneaky**, **WARNING**, **Truth**, **Better**, and
 
 ## Generation workflow
 
-1. Read the product and list 30–60 useful facts, mechanisms, mistakes, examples,
+1. Read the product and list 30-60 useful facts, mechanisms, mistakes, examples,
    and counterintuitive observations.
 2. Write each fact plainly. This is the entitlement check: the plain statement
    shows exactly what the product can support.
-3. Remove only the resolving element—the identity, reason, number, timing, or
+3. Remove only the resolving element - the identity, reason, number, timing, or
    mechanism. Leave enough specificity to prove there is a real answer.
 4. Draft three versions using types that fit the fact. Do not force all 21.
 5. Add a page, chapter, lesson, or module locator when available. The anchor
@@ -147,7 +147,7 @@ score category.
 | Does the bullet open a concrete gap rather than make a vague tease? | Audience/psychology: curiosity and relevance |
 | Does the product deliver the implied answer? | Evidence and specificity; regulatory floor where applicable |
 | Is the visible detail specific enough to feel real? | Evidence and specificity |
-| Is the type label earned—especially secret, warning, truth, better, or single? | Evidence and specificity |
+| Is the type label earned - especially secret, warning, truth, better, or single? | Evidence and specificity |
 | Does the block vary shapes and remain scannable? | Structure and clarity |
 | Could the same bullet promote any competitor? | Voice and distinctiveness |
 | Are the strongest bullets attached to the strongest content? | Offer and action |
@@ -173,6 +173,6 @@ When the user asks for fascination bullets:
 ## Source note
 
 Retrieved from the four Reddit posts above on 10 August 2026. The posts describe
-themselves as Parts I–IV of one series and enumerate types 1 through 21 in order.
+themselves as Parts I - IV of one series and enumerate types 1 through 21 in order.
 This file preserves the taxonomy and practical distinctions in summarized form;
 it does not reproduce the posts' historical examples or extended prose.

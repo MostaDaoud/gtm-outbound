@@ -2,7 +2,7 @@
 
 Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[19] 4. Need & Motivations > 4.4 Attribution Theory @ 37:42**
   Less sales when we apply it on the same product template, same brand, but different category where total different systems are at play. those are the differences you should focus on first in in my opinion and most psychologists opinion instead of staring yourself blind at the very prototypical popular personality typing theories and having said that I will end it up with a movie and then wrap it up before closing it down and this movie shows I think very nicely how the personality is not the big driver. It's not the intrinsic that I am a person that is this way. I am not a person that's always helping. But it's the situation that determines it more than your personality. Plays like this street in New York City.
@@ -59,7 +59,7 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 - **[7] 20-Building Trust > 08-Improving Your Photographs @ 05:34**
   For guys, however, the least attractive emotion expressed in photos was happiness. Women found men that looked really happy to be less attractive than men that looked less happy. So adjust your profiles accordingly if that's your purpose. Another thing that's always an issue when you're having a picture taken is, where should I be looking?
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[18] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 09:41**
   And so here's an example of what I did. So this is the prompt. And you can use this pretty much verbatim. So I said, I'm a freelance copywriter who wants to practice my skills and develop world-class jobs. To help with this, I want you to create a fake client brief for me to read through and practice writing one email for, which I want you to give me detailed feedback on with a grade for each part of the email. To start, I want you to create a particularly challenging brief that tests my ability to understand market saturation, the five levels of awareness, optimal product positioning, and more. Basically, I want you to create a very challenging client brief situation, making it hard for me to write a strategically and positionally
@@ -96,7 +96,7 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 - **[11] 04-X Twitter Profit / 01-X Profit Course > 06-Running Giveaways @ 02:40**
   Look, as you are starting with this, I know I'm contradicting myself a little bit, probably go a little bit broader just to build the following up. Because once we're at like 5k on Twitter and I'm not there yet, I see a lot of movement happen and a lot of people make some more money on there. And that's why Twitter I think is very powerful, but we need a bit more social proof. So that is how I'm planning my topics. I'm going in, finding different things that really resonate within my pillars but I also utilizing Tweet Hunter X or TwemX as it used to be called and seeing what worked for other people right So if you have a niche that similar to mine
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[14] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 2) @ 18:45**
   So there's no right or wrong way. But if you're someone that like, that sounds like a fun thing for you, we don't do it as strategically on the sales pages. But when we are doing something in like emails, we always work to have social proof or testimonial that's aligned with whatever the messaging of the email is.
@@ -129,7 +129,7 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 - **[8] Buyology - Part 02 @ 42:36**
   So I included Microsoft, BP, and countless other brands sharing the same profile. Why these? Well, these are all the same. These are all brands that I consider to provoke limited or even negative emotional engagement among consumers. In other words, they leave most of us cold. Regardless of whether we were showing our volunteers strong brands or weak ones, it was important that each was a leader within its category. That way, we could be sure that the results wouldn't be skewed by lesser or unknown brands. Before our study got underway, we asked our 65 subjects to rate their spirituality from 1 to 10, with 10 being the highest.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[15] 01-Videos > 12-25000 user car maintenance logging app looking for ways to create a valuable newsletter @ 13:41**
   Obviously, they are around the web. Is that, from a copywriting point of view, is that okay inside emails, like it's a private email? Swipe file usually does. So, for example, some of these are a little bit difficult to attribute because there's not a place that this lives. however i mean i think if you go to some of the i don't know i'm just trying to go to some random one i was just thinking more your newsletter as opposed to swipe file because i know so so for example if we say this is a pricing page there's a source button here that attributes it and that actually goes and in terms of your newsletter is that is that not required they
@@ -142,10 +142,10 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +4 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 02:45**
   So whether you're putting it on a page or an email, you could write in subject lines. So for example, subject, convince someone to use Ada. And I'll often put the purpose of the email so I always remember what it is I'm trying to sell or get across. So once again, convince someone to use Ada.
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
 
 - **[14] 01-Videos > 439-Agency website is boring makes good leads for 7 years but needs an overhaul. We @ 04:40**
   completely revamp the copy it's just i think it just comes down to this one word it's like specificity, you know, what, what examples can you give me that? Like, okay, I'm the right fit for this company. Let's sign up. I think, I think that's the main thing. That's step number one. Got it. And the only question I'd have for you around testimonials and case studies is I'm always really careful of, you know, making a claim or, or doing a case study. For instance, in e people have 15 different channels and attribution is a total nightmare So to say you know hey we going to increase your revenue 10 to 30 percent Well 10 to 30 percent on the top line of a business
@@ -176,7 +176,7 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 
 - **[13 +1 repeats] 03-Copywriting Guides > 12-9 Copywriting Exercises you can start doing write now @ 02:24**
   Screenshot, put it in a swipe file. Now the purpose of this swipe file is that later, when you're trying to think of something and you're running out of ideas, you can go back to your swipe file and just start browsing through it and get ideas right away. So for example, if I'm trying to write a sales page and I'm down to the pricing part and I'm kind of blanking, running out of ideas, I just go to my swipe file and there's a section called pricing that I can look through and see how other people are structuring their pricing pages.
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-9 Copywriting Exercises you can start doing write now @ 02:24_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-9 Copywriting Exercises you can start doing write now @ 02:24_
 
 - **[12] 01-Videos > 36--Office Hours- October 16 2025 @ 05:44**
   What about something like this, where it's like your fresh start giveaway, coaching, plus $500 to take the first step in your new life or something? Right. So, you get the... You get the coaching, and then there's a little bit of, at least, messaging around what to use it for, even though if you want to use it all on, you know, the spot.
@@ -243,8 +243,8 @@ Selected 90 of 496 unique scoring passages. Each entry is verbatim transcript te
 
 - **[10 +2 repeats] 01-Videos > 577-June 13th 2024 @ 08:32**
   memes and advice and stuff so this sounds really really cool i've never heard of this either um good yeah if you look on instagram you can just if you're a creator you have to have your account set to creator there's personal business and creator so i switched to creator and creators have this like way to essentially like create an email list create a dm list for people that join um so yeah i guess my thinking too is like when you post your first message it shows it to all of your people so you want your messaging to be like if you're a divorce professional we created this new channel please join it's free in here we're going to share this this and this and it's
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 04-Social Media > 06-Business model research from churned users Instagram Broadcast Channel feature to create @ 08:20_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 10-Build Digital Products > 07-Business model research from churned users Instagram Broadcast Channel feature to create @ 08:20_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 04-Social Media > 06-Business model research from churned users Instagram Broadcast Channel feature to create @ 08:20_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 10-Build Digital Products > 07-Business model research from churned users Instagram Broadcast Channel feature to create @ 08:20_
 
 ## Product Marketing
 

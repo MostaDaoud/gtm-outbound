@@ -421,3 +421,10 @@ def dedupe_passages(passages: Iterable[Passage]) -> list[tuple[Passage, int]]:
         seen[key] = len(ordered)
         ordered.append([passage, 1])
     return [(item[0], item[1]) for item in ordered]
+
+
+if __name__ == "__main__":
+    import sys
+    print(f"corpus_lib module: {sys.argv[0]}")
+    sys.exit(0)
+

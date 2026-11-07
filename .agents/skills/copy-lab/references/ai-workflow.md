@@ -53,8 +53,8 @@ skill requirement: you cannot specify quality you could not recognise.
 
 Bill Mueller's account of how the good output actually arrives: "what's
 interesting about the process that you put this together is **the back and
-forth**... sometimes I'll put a prompt in — I do mine with voice messages and
-explain my thing — and then I get something really good back. But usually..."
+forth**... sometimes I'll put a prompt in - I do mine with voice messages and
+explain my thing - and then I get something really good back. But usually..."
 (*Drop Dead Copy, 01-Bill Mueller AI Copy Secrets Vol 1* @ 23:29).
 
 Two practices worth lifting:
@@ -64,26 +64,26 @@ Two practices worth lifting:
 - **Dictate.** Speaking the brief captures nuance and context that typing tends
   to compress away.
 
-His reaction to a good output is also diagnostic — "it makes me want to go look
+His reaction to a good output is also diagnostic - "it makes me want to go look
 it up" (@ 23:29). Curiosity in the *writer* is a decent proxy for curiosity in
 the reader. See `headlines.md` §1.
 
 ### The voice-of-customer upgrade pass
 
 Eden Bidani's method is the corpus's most concrete answer to "how do I beat the
-tool rather than compete with it." It takes two inputs — **AI-generated copy**
-and **voice of customer**, sourced online if you have none of your own — and runs
+tool rather than compete with it." It takes two inputs - **AI-generated copy**
+and **voice of customer**, sourced online if you have none of your own - and runs
 a landing page headline through "two or three steps depending on how far you want
 to push it" (*Product Marketing, 12-Positioning > 04-Write better than AI*
 @ 03:02, @ 04:01).
 
 Her framing of the goal: "How do you level up AI-generated copy? How can you do
-it even better than the AI tools already do?" The process generalises — "whether
-it's an ad, a landing page, a product page, you name it" — and the speed comes
+it even better than the AI tools already do?" The process generalises - "whether
+it's an ad, a landing page, a product page, you name it" - and the speed comes
 from having both inputs to hand before you start (@ 03:32).
 
 **The constraint that makes it worth knowing:** it is explicitly designed to be
-safe where you *cannot* use a trained custom GPT — including when the client
+safe where you *cannot* use a trained custom GPT - including when the client
 will not permit one (@ 04:01). Most of the advice in this file assumes you can
 build persistent context. This is the fallback when you cannot.
 
@@ -108,10 +108,10 @@ lesson, "you can use this pretty much verbatim"
 
 Three things make it work, and they generalise to any practice prompt:
 
-1. **It asks for the problem, not the solution** — a brief to write against.
+1. **It asks for the problem, not the solution** - a brief to write against.
 2. **It requests graded, per-section feedback** rather than a verdict.
-3. **It specifies the difficulty axis** — market saturation, awareness levels,
-   positioning — so the challenge lands where you want to improve.
+3. **It specifies the difficulty axis** - market saturation, awareness levels,
+   positioning - so the challenge lands where you want to improve.
 
 This inverts the usual relationship: the AI is the client and the examiner, you
 are the writer. It builds the judgement §2 says you need.
@@ -121,7 +121,7 @@ are the writer. It builds the judgement §2 says you need.
 ## 5. Where AI genuinely scales
 
 Sequence production. "The whole purpose of this was to show you how you could use
-this to create an entire sequence — a seven email welcome sequence, a five email
+this to create an entire sequence - a seven email welcome sequence, a five email
 promotional launch sequence, a 20 email customer onboarding sequence. It's really
 limited by what you can imagine and what you can communicate"
 (*03-John McIntyre AI Copy Secrets Vol 1* @ 49:07).
@@ -129,7 +129,7 @@ limited by what you can imagine and what you can communicate"
 Note the constraint he names: imagination and communication, not model
 capability. If your sequences come out generic, the brief was generic.
 
-Pair with `emails.md` §1 — supply the per-email **objective** yourself, and let
+Pair with `emails.md` §1 - supply the per-email **objective** yourself, and let
 the tool draft against it.
 
 ---
@@ -154,7 +154,7 @@ Ben Preston's *100M Offers Made Easy* is a derivative source that shows how to
 turn Hormozi's four-part value equation into a structured AI prompt. The useful
 pattern is procedural: ask the model to inspect dream outcome, perceived
 likelihood, time delay, and effort/sacrifice; request concrete improvements; then
-compare alternatives and test them (Ben Preston — *100M Offers Made Easy*,
+compare alternatives and test them (Ben Preston - *100M Offers Made Easy*,
 chapters “Offer Ideation” and “Testing Your Offers for Irresistibility”).
 
 Use that pattern in four passes:
@@ -187,10 +187,10 @@ offer principles and the client's evidence remain the authority.
 
 ## Sources
 
-Kevin Meng, *Next-Level AI Content* — Introduction, Fundamental Principles.
-Drop Dead Copy, *AI Copywriting Secrets Vol 1* — Bill Mueller, John McIntyre,
+Kevin Meng, *Next-Level AI Content* - Introduction, Fundamental Principles.
+Drop Dead Copy, *AI Copywriting Secrets Vol 1* - Bill Mueller, John McIntyre,
 Shiv Shetti sessions.
-Ben Preston, *100M Offers Made Easy* — chapters “Offer Ideation” and “Testing
+Ben Preston, *100M Offers Made Easy* - chapters “Offer Ideation” and “Testing
 Your Offers for Irresistibility.”
 
 Related: `emails.md` (sequences), `voice.md` (specifying what to sound like),

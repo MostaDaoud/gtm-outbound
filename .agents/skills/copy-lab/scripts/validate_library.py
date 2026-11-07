@@ -24,6 +24,8 @@ from source_lib import validate_source_index
 
 SKILL_ROOT = Path(__file__).resolve().parent.parent
 REFERENCES = SKILL_ROOT / "references"
+LIBRARY = SKILL_ROOT / "library"
+LIBRARY_MANIFEST = LIBRARY / "manifest.json"
 MANIFEST = BUNDLED_ASSETS / "library_manifest.json"
 
 EXPECTED_REFERENCES: dict[str, int] = {
@@ -45,6 +47,9 @@ EXPECTED_REFERENCES: dict[str, int] = {
     "fascination-bullets.md": 80,
     "classic-direct-response.md": 80,
     "lead-and-email-playbooks.md": 80,
+    "gcc-copywriting.md": 80,
+    "landing-pages.md": 80,
+    "vgc-principles.md": 80,
 }
 
 # A citation looks like "(Schutz, 2.3 Anchoring @ 12:04)" or a bare "@ 12:04".
@@ -162,6 +167,7 @@ def check_references() -> list[dict]:
             "classic-direct-response.md",
             "lead-and-email-playbooks.md",
             "anti-generic-copy.md",
+            "gcc-copywriting.md",
         } and not CITATION.search(text):
             findings.append(
                 {
@@ -175,6 +181,128 @@ def check_references() -> list[dict]:
                 {"severity": "Medium", "file": name, "issue": "Missing top-level heading"}
             )
     return findings
+
+
+def check_library(path: Path | None = None) -> list[dict]:
+    """Audit the quoted source banks in ``library/`` against their manifest.
+
+    The library is the second knowledge stratum: verbatim, cited distillations
+    of named sources. It is what makes a claim provable, so a silently edited
+    or deleted file matters more here than in the references. The manifest is
+    the review boundary, and every markdown file must be accounted for.
+    """
+    if path is None:
+        path = LIBRARY_MANIFEST
+    if not path.is_file():
+        return [
+            {
+                "severity": "High",
+                "file": "library/manifest.json",
+                "issue": "Missing library provenance manifest",
+            }
+        ]
+    try:
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        return [
+            {
+                "severity": "Critical",
+                "file": "library/manifest.json",
+                "issue": f"Invalid manifest: {exc}",
+            }
+        ]
+
+    findings: list[dict] = []
+    declared: set[str] = set()
+    for entry in manifest.get("entries", []):
+        name = str(entry.get("file", ""))
+        if not name:
+            continue
+        declared.add(name)
+        target = LIBRARY / name
+        if not target.is_file():
+            findings.append(
+                {"severity": "High", "file": f"library/{name}", "issue": "Declared in manifest but missing"}
+            )
+            continue
+        recorded = str(entry.get("sha256", ""))
+        if recorded and not file_hash(target).startswith(recorded):
+            findings.append(
+                {
+                    "severity": "High",
+                    "file": f"library/{name}",
+                    "issue": "Changed since provenance review",
+                }
+            )
+        text = target.read_text(encoding="utf-8", errors="replace")
+        if "\u2014" in text:
+            findings.append(
+                {"severity": "Medium", "file": f"library/{name}", "issue": "Contains an em dash"}
+            )
+        if not text.lstrip().startswith("#"):
+            findings.append(
+                {"severity": "Medium", "file": f"library/{name}", "issue": "Missing top-level heading"}
+            )
+
+    if LIBRARY.is_dir():
+        for found in sorted(LIBRARY.rglob("*.md")):
+            name = found.relative_to(LIBRARY).as_posix()
+            if name not in declared:
+                findings.append(
+                    {
+                        "severity": "Medium",
+                        "file": f"library/{name}",
+                        "issue": "Not recorded in library manifest",
+                    }
+                )
+    return findings
+
+
+def build_library_manifest(path: Path | None = None) -> dict:
+    """Rebuild the library provenance manifest from the files on disk.
+
+    Source attributions already recorded in the existing manifest are carried
+    forward, so regenerating after an edit never silently drops provenance.
+    """
+    if path is None:
+        path = LIBRARY_MANIFEST
+    prior: dict[str, dict] = {}
+    if path.is_file():
+        try:
+            existing = json.loads(path.read_text(encoding="utf-8"))
+            for entry in existing.get("entries", []):
+                if isinstance(entry, dict) and entry.get("file"):
+                    prior[str(entry["file"])] = entry
+        except (OSError, ValueError):
+            prior = {}
+
+    entries: list[dict] = []
+    if LIBRARY.is_dir():
+        for found in sorted(LIBRARY.rglob("*.md")):
+            name = found.relative_to(LIBRARY).as_posix()
+            text = found.read_text(encoding="utf-8", errors="replace")
+            previous = prior.get(name, {})
+            entries.append(
+                {
+                    "file": name,
+                    "sources": previous.get("sources", []),
+                    "words": len(text.split()),
+                    "sha256": file_hash(found)[:16],
+                    "method": previous.get(
+                        "method",
+                        "verbatim-quoted distillation with per-claim source locators",
+                    ),
+                }
+            )
+
+    return {
+        "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "note": (
+            "Library files are distilled from the sources below. Every quote is verbatim and "
+            "carries a source locator. Regenerate with copy-lab-mine when sources change."
+        ),
+        "entries": entries,
+    }
 
 
 def check_freshness(path: Path = MANIFEST) -> list[dict]:
@@ -353,7 +481,22 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Write a provenance manifest for the current bundled library",
     )
+    parser.add_argument(
+        "--write-library-manifest",
+        action="store_true",
+        help="Rebuild library/manifest.json from the quoted source banks",
+    )
     args = parser.parse_args(argv)
+
+    if args.write_library_manifest:
+        manifest = build_library_manifest()
+        LIBRARY_MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+        LIBRARY_MANIFEST.write_text(
+            json.dumps(manifest, indent=1, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
+        print(json.dumps({"status": "ok", "manifest": str(LIBRARY_MANIFEST),
+                          "entries": len(manifest["entries"])}, indent=2))
+        return 0
 
     if args.write_manifest:
         manifest = build_manifest()
@@ -368,7 +511,7 @@ def main(argv: list[str] | None = None) -> int:
     corpus_findings, corpus_status = check_corpus_drift()
     coverage_findings, coverage_status = check_workspace_source_coverage()
     findings = (check_references() + check_manifest(args.manifest) + check_freshness(args.manifest)
-                + source_findings + corpus_findings + coverage_findings)
+                + check_library() + source_findings + corpus_findings + coverage_findings)
     order = {"Critical": 0, "High": 1, "Medium": 2, "Low": 3}
     findings.sort(key=lambda f: order.get(f["severity"], 9))
 

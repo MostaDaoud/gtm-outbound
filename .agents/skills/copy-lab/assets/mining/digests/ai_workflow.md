@@ -2,7 +2,7 @@
 
 Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[21] 2. System 1 > 2.3 Theoretical Models @ 07:56**
   cognitive response model is the heuristic systematic model and it's from the same period it's almost the same so again there's a persuasion attempt there's the determinant motivation there's the determinant ability if both are good enough then we make a choice with system 2 which they called compensatory strategies based on the information about the attributes of each of the options a very rational choice if either one or both of them are not good enough we go into system one processing but the holistic systematic model already made a distinction there between two types of system one reactions and the first one is if there are no situational cues present and which can be anything in the situation take for example you are walking across the
@@ -56,7 +56,7 @@ Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript te
 - **[8] 18-Cognitive Biases > 35-Decoy Effect @ 02:49**
   And here's an example from a software product. The company has since abandoned this pricing model, which I'm not sure I would agree with, but that was their choice. But they had three products. They had a Plus and a Pro. And the Pro was the one they wanted you to buy. That was a highlighted product. But that was the top end of the range. So the way they marketed this was by introducing an ultimate product that was much more expensive. $499 versus $199 at the high end. Now, the features of this ultimate product were not, at least for me, particularly persuasive. And I'm guessing that most people looked at that product, saw the fairly minimal difference in benefit, and said, I'll just go with the Pro. But what
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[18] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 09:41**
   And so here's an example of what I did. So this is the prompt. And you can use this pretty much verbatim. So I said, I'm a freelance copywriter who wants to practice my skills and develop world-class jobs. To help with this, I want you to create a fake client brief for me to read through and practice writing one email for, which I want you to give me detailed feedback on with a grade for each part of the email. To start, I want you to create a particularly challenging brief that tests my ability to understand market saturation, the five levels of awareness, optimal product positioning, and more. Basically, I want you to create a very challenging client brief situation, making it hard for me to write a strategically and positionally
@@ -111,7 +111,7 @@ Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript te
 - **[10] 04-X Twitter Profit / 01-X Profit Course > 06-Running Giveaways @ 05:16**
   know, I think this structure works really, really well for it. So do not copy simple model, what is working. All right, let's get into the SOP. So first thing we need to do, come up with a topic through the pillars of your content, through the modules in your program, come up with the headline, model what is working, see and test, you know, different things.
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[8] 02-Aligned Will > 03-The Bus Station @ 00:00**
   Let's talk about the bus station. So firstly, credit where credit is due. This is a thought awareness exercise, and it goes by many different names. The idea of this is based on cognitive behavioral therapy. In the first training, I went through IPAC. It was called Breakthrough Laser Coaching. Another certification I've done, the Life Coach School, they call it the model.
@@ -127,12 +127,12 @@ Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript te
 - **[11] 01-Introduction > 01-PostHello No AI Bots Were Harmed In The Making Of This Course @ 08:51**
   Or what do you think of this agency I'm using? Or what do you think of this tool? Here's the content it made. The content always has issues, and it comes back to these three skills. Next, we will move on to generating, and that is how to create high-quality content with ChatGPT, including editorial guidelines, custom GPTs, outlining, and prompting the right way.
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[7] 05-Instagram-Reels-Copywriting > 01-Writing Hooks That Go Viral @ 03:57**
   Come into chat GPT and write a prompt like this. I am a blank. I want to make content around 30 day experiments that I can run and report on. Give me some ideas for experiments. I'll say interesting experiments I can run. So let's just pretend that we are a, I'll just say fitness coach just for ease.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[15] 01-Videos > 28-Office Hours- October 30 2025 @ 16:09**
   they're working way less okay well like for for example you know five years ago 10 best tech talks i can't find that information now i type in chat gpt 10 best tech talks bam i got a list right you got competition you got ai better information retrieval has happened so a lot of the a lot of the things that i've been doing in my life that i've been doing in my life are all just like converting lead magnets have worked less over time calculators like we talked about you've you've built one already those tend to work pretty well because that's something they can get and like you know it does something for them so if i do pricing calculator then offer that as a price thing that
@@ -199,7 +199,7 @@ Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript te
 
 - **[12 +1 repeats] 02-Courses / 04-Social Media > 06-Business model research from churned users Instagram Broadcast Channel feature to create @ 10:50**
   that could be even maybe a request or a prompt like if you want even my thought was with this professional instagram group is that would be i always thought an email list for professionals would be valuable but again it's hard to one-off do it so my thinking was could almost duplicate the content like we share a tip every week on instagram you copy but i'd have to get their their emails so maybe early on in this group say because it's like DM me your email and we'll we'll make sure you get these every week on email too so you're not reliant on Instagram yeah I know in your doc you have all these case studies
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 10-Build Digital Products > 07-Business model research from churned users Instagram Broadcast Channel feature to create @ 10:50_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 10-Build Digital Products > 07-Business model research from churned users Instagram Broadcast Channel feature to create @ 10:50_
 
 - **[12] 02-Courses / 04-Social Media > 06-Getting a Reddit post to go viral @ 03:24**
   I think something about customer, instead of $20,000 for customer surveying, I found a way to do it for $30. So, you know, something like this is kind of interesting to a sub like customer success, right? That would be kind of up their alley. so i think you need to find out some titles like that and then talk about your product and and i would almost i would almost get rid of all this if this is all just chat gpt stuff i've noticed with writing with chat gpt if you tell it to write first and then edit it it becomes crappy if you write it first and then tell it to expand on it it's a little bit better
@@ -227,7 +227,7 @@ Selected 90 of 317 unique scoring passages. Each entry is verbatim transcript te
 
 - **[11 +1 repeats] 01-Videos > 56-Office Hours- September 25 2025 @ 04:00**
   So you make, you end up making 40% of that commission for the first year or something along those lines. That's the first step to like the passive stuff, right? So you have to say, what is passive income? Where can I make it? How can I piggyback that off of here? So a lot of companies that do agency model, they'll build you a homepage.
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 66- Office Hours- September 18 2025 @ 04:00_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 66- Office Hours- September 18 2025 @ 04:00_
 
 - **[11] 01-Videos > 561-August 8th 2024 @ 38:37**
   like the idea of building a couple of these maybe with rob or some new clients that you get off linkedin um or for yourself and seeing where this could go if like could this be something bigger so let's say like i want to make a post on linkedin maybe i can say hey i am making uh custom gpt uh calculators for seo does anyone want i think gpt is too confusing for most people that would need this yeah i think the way to approach this like brian so maybe you could do something like this where you just showcase like that something something pretty simple just to judge the interest and keep in mind this is just your

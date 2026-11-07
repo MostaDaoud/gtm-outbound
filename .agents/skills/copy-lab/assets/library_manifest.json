@@ -1,41 +1,41 @@
 {
   "schema_version": 2,
-  "reviewed_utc": "2026-08-15T21:49:23.967448Z",
-  "mined_utc": "2026-08-15T13:42:26+00:00",
-  "mined_store_sha256": "03b01a2b143bf08438b8972852cb3a72193ca72e30fa775673df0327f28b0c27",
+  "reviewed_utc": "2026-09-29T19:32:55.013230Z",
+  "mined_utc": "2026-08-15T21:48:59+00:00",
+  "mined_store_sha256": "d5616699752660ef350cfb13324e1bb7106f1660bb1da28982d3c9ba0cc0447b",
   "references": {
     "frameworks.md": {
-      "sha256": "dbd9b2c1d5f16e15e9a2f993950eaf8c0970c97b9cbc3a35e1adb32d68889e64",
-      "lines": 263,
+      "sha256": "df68616de328826654999b34c3e9fcc600edfdc8fe186e3cc42fb3707d44c949",
+      "lines": 260,
       "citations": 33
     },
     "psychology.md": {
-      "sha256": "b7d171691a500eaa7b5a4deca0438592a5f556d9e298b5d1fae2ffde96bc6075",
-      "lines": 386,
+      "sha256": "9569827304eb67442e24bf94d80e15316dd3348ede58b73f651af60308aadf7f",
+      "lines": 385,
       "citations": 54
     },
     "headlines.md": {
-      "sha256": "f75d89434095be4c4d5819d16700485d21356ea1f757db1347eedc96e3144331",
-      "lines": 242,
+      "sha256": "e3371cb76a94891a50293eaa7b32210b749eed63ca7284f8f0f1e42f75c911fd",
+      "lines": 250,
       "citations": 18
     },
     "sales-pages.md": {
-      "sha256": "c0c13aee04f139640044c4673988a14c036e0a69964958c8a7837714d21885b6",
+      "sha256": "f3f2c2b14fb0da2843663eb44ed766bfd81f38666f94a76185749e2a71b5e0d2",
       "lines": 193,
       "citations": 14
     },
     "emails.md": {
-      "sha256": "8f2913c18f4100556cf6352596f96b3d526f9227b8e9ab3cd5674696a77be455",
-      "lines": 153,
-      "citations": 12
+      "sha256": "95aed69586bee035dac5decbf48087a8c29c5fd4f49540bfef1826971db47105",
+      "lines": 108,
+      "citations": 9
     },
     "offers.md": {
-      "sha256": "e0e2d579a4eec0b6fe3403cdab5fa6515fc7d400409503479940539ed11baef5",
-      "lines": 298,
+      "sha256": "5512c36be406db851af5d082c1cffa5f7b3e756267452d4cccdc803737e4ddd7",
+      "lines": 292,
       "citations": 22
     },
     "voice.md": {
-      "sha256": "f7140ce80e6e8dc4179cd20eceb1c1f1933bffdef8ff8f1b31db6030755e8836",
+      "sha256": "aeaa488385e0c66471bfcb79a5cd00221a272fd9a862b45fbbf02f9588f2099a",
       "lines": 222,
       "citations": 21
     },
@@ -45,53 +45,73 @@
       "citations": 0
     },
     "harry-dry-copywriting.md": {
-      "sha256": "6090f533dc72018187a31b0d1f2ba639766dda52e31d9979cfcfd927ba76f4c2",
-      "lines": 344,
+      "sha256": "c8ed171d5fa9a45af169edb473d8c02563c11b9b21d554d3550cfd0cc1059dc0",
+      "lines": 343,
       "citations": 21
     },
     "ai-workflow.md": {
-      "sha256": "cf9dbea83ce388408630bc65a413d1c3d620c737e5c04c747fa0603dc195b35c",
+      "sha256": "397b7be4ed09c49a454ea0e660bf4cb86722d2dcee6ad6d2bdbb9aafa3c29843",
       "lines": 198,
       "citations": 12
     },
     "client-work.md": {
-      "sha256": "99b4803aa6b97a133f2e53d81758fb2497f47556826c378fc2ef5790031637bf",
+      "sha256": "f33132f6f74eac2ad60f48e06499df5d1798f0b84116f9dc60267112d54c7491",
       "lines": 185,
       "citations": 16
     },
     "positioning.md": {
-      "sha256": "98266838523d6224d7c9a9edd9ca6f15fdf15e13f8fca05bca6694b602c6a4e9",
-      "lines": 413,
+      "sha256": "260ac4438751ec589858c215a20165afa28287adfda91ae10261a59e786ea4fb",
+      "lines": 411,
       "citations": 23
     },
     "research.md": {
-      "sha256": "0af97fa2db3051112119dca8589bad8bb4b0d70e63b3d514cd91b4831fcec763",
+      "sha256": "d37a02712b1aeef81e69caeefd0c7ca2dda7dafb841db2a79cff61b1dedadfb0",
       "lines": 286,
       "citations": 24
     },
     "swipe-file.md": {
-      "sha256": "213d12bc66b63818f75db28b614d3c8fcb9d97d3e04bd375b338952de8dd397a",
-      "lines": 220,
+      "sha256": "e42536c74557e9020f458a2f393ed6964337143395e3c7aa74f563107dc72d71",
+      "lines": 219,
       "citations": 29
     },
     "critique-rubric.md": {
-      "sha256": "a3ede936f8a226548861de866c3e097358ff129ba0a87af1b07446b9d3841b8c",
-      "lines": 214,
-      "citations": 19
+      "sha256": "5ddd91cd583fb0d30ff4c084ea762f1efde46d2ed9b287423469afb5003f5068",
+      "lines": 300,
+      "citations": 18
     },
     "fascination-bullets.md": {
-      "sha256": "845a6c773a1e330d0baad9733e125ff98d520c033f8b6f6f54a257cd73912a3d",
+      "sha256": "fa5e501d87fc1037dd39600f05b39fd10d633fcaed84b71101598e5288c54d01",
       "lines": 178,
       "citations": 0
     },
     "classic-direct-response.md": {
-      "sha256": "c400e51057fb9b63d4ad10290f63d57f61ae83fb6974cce23bb7543c82a436b5",
+      "sha256": "497e8ff3763b95a0b0e7308690ea5057e1fb4d15528f8189d941d565100d38fb",
       "lines": 212,
       "citations": 0
     },
     "lead-and-email-playbooks.md": {
-      "sha256": "84d6fd13a05cb26c817366adeeedc8e2962ce6766659f9f187101dcfa9e1cb47",
-      "lines": 226,
+      "sha256": "c164e92cdc666ccbcfc40c331bc90b8a28fa89ecad5ad4927bffcd14b468f89a",
+      "lines": 225,
+      "citations": 0
+    },
+    "gcc-copywriting.md": {
+      "sha256": "3bdd5c44a4f32b00040b4d8b72f0b40103ca4d6991b2046b53a02b8bb399dc35",
+      "lines": 299,
+      "citations": 0
+    },
+    "landing-pages.md": {
+      "sha256": "1eb02174c00b985a5a054198a7a734a1a3d04ed327f37d62d177303b5e8d834c",
+      "lines": 136,
+      "citations": 0
+    },
+    "vgc-principles.md": {
+      "sha256": "5882865fc57cbe50f9e966e9ed09e7f7a45ced7ddc0ab29e20ed2f5e2f26dbeb",
+      "lines": 142,
+      "citations": 0
+    },
+    "social-hooks.md": {
+      "sha256": "4d18df11f3938ff4899c5b40034b33cf9e9cb36c7ebef25e566607e2c8363192",
+      "lines": 159,
       "citations": 0
     }
   }

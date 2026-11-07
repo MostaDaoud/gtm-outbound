@@ -2,7 +2,7 @@
 
 Selected 90 of 423 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[13] 7. Persuasive Marketing > 7.2 Techniques for _Your Offer_ @ 16:50**
   what keeping their mental attention it's what keeping their their drive to find the meaning behind it right to solve the narrative that you're setting to solve that the problem the narrative goal right they have the need to do to find that meaning and that's that curiosity drives drives the story and drives the attention and thereby making it more likeable more memorable and more trustworthy so if I have to give five tips surprise because surprises are the changes remember Kahneman so especially in the beginning in the end surprise people because if you surprise in the first sentence they'll get their attention now it'll set the narrative goal and all it'll boost the the need for them to find the meaning behind it to find the solution and be surprising
@@ -50,7 +50,7 @@ Selected 90 of 423 unique scoring passages. Each entry is verbatim transcript te
 - **[9] 17-Building Habits and Loyalty > 07-Hooked Lecture  How to Build Habit-Forming Products @ 13:05**
   You know, there's an actual word in the Merriam-Webster dictionary as of two years ago. It's a real word. FOMO, fear of missing out, is a negative valence state. We don't like that sensation that we're missing out on something. And before we even realize what we're doing, we're already scratching that itch with this app found in our pockets. Make sense? All right, let's move on to the next step of the hook, the action phase. The action phase of the hook is defined as the simplest behavior done in anticipation of an immediate reward. The key word here is simplicity, the simplest behavior. Let me show you some examples of some habit-forming products, and I want you to see
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[15] 04-Kim Schwalm AI Copy Secrets Vol 1 @ 06:49**
   others have failed. And then the final step is you want to develop, you know, come up with your big idea, what angle you're going to use, right, to grab attention. That would be something that would go into your headline or your email subject line, you know, and then you want to, you know, basically create a blueprint for your ad. And you can do this just once you've done all these steps of the research using some of the tools I'm going to show you, you'll be able to put together a copy platform and an outline for your promo, and you'll have all this other potential copy you can just basically drop right into your copy, into your promo as you start to craft it.
@@ -90,7 +90,7 @@ Selected 90 of 423 unique scoring passages. Each entry is verbatim transcript te
 - **[12] 03-Magnetic Content 2.0 / 04-Bonus- Actions Posts Stories and Liv > 03-Live SOP and Strategy @ 14:16**
   the replay. That helps. I don't always use that. But that does help with engagement. If you want to do it again we're trying to play the facebook game all right just as important as the headline description and what you're talking about it's it's what to say in between the actual good topics and the good content so i would recommend honestly guys i would recommend watching some of our our lives and just see like if you can hear me you know that's that's what i do and i'm going to walk you through like the process and what i say so the first minute what you want to do is you want to actually have a countdown timer, I'm going to show you that in a second, but once the countdown
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[13] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 1) @ 06:17**
   It's to attract and grab the attention of your best buyers. It's to pique their interest and enchant them into reading more. And it's to spark curiosity that's going to keep them engaged throughout the entire sales page. And here's a pro tip that asked me how I know, because I've lived through this. And because it is true, right, that like this is a very critical sentence. I mean, maybe we could argue it's maybe it's not the most important, but it's an extremely important sentence on the page that can sometimes get us into like perfectionism or I've got to do it right or whatever. And so then if we're thinking we need to go in a linear process of writing the sales
@@ -110,21 +110,21 @@ Selected 90 of 423 unique scoring passages. Each entry is verbatim transcript te
 - **[7] 04-Messaging Best Practices > 14-Storytelling and Analogies @ 07:13**
   I could drop them in at the really important, like interesting part. of the story so that the moment when you think about when someone's scrolling on social media, they're only seeing like the first three lines or whatever, right? And so if you're dropping them in, if those first three lines are some boring part of the setup of the story, they might just keep scrolling, right? But if you drop them in with the hook and someone's just scrolling past and they're like, wait, what's that? Read more, right? So these are like the little tweaks after you just are engaging, like storytelling is a powerful mechanism for transmission of ideas and messages.
 
-## Maria Wendt – Words Into Money
+## Maria Wendt: Words Into Money
 
 - **[9] 05-Instagram-Reels-Copywriting > 01-Writing Hooks That Go Viral @ 00:24**
   People talk so much about writing good hooks as if they need to trick their viewers into watching mediocre content. So like 17 real hooks to grab attention. 15 real hook ideas that they won't be able to scroll past. in my experience as someone that has not just built a decent sized audience close to a million followers i have found that it is much more effective to do the things that are noteworthy that are interesting and then your hook is just your hook so no mediocre just like no good marketing will fix a bad product, no good hook will fix bad content.
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[22 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 05:29**
   sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily well check it out again here is a sequence that we had for a class and here's a student that wrote all these examples in this exact same thing look subject line objective email email copy look attention interest desire he wrote a whole autoresponder sequence with just this formula and he got really good at it he was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long sales copy
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
 
 - **[18] 01-Videos > 69-Lets write a REAL letter @ 02:08**
   I'm going to write action or sorry, oops, even I didn't remember it. attention interest desire and action and I'm just gonna bold these now I have a basic thing now I have a basic thing on what to write about so everything's 12-point everything is kind of contained in a 500 container pixel table and I got attention interest desire and action now we're ready to start writing so that's the basic structure structure and this is really really really going to help you. In fact I actually have an email template over here that I use that looks exactly like this. And this one has some headlines and all that kind of sub headline but you don't always need that for emails.
@@ -167,10 +167,10 @@ Selected 90 of 423 unique scoring passages. Each entry is verbatim transcript te
 
 - **[14 +4 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 02:45**
   So whether you're putting it on a page or an email, you could write in subject lines. So for example, subject, convince someone to use Ada. And I'll often put the purpose of the email so I always remember what it is I'm trying to sell or get across. So once again, convince someone to use Ada.
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
 
 - **[14] 01-Videos > 592-Thursday January 25th 2024 @ 19:00**
   the board for most things however on the phone let me push back on this one so i think what you want to do is get the reason why not or what they're really looking for right and i think this is just easier on the phone than over text email dm etc to get the real reason what they want out of it and you and the reason is you get to hear surprise delight disappointment in their voice now what was different than last time i remember last time you ran ads is that something that's changed or we we tried running ads but i we tried running ads but i we tried running ads but i it was a shitty run i mean we didn't know what we were doing and it didn't lead to anything

@@ -16,10 +16,9 @@ finished reference file. You handle a single theme per invocation.
 
 You will be told which theme to process. Read:
 
-- `{configured data directory}/mining/digests/{theme}.md` — your raw material
-- The existing `../{target}.md`, if it exists —
-  you are updating, not necessarily replacing
-- `../frameworks.md` — as a format model, if you
+- `{configured data directory}/mining/digests/{theme}.md` - your raw material
+- The existing `../{target}.md`, if it exists - you are updating, not necessarily replacing
+- `../frameworks.md` - as a format model, if you
   need one
 
 Theme to reference mapping:
@@ -45,7 +44,7 @@ python /absolute/path/to/copy-lab/scripts/copy_lab.py extract --find "lesson tit
 
 ## What you produce
 
-A reference file a working copywriter can act from — organized by what they need
+A reference file a working copywriter can act from - organized by what they need
 to decide, not by the order the digest happens to present material.
 
 ## Standards
@@ -58,17 +57,17 @@ file.
 which course the passage came from. Course grouping is how the digest arrives;
 it is not how the reference should read.
 
-**Keep worked examples verbatim.** The concrete line — the actual headline, the
-actual price ladder, the actual objection response — is the most valuable thing
+**Keep worked examples verbatim.** The concrete line - the actual headline, the
+actual price ladder, the actual objection response - is the most valuable thing
 in the digest. Quote it rather than describing it.
 
 **Preserve disagreement.** Where instructors conflict, record both positions
 with both citations and let the reader choose. Do not synthesize a compromise
 that neither source stated.
 
-**Preserve caveats.** When an instructor attaches a limit to a tactic — a
+**Preserve caveats.** When an instructor attaches a limit to a tactic - a
 business model it fails for, a segment it backfires on, an ethical concern they
-raised — that limit is part of the technique and travels with it.
+raised - that limit is part of the technique and travels with it.
 
 **Do not upgrade speculation into fact.** When an instructor is reasoning aloud,
 making a prediction, or making a claim tied to a particular moment in time, mark
@@ -86,7 +85,7 @@ something the speaker did not say.
 **Duplicates are already collapsed.** The pipeline merges passages that repeat
 across course folders, so each entry is unique. An entry marked
 `+N repeats` with `also in:` lines beneath it is one teaching published in
-several places, not N separate pieces of evidence — cite the canonical location
+several places, not N separate pieces of evidence - cite the canonical location
 and do not treat the repetition as corroboration.
 
 ## Structure

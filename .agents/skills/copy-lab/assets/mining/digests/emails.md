@@ -2,7 +2,7 @@
 
 Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript text with its source citation. Passages repeated elsewhere in the corpus are collapsed to their canonical location, with the repeats listed underneath.
 
-## Bart Schutz – Master of Online Persuasion
+## Bart Schutz: Master of Online Persuasion
 
 - **[13] 8. Pricing Psychology > 8.2 Setting your price @ 08:10**
   part of the price and then later on add shipping and handling costs etc etc which is more the drip prices how to choose that perfect price structure and that's the first thing to decide upon and when you set the price to you chose this price structure and then we'll get to how to get to the base price so first how to get to a price structure and the two things two two topics i want to talk about when it comes to price structure the first one is uh complex pricing the second one is drift pricing because uh of course you can just choose one price one fixed price uh but there are two alternatives um and the first one is complex pricing complex pricing is the combining of products right or
@@ -50,7 +50,7 @@ Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript t
 - **[7] 17-Building Habits and Loyalty > 03-Three Ways to Ramp Up Motivation in Rewards Programs @ 03:07**
   They let you know immediately after a visit, by the time I get home from a visit to their restaurant, I've got an email showing my progress, thanking me, and giving me the opportunity to provide any feedback on their service. A little bit unrelated to the concept of loyalty, but very related to the goal gradient, is if you were dealing with multi-screen forms, earlier we talked about using, instead of one long form, a series of screens that would let people complete the information in little bites.
 
-## Drop Dead Copy – AI Copywriting Secrets (Volume 1)
+## Drop Dead Copy: AI Copywriting Secrets (Volume 1)
 
 - **[18] 08-Shiv Shetti AI Copy Secrets Vol 1 @ 09:41**
   And so here's an example of what I did. So this is the prompt. And you can use this pretty much verbatim. So I said, I'm a freelance copywriter who wants to practice my skills and develop world-class jobs. To help with this, I want you to create a fake client brief for me to read through and practice writing one email for, which I want you to give me detailed feedback on with a grade for each part of the email. To start, I want you to create a particularly challenging brief that tests my ability to understand market saturation, the five levels of awareness, optimal product positioning, and more. Basically, I want you to create a very challenging client brief situation, making it hard for me to write a strategically and positionally
@@ -87,7 +87,7 @@ Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript t
 - **[11] 01-MUST WATCH AI Challenge > 01-DAY 1- RECAP VIDEO @ 04:12**
   you'll give us in onboarding into this as well so you'll be able to get a really good uh you know really good offer from ai and actually write some sick content as well so if again if you want to book a call with us all you need to do is dm me the word call there are only 20 spots you saw there were 200 people on the the zoom uh like actually close to 300 unique people but 200 was the top i saw so definitely do that appreciate you guys if you want to upgrade to vip links will be below appreciate you and i will see you all 10 a.m tomorrow
 
-## Kathryn Morrison – Words Are Wands
+## Kathryn Morrison: Words Are Wands
 
 - **[14] 06-Bonus > 02-How to Write Sales Pages That Actually Sell (part 2) @ 18:45**
   So there's no right or wrong way. But if you're someone that like, that sounds like a fun thing for you, we don't do it as strategically on the sales pages. But when we are doing something in like emails, we always work to have social proof or testimonial that's aligned with whatever the messaging of the email is.
@@ -112,22 +112,22 @@ Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript t
 - **[10] Buyology - Part 01 @ 88:36**
   Goldfish, I read once, have a working memory of approximately seven seconds. So every seven seconds, they start their lives all over again. Reminds me of the way I feel when I watch TV commercials. A couple of reasons for this jump out at me right away. The first and most obvious is today's fast-moving, ever-changing, always-on media assault. The internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the internet, with its pop-ups and banner ads, cable TV, 24-hour news, and the news stations, newspapers, magazines, catalogs, email, iPods, podcasts, instant messaging, text messaging, and computer and video games are all vying for our increasingly finite and worn-out
 
-## Neville Medhora – Copywriting Course
+## Neville Medhora: Copywriting Course
 
 - **[24] 02-Courses / 02-Copy Concepts > 02-The AIDA Model What It Is and How to Use It @ 00:00**
   I mean on email structure one thing that we agreed on that I don't think everyone is doing and it's just a I think a very common sale and copywriting format I'm curious how often you use this outside of email outreach is the Ada copyrighted for me I can describe that all the time I use it for everything I use it like in stories I tell in person so what you're about to see here is a really really simple outline called Ada AIDA, A-I-D-A. It means attention, interest, desire, action. This has been around for a long time. It's in that movie, Glenberry, Frost, whatever it's called. It's a very popular formula and it's super interesting, especially for emails. Because what it does is it takes
 
 - **[23 +2 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 05:44**
   Check it out again Here is a sequence that we had for a class and here's a student that wrote all these examples in this exact Same thing look subject line objective email email copy look attention Interests desire he wrote a whole autoresponder sequence with just this formula and he got really good at it He was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long-form sales copy look at this advertisement we did this thing called a 17 hours Craigslist advertisement which helped take off her friends business so look at this Canon 7D for rent in Austin this was supposed to go on Craigslist an
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 05:44_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 05:44_
 
 - **[23] 02-Courses / 01-Copywriting Course > 05-BONUS VIDEO It normally costs 99 to buy this video interview @ 33:47**
   Arial is the font we should be sending our email in? Generally, that's accepted as a universal font that everyone has on their machines. If you use some fancy font, some people may not have it. I tend to use Arial, and that works really well. The next thing I do is now I've got this big, what do I write? Instead of doing that, I follow this framework. I literally write out attention, interest, desire, action. Remember, our old little… Our old little AIDA formula?
 
 - **[22 +1 repeats] 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 05:29**
   sales letter now I'm not gonna take all that time right here in this video I'll do that in another video but let me just show you even for whatever I made this copywriting course originally I just used the a to formula to sell it and it did extraordinarily well check it out again here is a sequence that we had for a class and here's a student that wrote all these examples in this exact same thing look subject line objective email email copy look attention interest desire he wrote a whole autoresponder sequence with just this formula and he got really good at it he was actually one of the star pupils in it all using the simple formula here some other appsumo deals all written in the same AIDA format and check this out even if it not a long sales copy
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 05:29_
 
 - **[21] 03-Copywriting Guides > 13-Common fixes to your copy mistakes we see everyday @ 07:36**
   That's the tone you should use. Aim to offer a simple, obvious value up front and not engage in a wild sales pitch. The result will be better relationships and better conversations. So, for example, an awkward, cold email is like, Hey, do you want to make tons of money? If you don't act right now, you'll never get my special secrets.
@@ -167,7 +167,7 @@ Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript t
 
 - **[15 +1 repeats] 01-Videos > 349-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product  @ 00:24**
   You generally have to do it in a sequence and kind of butter people up and also time it to some event. is what I've noticed. I mean, I, our, our copywriting course a year costs like seven 50 a year. So let's call them the same range as a thousand, right? If I just send out a random sales email being like, Hey, buy the copywriting course. It almost always has no effect. There's, there's no, right. So instead we always do, we always do like full launches. For example, I'll just, uh, I could probably show you over here on a different doc. Um, whenever we send out launches, I mean, it's like a bunch of emails related to each other. It's never just like,
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 481-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product @ 00:24_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 481-Email did 0 in sales how to fix. We make a new 3 email sequence to sell this product @ 00:24_
 
 - **[15] 01-Videos > 378-First autoresponder sequence created and its a top 1 quality level Added some CTAs to  @ 02:52**
   Now, I wrote a little pro tip that if you're going to reuse this, you could potentially add a block at the bottom with your email sender at the end. And what this does is instead of at the end of the email, if next year you use it and you add some CTA over here, for example, you could just update it in one spot and it gets updated on the next one.
@@ -231,15 +231,15 @@ Selected 90 of 1294 unique scoring passages. Each entry is verbatim transcript t
 
 - **[14 +4 repeats] 01-Videos > 244-Follow this AIDA formula for everything you write @ 02:45**
   So whether you're putting it on a page or an email, you could write in subject lines. So for example, subject, convince someone to use Ada. And I'll often put the purpose of the email so I always remember what it is I'm trying to sell or get across. So once again, convince someone to use Ada.
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
-  - _also in: Neville Medhora – Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 01-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-The AIDA Formula For Easy Writing Demo @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 01-Copywriting Course > 02-The all-important AIDA formula @ 02:45_
+  - _also in: Neville Medhora - Copywriting Course > 02-Courses / 02-Copy Concepts > 02-The all-important AIDA formula. @ 02:45_
 
 - **[14 +2 repeats] 01-Videos > 245-Three Tiered Pricing @ 02:52**
   So the cheap package will just be two emails. That's the basic amount of work. The advanced package will be the two emails, the editing and the proofing, plus a sales page. And then the super professional package will have other optional things on there for them. So it be like this plus social media posts plus SEO outreach So instead of going to the customer and saying, hey customer, I'm going to charge you $1,000.
-  - _also in: Neville Medhora – Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
-  - _also in: Neville Medhora – Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 01-Videos > 257-How Do I Price My Copywriting Projects @ 02:52_
+  - _also in: Neville Medhora - Copywriting Course > 03-Copywriting Guides > 25-How do I price my copywriting projects_ @ 02:52_
 
 ## Product Marketing
 
