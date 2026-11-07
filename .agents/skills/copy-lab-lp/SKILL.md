@@ -1,13 +1,7 @@
 ---
 name: copy-lab-lp
-description: >
-  Build, structure, or audit long-form landing pages using Eddie Shleyner's
-  Transformational Landing Pages system: the CDCA engine, the 7-Divider
-  sequence, the 6-element hero protocol, the fascination wall, and the
-  Length-Implies-Strength social proof heuristic. Use when the user asks for a
-  landing page, sales page structure, page audit, hero rewrite, above-the-fold
-  copy, or asks why a page converts poorly. Also use for VSL page skeletons and
-  opt-in pages. Not for standalone ad copy, emails, or short-form posts.
+description: >-
+  Build, structure, or audit long-form landing pages using Eddie Shleyner's Transformational Landing Pages system: the CDCA engine, the 7-Divider sequence, the 6-element hero protocol, the fascination wall, and the Length-Implies-Strength social proof heuristic. Use when the user says "landing page", "sales page structure", "page audit", "hero rewrite", "above-the-fold copy", "opt-in page", "VSL page", "why isn't this page converting", or asks why a page converts poorly. Also use for VSL page skeletons and opt-in pages. Not for standalone ad copy (copy-lab-write), emails (copy-lab-write), or short-form posts (copy-lab-write).
 ---
 
 # Copy Lab: Landing Pages

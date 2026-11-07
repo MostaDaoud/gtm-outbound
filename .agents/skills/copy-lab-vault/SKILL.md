@@ -1,12 +1,7 @@
 ---
 name: copy-lab-vault
-description: >
-  Build, refresh, and validate the Copy Lab Obsidian vault from the current
-  distilled reference library, course index, mining report, and local source
-  catalog. Use when the user says "build the Copy Lab vault", "refresh the
-  Obsidian vault", "sync Copy Lab to Obsidian", "update the course dashboard",
-  or "validate the Copy Lab vault". Keeps generated library notes separate
-  from editable briefs, projects, swipe notes, and templates.
+description: >-
+  Build, refresh, and validate the Copy Lab Obsidian vault from the current distilled reference library, course index, mining report, and local source catalog. Use when the user says "build the Copy Lab vault", "refresh the Obsidian vault", "sync Copy Lab to Obsidian", "update the course dashboard", or "validate the Copy Lab vault". Keeps generated library notes separate from editable briefs, projects, swipe notes, and templates. Not for writing copy (copy-lab-write) or mining the corpus (copy-lab-mine).
 ---
 
 # Copy Lab Vault

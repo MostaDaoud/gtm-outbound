@@ -1,15 +1,7 @@
 ---
 name: copy-lab
-description: >
-  Direct-response copywriting and product marketing workbench, grounded in a
-  multi-course copywriting library, a distilled email corpus (VeryGoodCopy,
-  Harry Dry), and a searchable index of user-owned books, courses and documents.
-  Use when the user says "copy-lab", asks which copy-lab workflow to use, or
-  combines two or more operations such as critique then rewrite. Also use for
-  writing sales pages, emails, VSLs, ads, landing pages and hooks; scoring or
-  rewriting existing copy; asking what a named instructor says about a topic;
-  building landing pages; writing Gulf Arabic copy; or maintaining the library.
-  For a single narrow operation the specialised sibling skills can be used alone.
+description: >-
+  Direct-response copywriting and product marketing workbench, grounded in a multi-course copywriting library, a distilled email corpus (VeryGoodCopy, Harry Dry), and a searchable index of user-owned books, courses and documents. Use when the user says "copy-lab", asks which copy-lab workflow to use, or combines two or more operations such as critique then rewrite. Also use for writing sales pages, emails, VSLs, ads, landing pages and hooks; scoring or rewriting existing copy; asking what a named instructor says about a topic; building landing pages; writing Gulf Arabic copy; or maintaining the library. Not for a single narrow operation: use copy-lab-write, copy-lab-critique, copy-lab-swipe, copy-lab-lp, copy-lab-gcc, copy-lab-mine or copy-lab-vault directly instead.
 ---
 
 # Copy Lab

@@ -1,19 +1,7 @@
 ---
 name: copy-lab-write
-description: >
-  Write direct-response copy using frameworks from a multi-course library and
-  provenance-aware local books, documents, audio, and videos. Produces sales pages, VSL scripts,
-  email sequences and launches, cold
-  outreach, DMs, ads, landing pages, social hooks, LinkedIn posts, one-pagers, taglines, and offer structures,
-  each built on a named framework with source citations and annotated choices.
-  Use when the user says "write a sales page", "write a VSL", "write an email
-  sequence", "write a launch", "cold email", "write a sales letter", "write an
-  ad", "write a one pager", "write a tagline", "draft copy", "copy-lab write",
-  "write fascination bullets", "bullet copy", "write hooks", "LinkedIn hook",
-  "hook sprint", "LinkedIn post", "humanize this copy", "make this
-  sound less AI", "remove AI clichés", or asks for new or rewritten
-  direct-response copy grounded in the course library. For
-  scoring copy that already exists, use copy-lab-critique instead.
+description: >-
+  Write direct-response copy using frameworks from a multi-course library and provenance-aware local books, documents, audio, and videos. Produces sales pages, VSL scripts, email sequences and launches, cold outreach, DMs, ads, landing pages, social hooks, LinkedIn posts, one-pagers, taglines, and offer structures, each built on a named framework with source citations and annotated choices. Use when the user says "write a sales page", "write a VSL", "write an email sequence", "write a launch", "cold email", "write a sales letter", "write an ad", "write a tagline", "draft copy", "copy-lab write", "write fascination bullets", "bullet copy", "write hooks", "hook sprint", "write a LinkedIn post", "humanize this copy", "make this sound less AI", or asks for new or rewritten direct-response copy. Not for scoring existing copy (copy-lab-critique), landing pages (copy-lab-lp), Gulf Arabic (copy-lab-gcc), or LinkedIn hook sourcing (founder-linkedin).
 ---
 
 # Copy Lab: Write

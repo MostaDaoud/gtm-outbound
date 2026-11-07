@@ -1,14 +1,7 @@
 ---
 name: copy-lab-gcc
-description: >
-  Write high-converting, culturally resonant Gulf Arabic copy, video scripts,
-  ads, landing pages, and email sequences tailored for Saudi Arabia, UAE,
-  Kuwait, Qatar, Bahrain, and Oman. Use when the user asks to write in Arabic,
-  Gulf dialect, Saudi/Najdi/Hijazi/Emirati dialect, or White Gulf Arabic; asks
-  for Ramadan, National Day (اليوم الوطني), Foundation Day (يوم التأسيس), or
-  Riyadh Season campaigns; needs short-form video scripts (Reels/TikTok) or
-  YouTube long-form scripts for Gulf audiences; or requests GCC direct-response
-  sales copy.
+description: >-
+  Write high-converting, culturally resonant Gulf Arabic copy, video scripts, ads, landing pages, and email sequences tailored for Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, and Oman. Use when the user says "Gulf Arabic copy", "Saudi dialect", "Najdi", "Hijazi", "Emirati dialect", "white Gulf Arabic", "Arabic ad", "Arabic video script", "Ramadan campaign", "National Day campaign", "Foundation Day", "Riyadh Season", asks to write in Arabic for the Gulf, or names اليوم الوطني or يوم التأسيس. Not for English copy (copy-lab-write) and not for Egyptian dialect unless the user asks for it.
 ---
 
 # Copy Lab GCC Specialist (خبير كتابة المحتوى والإعلانات الخليجية)

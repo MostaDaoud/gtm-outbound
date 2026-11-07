@@ -1,18 +1,7 @@
 ---
 name: copy-lab-critique
-description: >
-  Score and audit existing copy against a five-category, 100-point rubric
-  backed by a multi-course library plus provenance-aware local sources, covering audience psychology,
-  structure and clarity, evidence and specificity, voice, and offer. Produces
-  severity-ranked findings with the source principle behind each one and a
-  specific rewritten fix. Use when the user says "critique this copy", "score
-  this copy", "audit this page", "review my sales page", "what's wrong with this
-  email", "why isn't this converting", "roast my copy", "copy-lab critique", or
-  "audit these fascination bullets", "review this bullet block", "audit this hook",
-  "review my LinkedIn post", "check my hook", "social hook audit",
-  "audit this for AI-sounding patterns", "why does this sound generic", or pastes existing
-  copy for assessment. For writing or fully rewriting copy, use copy-lab-write
-  instead.
+description: >-
+  Score and audit existing copy against a five-category, 100-point rubric backed by a multi-course library plus provenance-aware local sources, covering audience psychology, structure and clarity, evidence and specificity, voice, and offer. Produces severity-ranked findings with the source principle behind each one and a specific rewritten fix. Use when the user says "critique this copy", "score this copy", "audit this page", "review my sales page", "what's wrong with this email", "why isn't this converting", "roast my copy", "copy-lab critique", "audit these fascination bullets", "review this bullet block", "audit this hook", "review my LinkedIn post", "check my hook", "social hook audit", "audit this for AI-sounding patterns", "why does this sound generic", or pastes existing copy for assessment. Not for writing or fully rewriting copy (copy-lab-write) and not for landing page structure (copy-lab-lp).
 ---
 
 # Copy Lab: Critique

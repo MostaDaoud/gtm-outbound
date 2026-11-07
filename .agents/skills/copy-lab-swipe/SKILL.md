@@ -1,18 +1,7 @@
 ---
 name: copy-lab-swipe
-description: >
-  Look up what the copywriting library actually says about a topic, instructor,
-  author, or technique, and return brief passages with precise citations.
-  Searches the indexed multi-course transcript corpus plus local books, audio, and videos - Schutz, Medhora, Morrison, Wendt, Fox, Meng, Rohan and the Drop Dead Copy
-  panel, plus the Product Marketing, Digital Psychology & Persuasion, and
-  Branding & Brand Strategy curricula covering positioning, messaging,
-  segmentation, competitive intel, cognitive biases, and behavioral design. Use
-  when the user says "what does Schutz say about", "what does Medhora say
-  about", "find where they talk about", "swipe file", "show me examples of",
-  "look up in the courses", "search the transcripts", "copy-lab swipe", or asks
-  for the "21 fascination bullet types" or the source behind a copywriting
-  claim. For writing copy use
-  copy-lab-write; for scoring copy use copy-lab-critique.
+description: >-
+  Look up what the copywriting library actually says about a topic, instructor, author, or technique, and return brief passages with precise citations. Searches the indexed multi-course transcript corpus plus local books, audio, and videos - Schutz, Medhora, Morrison, Wendt, Fox, Meng, Rohan and the Drop Dead Copy panel, plus the Product Marketing, Digital Psychology & Persuasion, and Branding & Brand Strategy curricula covering positioning, messaging, segmentation, competitive intel, cognitive biases, and behavioral design. Use when the user says "what does Schutz say about", "what does Medhora say about", "find where they talk about", "swipe file", "show me examples of", "look up in the courses", "search the transcripts", "copy-lab swipe", or asks for the "21 fascination bullet types" or the source behind a copywriting claim. Not for writing copy (copy-lab-write), scoring copy (copy-lab-critique), or rebuilding the index (copy-lab-mine).
 ---
 
 # Copy Lab: Swipe

@@ -1,15 +1,7 @@
 ---
 name: copy-lab-mine
-description: >
-  Re-mine the copywriting transcript corpus, OCR scanned PDFs, transcribe long-form audio,
-  ingest local books and captioned media, and refresh the copy-lab reference library. Rebuilds course indexes,
-  creates page/chapter-aware source indexes, and updates distilled references.
-  Use when the user adds a new course to the transcripts, says "re-mine the
-  corpus", "refresh the library", "add a course to copy-lab", "rebuild the
-  index", "update the references", "OCR this PDF", "process these scanned
-  letters", "copy-lab mine", or when validate_library reports the references
-  are stale or thin. This is the maintenance path for copy-lab, not a writing
-  or critique workflow.
+description: >-
+  Re-mine the copywriting transcript corpus, OCR scanned PDFs, transcribe long-form audio, ingest local books and captioned media, and refresh the copy-lab reference library. Rebuilds course indexes, creates page/chapter-aware source indexes, and updates distilled references. Use when the user adds a new course to the transcripts, says "re-mine the corpus", "refresh the library", "add a course to copy-lab", "rebuild the index", "update the references", "OCR this PDF", "process these scanned letters", "copy-lab mine", or when validate_library reports the references are stale or thin. This is the maintenance path for copy-lab. Not for writing, critiquing, or building the vault (copy-lab-vault).
 ---
 
 # Copy Lab: Mine
