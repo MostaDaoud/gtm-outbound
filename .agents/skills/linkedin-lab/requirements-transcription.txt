@@ -1,2 +1,0 @@
-# Optional dependency for scripts/transcribe_media.py
-faster-whisper==1.2.1

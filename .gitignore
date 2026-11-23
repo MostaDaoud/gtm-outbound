@@ -18,3 +18,8 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Safety and dedupe ignores
+.env.*
+auth.json
+*skills_backup*
